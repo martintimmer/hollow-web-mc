@@ -1,0 +1,2613 @@
+{
+  "version": "1.19.3",
+  "atlasSize": 512,
+  "tileSize": 16,
+  "tilesPerRow": 32,
+  "totalTilesUsed": 91,
+  "blocks": {
+    "1": {
+      "name": "Grass block",
+      "category": "natural",
+      "tiles": {
+        "top": 0,
+        "bottom": 1,
+        "side": 2,
+        "front": 2
+      },
+      "uv": {
+        "top": {
+          "u": 0,
+          "v": 0
+        },
+        "bottom": {
+          "u": 0.03125,
+          "v": 0
+        },
+        "side": {
+          "u": 0.0625,
+          "v": 0
+        },
+        "front": {
+          "u": 0.0625,
+          "v": 0
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "2": {
+      "name": "Dirt",
+      "category": "natural",
+      "tiles": {
+        "top": 1,
+        "bottom": 1,
+        "side": 1,
+        "front": 1
+      },
+      "uv": {
+        "top": {
+          "u": 0.03125,
+          "v": 0
+        },
+        "bottom": {
+          "u": 0.03125,
+          "v": 0
+        },
+        "side": {
+          "u": 0.03125,
+          "v": 0
+        },
+        "front": {
+          "u": 0.03125,
+          "v": 0
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "3": {
+      "name": "Coarse dirt",
+      "category": "natural",
+      "tiles": {
+        "top": 3,
+        "bottom": 3,
+        "side": 3,
+        "front": 3
+      },
+      "uv": {
+        "top": {
+          "u": 0.09375,
+          "v": 0
+        },
+        "bottom": {
+          "u": 0.09375,
+          "v": 0
+        },
+        "side": {
+          "u": 0.09375,
+          "v": 0
+        },
+        "front": {
+          "u": 0.09375,
+          "v": 0
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "4": {
+      "name": "Podzol",
+      "category": "natural",
+      "tiles": {
+        "top": 4,
+        "bottom": 1,
+        "side": 5,
+        "front": 5
+      },
+      "uv": {
+        "top": {
+          "u": 0.125,
+          "v": 0
+        },
+        "bottom": {
+          "u": 0.03125,
+          "v": 0
+        },
+        "side": {
+          "u": 0.15625,
+          "v": 0
+        },
+        "front": {
+          "u": 0.15625,
+          "v": 0
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "5": {
+      "name": "Stone",
+      "category": "natural",
+      "tiles": {
+        "top": 6,
+        "bottom": 6,
+        "side": 6,
+        "front": 6
+      },
+      "uv": {
+        "top": {
+          "u": 0.1875,
+          "v": 0
+        },
+        "bottom": {
+          "u": 0.1875,
+          "v": 0
+        },
+        "side": {
+          "u": 0.1875,
+          "v": 0
+        },
+        "front": {
+          "u": 0.1875,
+          "v": 0
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "6": {
+      "name": "Cobblestone",
+      "category": "building",
+      "tiles": {
+        "top": 7,
+        "bottom": 7,
+        "side": 7,
+        "front": 7
+      },
+      "uv": {
+        "top": {
+          "u": 0.21875,
+          "v": 0
+        },
+        "bottom": {
+          "u": 0.21875,
+          "v": 0
+        },
+        "side": {
+          "u": 0.21875,
+          "v": 0
+        },
+        "front": {
+          "u": 0.21875,
+          "v": 0
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "7": {
+      "name": "Mossy cobblestone",
+      "category": "building",
+      "tiles": {
+        "top": 8,
+        "bottom": 8,
+        "side": 8,
+        "front": 8
+      },
+      "uv": {
+        "top": {
+          "u": 0.25,
+          "v": 0
+        },
+        "bottom": {
+          "u": 0.25,
+          "v": 0
+        },
+        "side": {
+          "u": 0.25,
+          "v": 0
+        },
+        "front": {
+          "u": 0.25,
+          "v": 0
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "8": {
+      "name": "Stone bricks",
+      "category": "building",
+      "tiles": {
+        "top": 9,
+        "bottom": 9,
+        "side": 9,
+        "front": 9
+      },
+      "uv": {
+        "top": {
+          "u": 0.28125,
+          "v": 0
+        },
+        "bottom": {
+          "u": 0.28125,
+          "v": 0
+        },
+        "side": {
+          "u": 0.28125,
+          "v": 0
+        },
+        "front": {
+          "u": 0.28125,
+          "v": 0
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "9": {
+      "name": "Smooth stone",
+      "category": "building",
+      "tiles": {
+        "top": 10,
+        "bottom": 10,
+        "side": 10,
+        "front": 10
+      },
+      "uv": {
+        "top": {
+          "u": 0.3125,
+          "v": 0
+        },
+        "bottom": {
+          "u": 0.3125,
+          "v": 0
+        },
+        "side": {
+          "u": 0.3125,
+          "v": 0
+        },
+        "front": {
+          "u": 0.3125,
+          "v": 0
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "10": {
+      "name": "Sand",
+      "category": "natural",
+      "tiles": {
+        "top": 11,
+        "bottom": 11,
+        "side": 11,
+        "front": 11
+      },
+      "uv": {
+        "top": {
+          "u": 0.34375,
+          "v": 0
+        },
+        "bottom": {
+          "u": 0.34375,
+          "v": 0
+        },
+        "side": {
+          "u": 0.34375,
+          "v": 0
+        },
+        "front": {
+          "u": 0.34375,
+          "v": 0
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "11": {
+      "name": "Sandstone",
+      "category": "building",
+      "tiles": {
+        "top": 12,
+        "bottom": 13,
+        "side": 14,
+        "front": 14
+      },
+      "uv": {
+        "top": {
+          "u": 0.375,
+          "v": 0
+        },
+        "bottom": {
+          "u": 0.40625,
+          "v": 0
+        },
+        "side": {
+          "u": 0.4375,
+          "v": 0
+        },
+        "front": {
+          "u": 0.4375,
+          "v": 0
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "12": {
+      "name": "Gravel",
+      "category": "natural",
+      "tiles": {
+        "top": 15,
+        "bottom": 15,
+        "side": 15,
+        "front": 15
+      },
+      "uv": {
+        "top": {
+          "u": 0.46875,
+          "v": 0
+        },
+        "bottom": {
+          "u": 0.46875,
+          "v": 0
+        },
+        "side": {
+          "u": 0.46875,
+          "v": 0
+        },
+        "front": {
+          "u": 0.46875,
+          "v": 0
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "13": {
+      "name": "Clay block",
+      "category": "natural",
+      "tiles": {
+        "top": 16,
+        "bottom": 16,
+        "side": 16,
+        "front": 16
+      },
+      "uv": {
+        "top": {
+          "u": 0.5,
+          "v": 0
+        },
+        "bottom": {
+          "u": 0.5,
+          "v": 0
+        },
+        "side": {
+          "u": 0.5,
+          "v": 0
+        },
+        "front": {
+          "u": 0.5,
+          "v": 0
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "14": {
+      "name": "Bedrock",
+      "category": "natural",
+      "tiles": {
+        "top": 17,
+        "bottom": 17,
+        "side": 17,
+        "front": 17
+      },
+      "uv": {
+        "top": {
+          "u": 0.53125,
+          "v": 0
+        },
+        "bottom": {
+          "u": 0.53125,
+          "v": 0
+        },
+        "side": {
+          "u": 0.53125,
+          "v": 0
+        },
+        "front": {
+          "u": 0.53125,
+          "v": 0
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "15": {
+      "name": "Obsidian",
+      "category": "building",
+      "tiles": {
+        "top": 18,
+        "bottom": 18,
+        "side": 18,
+        "front": 18
+      },
+      "uv": {
+        "top": {
+          "u": 0.5625,
+          "v": 0
+        },
+        "bottom": {
+          "u": 0.5625,
+          "v": 0
+        },
+        "side": {
+          "u": 0.5625,
+          "v": 0
+        },
+        "front": {
+          "u": 0.5625,
+          "v": 0
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "16": {
+      "name": "Oak log",
+      "category": "wood",
+      "tiles": {
+        "top": 19,
+        "bottom": 19,
+        "side": 20,
+        "front": 20
+      },
+      "uv": {
+        "top": {
+          "u": 0.59375,
+          "v": 0
+        },
+        "bottom": {
+          "u": 0.59375,
+          "v": 0
+        },
+        "side": {
+          "u": 0.625,
+          "v": 0
+        },
+        "front": {
+          "u": 0.625,
+          "v": 0
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "17": {
+      "name": "Oak planks",
+      "category": "wood",
+      "tiles": {
+        "top": 21,
+        "bottom": 21,
+        "side": 21,
+        "front": 21
+      },
+      "uv": {
+        "top": {
+          "u": 0.65625,
+          "v": 0
+        },
+        "bottom": {
+          "u": 0.65625,
+          "v": 0
+        },
+        "side": {
+          "u": 0.65625,
+          "v": 0
+        },
+        "front": {
+          "u": 0.65625,
+          "v": 0
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "18": {
+      "name": "Oak leaves",
+      "category": "wood",
+      "tiles": {
+        "top": 22,
+        "bottom": 22,
+        "side": 22,
+        "front": 22
+      },
+      "uv": {
+        "top": {
+          "u": 0.6875,
+          "v": 0
+        },
+        "bottom": {
+          "u": 0.6875,
+          "v": 0
+        },
+        "side": {
+          "u": 0.6875,
+          "v": 0
+        },
+        "front": {
+          "u": 0.6875,
+          "v": 0
+        }
+      },
+      "transparent": true,
+      "emissive": false,
+      "stair": false
+    },
+    "19": {
+      "name": "Birch log",
+      "category": "wood",
+      "tiles": {
+        "top": 23,
+        "bottom": 23,
+        "side": 24,
+        "front": 24
+      },
+      "uv": {
+        "top": {
+          "u": 0.71875,
+          "v": 0
+        },
+        "bottom": {
+          "u": 0.71875,
+          "v": 0
+        },
+        "side": {
+          "u": 0.75,
+          "v": 0
+        },
+        "front": {
+          "u": 0.75,
+          "v": 0
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "20": {
+      "name": "Birch planks",
+      "category": "wood",
+      "tiles": {
+        "top": 25,
+        "bottom": 25,
+        "side": 25,
+        "front": 25
+      },
+      "uv": {
+        "top": {
+          "u": 0.78125,
+          "v": 0
+        },
+        "bottom": {
+          "u": 0.78125,
+          "v": 0
+        },
+        "side": {
+          "u": 0.78125,
+          "v": 0
+        },
+        "front": {
+          "u": 0.78125,
+          "v": 0
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "21": {
+      "name": "Birch leaves",
+      "category": "wood",
+      "tiles": {
+        "top": 26,
+        "bottom": 26,
+        "side": 26,
+        "front": 26
+      },
+      "uv": {
+        "top": {
+          "u": 0.8125,
+          "v": 0
+        },
+        "bottom": {
+          "u": 0.8125,
+          "v": 0
+        },
+        "side": {
+          "u": 0.8125,
+          "v": 0
+        },
+        "front": {
+          "u": 0.8125,
+          "v": 0
+        }
+      },
+      "transparent": true,
+      "emissive": false,
+      "stair": false
+    },
+    "22": {
+      "name": "Spruce log",
+      "category": "wood",
+      "tiles": {
+        "top": 27,
+        "bottom": 27,
+        "side": 28,
+        "front": 28
+      },
+      "uv": {
+        "top": {
+          "u": 0.84375,
+          "v": 0
+        },
+        "bottom": {
+          "u": 0.84375,
+          "v": 0
+        },
+        "side": {
+          "u": 0.875,
+          "v": 0
+        },
+        "front": {
+          "u": 0.875,
+          "v": 0
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "23": {
+      "name": "Spruce planks",
+      "category": "wood",
+      "tiles": {
+        "top": 29,
+        "bottom": 29,
+        "side": 29,
+        "front": 29
+      },
+      "uv": {
+        "top": {
+          "u": 0.90625,
+          "v": 0
+        },
+        "bottom": {
+          "u": 0.90625,
+          "v": 0
+        },
+        "side": {
+          "u": 0.90625,
+          "v": 0
+        },
+        "front": {
+          "u": 0.90625,
+          "v": 0
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "24": {
+      "name": "Spruce leaves",
+      "category": "wood",
+      "tiles": {
+        "top": 30,
+        "bottom": 30,
+        "side": 30,
+        "front": 30
+      },
+      "uv": {
+        "top": {
+          "u": 0.9375,
+          "v": 0
+        },
+        "bottom": {
+          "u": 0.9375,
+          "v": 0
+        },
+        "side": {
+          "u": 0.9375,
+          "v": 0
+        },
+        "front": {
+          "u": 0.9375,
+          "v": 0
+        }
+      },
+      "transparent": true,
+      "emissive": false,
+      "stair": false
+    },
+    "25": {
+      "name": "Jungle log",
+      "category": "wood",
+      "tiles": {
+        "top": 31,
+        "bottom": 31,
+        "side": 32,
+        "front": 32
+      },
+      "uv": {
+        "top": {
+          "u": 0.96875,
+          "v": 0
+        },
+        "bottom": {
+          "u": 0.96875,
+          "v": 0
+        },
+        "side": {
+          "u": 0,
+          "v": 0.03125
+        },
+        "front": {
+          "u": 0,
+          "v": 0.03125
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "26": {
+      "name": "Jungle planks",
+      "category": "wood",
+      "tiles": {
+        "top": 33,
+        "bottom": 33,
+        "side": 33,
+        "front": 33
+      },
+      "uv": {
+        "top": {
+          "u": 0.03125,
+          "v": 0.03125
+        },
+        "bottom": {
+          "u": 0.03125,
+          "v": 0.03125
+        },
+        "side": {
+          "u": 0.03125,
+          "v": 0.03125
+        },
+        "front": {
+          "u": 0.03125,
+          "v": 0.03125
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "27": {
+      "name": "Jungle leaves",
+      "category": "wood",
+      "tiles": {
+        "top": 34,
+        "bottom": 34,
+        "side": 34,
+        "front": 34
+      },
+      "uv": {
+        "top": {
+          "u": 0.0625,
+          "v": 0.03125
+        },
+        "bottom": {
+          "u": 0.0625,
+          "v": 0.03125
+        },
+        "side": {
+          "u": 0.0625,
+          "v": 0.03125
+        },
+        "front": {
+          "u": 0.0625,
+          "v": 0.03125
+        }
+      },
+      "transparent": true,
+      "emissive": false,
+      "stair": false
+    },
+    "28": {
+      "name": "Acacia planks",
+      "category": "wood",
+      "tiles": {
+        "top": 35,
+        "bottom": 35,
+        "side": 35,
+        "front": 35
+      },
+      "uv": {
+        "top": {
+          "u": 0.09375,
+          "v": 0.03125
+        },
+        "bottom": {
+          "u": 0.09375,
+          "v": 0.03125
+        },
+        "side": {
+          "u": 0.09375,
+          "v": 0.03125
+        },
+        "front": {
+          "u": 0.09375,
+          "v": 0.03125
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "29": {
+      "name": "Dark oak planks",
+      "category": "wood",
+      "tiles": {
+        "top": 36,
+        "bottom": 36,
+        "side": 36,
+        "front": 36
+      },
+      "uv": {
+        "top": {
+          "u": 0.125,
+          "v": 0.03125
+        },
+        "bottom": {
+          "u": 0.125,
+          "v": 0.03125
+        },
+        "side": {
+          "u": 0.125,
+          "v": 0.03125
+        },
+        "front": {
+          "u": 0.125,
+          "v": 0.03125
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "30": {
+      "name": "Coal ore",
+      "category": "ores",
+      "tiles": {
+        "top": 37,
+        "bottom": 37,
+        "side": 37,
+        "front": 37
+      },
+      "uv": {
+        "top": {
+          "u": 0.15625,
+          "v": 0.03125
+        },
+        "bottom": {
+          "u": 0.15625,
+          "v": 0.03125
+        },
+        "side": {
+          "u": 0.15625,
+          "v": 0.03125
+        },
+        "front": {
+          "u": 0.15625,
+          "v": 0.03125
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "31": {
+      "name": "Iron ore",
+      "category": "ores",
+      "tiles": {
+        "top": 38,
+        "bottom": 38,
+        "side": 38,
+        "front": 38
+      },
+      "uv": {
+        "top": {
+          "u": 0.1875,
+          "v": 0.03125
+        },
+        "bottom": {
+          "u": 0.1875,
+          "v": 0.03125
+        },
+        "side": {
+          "u": 0.1875,
+          "v": 0.03125
+        },
+        "front": {
+          "u": 0.1875,
+          "v": 0.03125
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "32": {
+      "name": "Gold ore",
+      "category": "ores",
+      "tiles": {
+        "top": 39,
+        "bottom": 39,
+        "side": 39,
+        "front": 39
+      },
+      "uv": {
+        "top": {
+          "u": 0.21875,
+          "v": 0.03125
+        },
+        "bottom": {
+          "u": 0.21875,
+          "v": 0.03125
+        },
+        "side": {
+          "u": 0.21875,
+          "v": 0.03125
+        },
+        "front": {
+          "u": 0.21875,
+          "v": 0.03125
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "33": {
+      "name": "Redstone ore",
+      "category": "ores",
+      "tiles": {
+        "top": 40,
+        "bottom": 40,
+        "side": 40,
+        "front": 40
+      },
+      "uv": {
+        "top": {
+          "u": 0.25,
+          "v": 0.03125
+        },
+        "bottom": {
+          "u": 0.25,
+          "v": 0.03125
+        },
+        "side": {
+          "u": 0.25,
+          "v": 0.03125
+        },
+        "front": {
+          "u": 0.25,
+          "v": 0.03125
+        }
+      },
+      "transparent": false,
+      "emissive": true,
+      "stair": false
+    },
+    "34": {
+      "name": "Lapis lazuli ore",
+      "category": "ores",
+      "tiles": {
+        "top": 41,
+        "bottom": 41,
+        "side": 41,
+        "front": 41
+      },
+      "uv": {
+        "top": {
+          "u": 0.28125,
+          "v": 0.03125
+        },
+        "bottom": {
+          "u": 0.28125,
+          "v": 0.03125
+        },
+        "side": {
+          "u": 0.28125,
+          "v": 0.03125
+        },
+        "front": {
+          "u": 0.28125,
+          "v": 0.03125
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "35": {
+      "name": "Diamond ore",
+      "category": "ores",
+      "tiles": {
+        "top": 42,
+        "bottom": 42,
+        "side": 42,
+        "front": 42
+      },
+      "uv": {
+        "top": {
+          "u": 0.3125,
+          "v": 0.03125
+        },
+        "bottom": {
+          "u": 0.3125,
+          "v": 0.03125
+        },
+        "side": {
+          "u": 0.3125,
+          "v": 0.03125
+        },
+        "front": {
+          "u": 0.3125,
+          "v": 0.03125
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "36": {
+      "name": "Emerald ore",
+      "category": "ores",
+      "tiles": {
+        "top": 43,
+        "bottom": 43,
+        "side": 43,
+        "front": 43
+      },
+      "uv": {
+        "top": {
+          "u": 0.34375,
+          "v": 0.03125
+        },
+        "bottom": {
+          "u": 0.34375,
+          "v": 0.03125
+        },
+        "side": {
+          "u": 0.34375,
+          "v": 0.03125
+        },
+        "front": {
+          "u": 0.34375,
+          "v": 0.03125
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "37": {
+      "name": "Glass",
+      "category": "building",
+      "tiles": {
+        "top": 44,
+        "bottom": 44,
+        "side": 44,
+        "front": 44
+      },
+      "uv": {
+        "top": {
+          "u": 0.375,
+          "v": 0.03125
+        },
+        "bottom": {
+          "u": 0.375,
+          "v": 0.03125
+        },
+        "side": {
+          "u": 0.375,
+          "v": 0.03125
+        },
+        "front": {
+          "u": 0.375,
+          "v": 0.03125
+        }
+      },
+      "transparent": true,
+      "emissive": false,
+      "stair": false
+    },
+    "38": {
+      "name": "Tinted glass",
+      "category": "building",
+      "tiles": {
+        "top": 45,
+        "bottom": 45,
+        "side": 45,
+        "front": 45
+      },
+      "uv": {
+        "top": {
+          "u": 0.40625,
+          "v": 0.03125
+        },
+        "bottom": {
+          "u": 0.40625,
+          "v": 0.03125
+        },
+        "side": {
+          "u": 0.40625,
+          "v": 0.03125
+        },
+        "front": {
+          "u": 0.40625,
+          "v": 0.03125
+        }
+      },
+      "transparent": true,
+      "emissive": false,
+      "stair": false
+    },
+    "39": {
+      "name": "Water",
+      "category": "natural",
+      "tiles": {
+        "top": 46,
+        "bottom": 46,
+        "side": 46,
+        "front": 46
+      },
+      "uv": {
+        "top": {
+          "u": 0.4375,
+          "v": 0.03125
+        },
+        "bottom": {
+          "u": 0.4375,
+          "v": 0.03125
+        },
+        "side": {
+          "u": 0.4375,
+          "v": 0.03125
+        },
+        "front": {
+          "u": 0.4375,
+          "v": 0.03125
+        }
+      },
+      "transparent": true,
+      "emissive": false,
+      "stair": false
+    },
+    "40": {
+      "name": "Lava",
+      "category": "natural",
+      "tiles": {
+        "top": 47,
+        "bottom": 47,
+        "side": 47,
+        "front": 47
+      },
+      "uv": {
+        "top": {
+          "u": 0.46875,
+          "v": 0.03125
+        },
+        "bottom": {
+          "u": 0.46875,
+          "v": 0.03125
+        },
+        "side": {
+          "u": 0.46875,
+          "v": 0.03125
+        },
+        "front": {
+          "u": 0.46875,
+          "v": 0.03125
+        }
+      },
+      "transparent": false,
+      "emissive": true,
+      "stair": false
+    },
+    "41": {
+      "name": "Crafting table",
+      "category": "utility",
+      "tiles": {
+        "top": 48,
+        "bottom": 21,
+        "side": 49,
+        "front": 50
+      },
+      "uv": {
+        "top": {
+          "u": 0.5,
+          "v": 0.03125
+        },
+        "bottom": {
+          "u": 0.65625,
+          "v": 0
+        },
+        "side": {
+          "u": 0.53125,
+          "v": 0.03125
+        },
+        "front": {
+          "u": 0.5625,
+          "v": 0.03125
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "42": {
+      "name": "Furnace",
+      "category": "utility",
+      "tiles": {
+        "top": 51,
+        "bottom": 51,
+        "side": 52,
+        "front": 53
+      },
+      "uv": {
+        "top": {
+          "u": 0.59375,
+          "v": 0.03125
+        },
+        "bottom": {
+          "u": 0.59375,
+          "v": 0.03125
+        },
+        "side": {
+          "u": 0.625,
+          "v": 0.03125
+        },
+        "front": {
+          "u": 0.65625,
+          "v": 0.03125
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "43": {
+      "name": "Chest",
+      "category": "utility",
+      "tiles": {
+        "top": 21,
+        "bottom": 21,
+        "side": 21,
+        "front": 21
+      },
+      "uv": {
+        "top": {
+          "u": 0.65625,
+          "v": 0
+        },
+        "bottom": {
+          "u": 0.65625,
+          "v": 0
+        },
+        "side": {
+          "u": 0.65625,
+          "v": 0
+        },
+        "front": {
+          "u": 0.65625,
+          "v": 0
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "44": {
+      "name": "Bookshelf",
+      "category": "utility",
+      "tiles": {
+        "top": 21,
+        "bottom": 21,
+        "side": 54,
+        "front": 54
+      },
+      "uv": {
+        "top": {
+          "u": 0.65625,
+          "v": 0
+        },
+        "bottom": {
+          "u": 0.65625,
+          "v": 0
+        },
+        "side": {
+          "u": 0.6875,
+          "v": 0.03125
+        },
+        "front": {
+          "u": 0.6875,
+          "v": 0.03125
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "45": {
+      "name": "TNT",
+      "category": "utility",
+      "tiles": {
+        "top": 55,
+        "bottom": 56,
+        "side": 57,
+        "front": 57
+      },
+      "uv": {
+        "top": {
+          "u": 0.71875,
+          "v": 0.03125
+        },
+        "bottom": {
+          "u": 0.75,
+          "v": 0.03125
+        },
+        "side": {
+          "u": 0.78125,
+          "v": 0.03125
+        },
+        "front": {
+          "u": 0.78125,
+          "v": 0.03125
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "46": {
+      "name": "Lantern",
+      "category": "utility",
+      "tiles": {
+        "top": 58,
+        "bottom": 58,
+        "side": 58,
+        "front": 58
+      },
+      "uv": {
+        "top": {
+          "u": 0.8125,
+          "v": 0.03125
+        },
+        "bottom": {
+          "u": 0.8125,
+          "v": 0.03125
+        },
+        "side": {
+          "u": 0.8125,
+          "v": 0.03125
+        },
+        "front": {
+          "u": 0.8125,
+          "v": 0.03125
+        }
+      },
+      "transparent": true,
+      "emissive": true,
+      "stair": false
+    },
+    "47": {
+      "name": "Glowstone",
+      "category": "utility",
+      "tiles": {
+        "top": 59,
+        "bottom": 59,
+        "side": 59,
+        "front": 59
+      },
+      "uv": {
+        "top": {
+          "u": 0.84375,
+          "v": 0.03125
+        },
+        "bottom": {
+          "u": 0.84375,
+          "v": 0.03125
+        },
+        "side": {
+          "u": 0.84375,
+          "v": 0.03125
+        },
+        "front": {
+          "u": 0.84375,
+          "v": 0.03125
+        }
+      },
+      "transparent": false,
+      "emissive": true,
+      "stair": false
+    },
+    "48": {
+      "name": "Sea lantern",
+      "category": "utility",
+      "tiles": {
+        "top": 60,
+        "bottom": 60,
+        "side": 60,
+        "front": 60
+      },
+      "uv": {
+        "top": {
+          "u": 0.875,
+          "v": 0.03125
+        },
+        "bottom": {
+          "u": 0.875,
+          "v": 0.03125
+        },
+        "side": {
+          "u": 0.875,
+          "v": 0.03125
+        },
+        "front": {
+          "u": 0.875,
+          "v": 0.03125
+        }
+      },
+      "transparent": false,
+      "emissive": true,
+      "stair": false
+    },
+    "49": {
+      "name": "Hay bale",
+      "category": "utility",
+      "tiles": {
+        "top": 61,
+        "bottom": 61,
+        "side": 62,
+        "front": 62
+      },
+      "uv": {
+        "top": {
+          "u": 0.90625,
+          "v": 0.03125
+        },
+        "bottom": {
+          "u": 0.90625,
+          "v": 0.03125
+        },
+        "side": {
+          "u": 0.9375,
+          "v": 0.03125
+        },
+        "front": {
+          "u": 0.9375,
+          "v": 0.03125
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "50": {
+      "name": "Brick block",
+      "category": "building",
+      "tiles": {
+        "top": 63,
+        "bottom": 63,
+        "side": 63,
+        "front": 63
+      },
+      "uv": {
+        "top": {
+          "u": 0.96875,
+          "v": 0.03125
+        },
+        "bottom": {
+          "u": 0.96875,
+          "v": 0.03125
+        },
+        "side": {
+          "u": 0.96875,
+          "v": 0.03125
+        },
+        "front": {
+          "u": 0.96875,
+          "v": 0.03125
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "51": {
+      "name": "Snow block",
+      "category": "natural",
+      "tiles": {
+        "top": 64,
+        "bottom": 64,
+        "side": 64,
+        "front": 64
+      },
+      "uv": {
+        "top": {
+          "u": 0,
+          "v": 0.0625
+        },
+        "bottom": {
+          "u": 0,
+          "v": 0.0625
+        },
+        "side": {
+          "u": 0,
+          "v": 0.0625
+        },
+        "front": {
+          "u": 0,
+          "v": 0.0625
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "52": {
+      "name": "Ice",
+      "category": "natural",
+      "tiles": {
+        "top": 65,
+        "bottom": 65,
+        "side": 65,
+        "front": 65
+      },
+      "uv": {
+        "top": {
+          "u": 0.03125,
+          "v": 0.0625
+        },
+        "bottom": {
+          "u": 0.03125,
+          "v": 0.0625
+        },
+        "side": {
+          "u": 0.03125,
+          "v": 0.0625
+        },
+        "front": {
+          "u": 0.03125,
+          "v": 0.0625
+        }
+      },
+      "transparent": true,
+      "emissive": false,
+      "stair": false
+    },
+    "53": {
+      "name": "Packed ice",
+      "category": "natural",
+      "tiles": {
+        "top": 66,
+        "bottom": 66,
+        "side": 66,
+        "front": 66
+      },
+      "uv": {
+        "top": {
+          "u": 0.0625,
+          "v": 0.0625
+        },
+        "bottom": {
+          "u": 0.0625,
+          "v": 0.0625
+        },
+        "side": {
+          "u": 0.0625,
+          "v": 0.0625
+        },
+        "front": {
+          "u": 0.0625,
+          "v": 0.0625
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "54": {
+      "name": "Snowy grass",
+      "category": "natural",
+      "tiles": {
+        "top": 64,
+        "bottom": 1,
+        "side": 67,
+        "front": 67
+      },
+      "uv": {
+        "top": {
+          "u": 0,
+          "v": 0.0625
+        },
+        "bottom": {
+          "u": 0.03125,
+          "v": 0
+        },
+        "side": {
+          "u": 0.09375,
+          "v": 0.0625
+        },
+        "front": {
+          "u": 0.09375,
+          "v": 0.0625
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "55": {
+      "name": "Dirt path",
+      "category": "natural",
+      "tiles": {
+        "top": 68,
+        "bottom": 1,
+        "side": 69,
+        "front": 69
+      },
+      "uv": {
+        "top": {
+          "u": 0.125,
+          "v": 0.0625
+        },
+        "bottom": {
+          "u": 0.03125,
+          "v": 0
+        },
+        "side": {
+          "u": 0.15625,
+          "v": 0.0625
+        },
+        "front": {
+          "u": 0.15625,
+          "v": 0.0625
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "56": {
+      "name": "Netherrack",
+      "category": "nether_end",
+      "tiles": {
+        "top": 70,
+        "bottom": 70,
+        "side": 70,
+        "front": 70
+      },
+      "uv": {
+        "top": {
+          "u": 0.1875,
+          "v": 0.0625
+        },
+        "bottom": {
+          "u": 0.1875,
+          "v": 0.0625
+        },
+        "side": {
+          "u": 0.1875,
+          "v": 0.0625
+        },
+        "front": {
+          "u": 0.1875,
+          "v": 0.0625
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "57": {
+      "name": "Soul sand",
+      "category": "nether_end",
+      "tiles": {
+        "top": 71,
+        "bottom": 71,
+        "side": 71,
+        "front": 71
+      },
+      "uv": {
+        "top": {
+          "u": 0.21875,
+          "v": 0.0625
+        },
+        "bottom": {
+          "u": 0.21875,
+          "v": 0.0625
+        },
+        "side": {
+          "u": 0.21875,
+          "v": 0.0625
+        },
+        "front": {
+          "u": 0.21875,
+          "v": 0.0625
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "58": {
+      "name": "Nether bricks",
+      "category": "nether_end",
+      "tiles": {
+        "top": 72,
+        "bottom": 72,
+        "side": 72,
+        "front": 72
+      },
+      "uv": {
+        "top": {
+          "u": 0.25,
+          "v": 0.0625
+        },
+        "bottom": {
+          "u": 0.25,
+          "v": 0.0625
+        },
+        "side": {
+          "u": 0.25,
+          "v": 0.0625
+        },
+        "front": {
+          "u": 0.25,
+          "v": 0.0625
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "59": {
+      "name": "End stone",
+      "category": "nether_end",
+      "tiles": {
+        "top": 73,
+        "bottom": 73,
+        "side": 73,
+        "front": 73
+      },
+      "uv": {
+        "top": {
+          "u": 0.28125,
+          "v": 0.0625
+        },
+        "bottom": {
+          "u": 0.28125,
+          "v": 0.0625
+        },
+        "side": {
+          "u": 0.28125,
+          "v": 0.0625
+        },
+        "front": {
+          "u": 0.28125,
+          "v": 0.0625
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "60": {
+      "name": "Purpur block",
+      "category": "nether_end",
+      "tiles": {
+        "top": 74,
+        "bottom": 74,
+        "side": 74,
+        "front": 74
+      },
+      "uv": {
+        "top": {
+          "u": 0.3125,
+          "v": 0.0625
+        },
+        "bottom": {
+          "u": 0.3125,
+          "v": 0.0625
+        },
+        "side": {
+          "u": 0.3125,
+          "v": 0.0625
+        },
+        "front": {
+          "u": 0.3125,
+          "v": 0.0625
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "61": {
+      "name": "Prismarine",
+      "category": "nether_end",
+      "tiles": {
+        "top": 75,
+        "bottom": 75,
+        "side": 75,
+        "front": 75
+      },
+      "uv": {
+        "top": {
+          "u": 0.34375,
+          "v": 0.0625
+        },
+        "bottom": {
+          "u": 0.34375,
+          "v": 0.0625
+        },
+        "side": {
+          "u": 0.34375,
+          "v": 0.0625
+        },
+        "front": {
+          "u": 0.34375,
+          "v": 0.0625
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "62": {
+      "name": "White wool",
+      "category": "colored",
+      "tiles": {
+        "top": 76,
+        "bottom": 76,
+        "side": 76,
+        "front": 76
+      },
+      "uv": {
+        "top": {
+          "u": 0.375,
+          "v": 0.0625
+        },
+        "bottom": {
+          "u": 0.375,
+          "v": 0.0625
+        },
+        "side": {
+          "u": 0.375,
+          "v": 0.0625
+        },
+        "front": {
+          "u": 0.375,
+          "v": 0.0625
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "63": {
+      "name": "Red wool",
+      "category": "colored",
+      "tiles": {
+        "top": 77,
+        "bottom": 77,
+        "side": 77,
+        "front": 77
+      },
+      "uv": {
+        "top": {
+          "u": 0.40625,
+          "v": 0.0625
+        },
+        "bottom": {
+          "u": 0.40625,
+          "v": 0.0625
+        },
+        "side": {
+          "u": 0.40625,
+          "v": 0.0625
+        },
+        "front": {
+          "u": 0.40625,
+          "v": 0.0625
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "64": {
+      "name": "Blue wool",
+      "category": "colored",
+      "tiles": {
+        "top": 78,
+        "bottom": 78,
+        "side": 78,
+        "front": 78
+      },
+      "uv": {
+        "top": {
+          "u": 0.4375,
+          "v": 0.0625
+        },
+        "bottom": {
+          "u": 0.4375,
+          "v": 0.0625
+        },
+        "side": {
+          "u": 0.4375,
+          "v": 0.0625
+        },
+        "front": {
+          "u": 0.4375,
+          "v": 0.0625
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "65": {
+      "name": "Yellow wool",
+      "category": "colored",
+      "tiles": {
+        "top": 79,
+        "bottom": 79,
+        "side": 79,
+        "front": 79
+      },
+      "uv": {
+        "top": {
+          "u": 0.46875,
+          "v": 0.0625
+        },
+        "bottom": {
+          "u": 0.46875,
+          "v": 0.0625
+        },
+        "side": {
+          "u": 0.46875,
+          "v": 0.0625
+        },
+        "front": {
+          "u": 0.46875,
+          "v": 0.0625
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "66": {
+      "name": "Green wool",
+      "category": "colored",
+      "tiles": {
+        "top": 80,
+        "bottom": 80,
+        "side": 80,
+        "front": 80
+      },
+      "uv": {
+        "top": {
+          "u": 0.5,
+          "v": 0.0625
+        },
+        "bottom": {
+          "u": 0.5,
+          "v": 0.0625
+        },
+        "side": {
+          "u": 0.5,
+          "v": 0.0625
+        },
+        "front": {
+          "u": 0.5,
+          "v": 0.0625
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "67": {
+      "name": "Black wool",
+      "category": "colored",
+      "tiles": {
+        "top": 81,
+        "bottom": 81,
+        "side": 81,
+        "front": 81
+      },
+      "uv": {
+        "top": {
+          "u": 0.53125,
+          "v": 0.0625
+        },
+        "bottom": {
+          "u": 0.53125,
+          "v": 0.0625
+        },
+        "side": {
+          "u": 0.53125,
+          "v": 0.0625
+        },
+        "front": {
+          "u": 0.53125,
+          "v": 0.0625
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "68": {
+      "name": "Purple wool",
+      "category": "colored",
+      "tiles": {
+        "top": 82,
+        "bottom": 82,
+        "side": 82,
+        "front": 82
+      },
+      "uv": {
+        "top": {
+          "u": 0.5625,
+          "v": 0.0625
+        },
+        "bottom": {
+          "u": 0.5625,
+          "v": 0.0625
+        },
+        "side": {
+          "u": 0.5625,
+          "v": 0.0625
+        },
+        "front": {
+          "u": 0.5625,
+          "v": 0.0625
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "69": {
+      "name": "Orange wool",
+      "category": "colored",
+      "tiles": {
+        "top": 83,
+        "bottom": 83,
+        "side": 83,
+        "front": 83
+      },
+      "uv": {
+        "top": {
+          "u": 0.59375,
+          "v": 0.0625
+        },
+        "bottom": {
+          "u": 0.59375,
+          "v": 0.0625
+        },
+        "side": {
+          "u": 0.59375,
+          "v": 0.0625
+        },
+        "front": {
+          "u": 0.59375,
+          "v": 0.0625
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": false
+    },
+    "70": {
+      "name": "Oak stairs",
+      "category": "wood",
+      "tiles": {
+        "top": 21,
+        "bottom": 21,
+        "side": 21,
+        "front": 21
+      },
+      "uv": {
+        "top": {
+          "u": 0.65625,
+          "v": 0
+        },
+        "bottom": {
+          "u": 0.65625,
+          "v": 0
+        },
+        "side": {
+          "u": 0.65625,
+          "v": 0
+        },
+        "front": {
+          "u": 0.65625,
+          "v": 0
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": true
+    },
+    "71": {
+      "name": "Cobblestone stairs",
+      "category": "building",
+      "tiles": {
+        "top": 7,
+        "bottom": 7,
+        "side": 7,
+        "front": 7
+      },
+      "uv": {
+        "top": {
+          "u": 0.21875,
+          "v": 0
+        },
+        "bottom": {
+          "u": 0.21875,
+          "v": 0
+        },
+        "side": {
+          "u": 0.21875,
+          "v": 0
+        },
+        "front": {
+          "u": 0.21875,
+          "v": 0
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": true
+    },
+    "72": {
+      "name": "Stone brick stairs",
+      "category": "building",
+      "tiles": {
+        "top": 9,
+        "bottom": 9,
+        "side": 9,
+        "front": 9
+      },
+      "uv": {
+        "top": {
+          "u": 0.28125,
+          "v": 0
+        },
+        "bottom": {
+          "u": 0.28125,
+          "v": 0
+        },
+        "side": {
+          "u": 0.28125,
+          "v": 0
+        },
+        "front": {
+          "u": 0.28125,
+          "v": 0
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": true
+    },
+    "73": {
+      "name": "Sandstone stairs",
+      "category": "building",
+      "tiles": {
+        "top": 12,
+        "bottom": 13,
+        "side": 14,
+        "front": 14
+      },
+      "uv": {
+        "top": {
+          "u": 0.375,
+          "v": 0
+        },
+        "bottom": {
+          "u": 0.40625,
+          "v": 0
+        },
+        "side": {
+          "u": 0.4375,
+          "v": 0
+        },
+        "front": {
+          "u": 0.4375,
+          "v": 0
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": true
+    },
+    "74": {
+      "name": "Nether brick stairs",
+      "category": "nether_end",
+      "tiles": {
+        "top": 72,
+        "bottom": 72,
+        "side": 72,
+        "front": 72
+      },
+      "uv": {
+        "top": {
+          "u": 0.25,
+          "v": 0.0625
+        },
+        "bottom": {
+          "u": 0.25,
+          "v": 0.0625
+        },
+        "side": {
+          "u": 0.25,
+          "v": 0.0625
+        },
+        "front": {
+          "u": 0.25,
+          "v": 0.0625
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": true
+    },
+    "75": {
+      "name": "Prismarine stairs",
+      "category": "nether_end",
+      "tiles": {
+        "top": 75,
+        "bottom": 75,
+        "side": 75,
+        "front": 75
+      },
+      "uv": {
+        "top": {
+          "u": 0.34375,
+          "v": 0.0625
+        },
+        "bottom": {
+          "u": 0.34375,
+          "v": 0.0625
+        },
+        "side": {
+          "u": 0.34375,
+          "v": 0.0625
+        },
+        "front": {
+          "u": 0.34375,
+          "v": 0.0625
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": true
+    },
+    "76": {
+      "name": "Brick stairs",
+      "category": "building",
+      "tiles": {
+        "top": 63,
+        "bottom": 63,
+        "side": 63,
+        "front": 63
+      },
+      "uv": {
+        "top": {
+          "u": 0.96875,
+          "v": 0.03125
+        },
+        "bottom": {
+          "u": 0.96875,
+          "v": 0.03125
+        },
+        "side": {
+          "u": 0.96875,
+          "v": 0.03125
+        },
+        "front": {
+          "u": 0.96875,
+          "v": 0.03125
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": true
+    },
+    "77": {
+      "name": "Spruce stairs",
+      "category": "wood",
+      "tiles": {
+        "top": 29,
+        "bottom": 29,
+        "side": 29,
+        "front": 29
+      },
+      "uv": {
+        "top": {
+          "u": 0.90625,
+          "v": 0
+        },
+        "bottom": {
+          "u": 0.90625,
+          "v": 0
+        },
+        "side": {
+          "u": 0.90625,
+          "v": 0
+        },
+        "front": {
+          "u": 0.90625,
+          "v": 0
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": true
+    },
+    "78": {
+      "name": "Birch stairs",
+      "category": "wood",
+      "tiles": {
+        "top": 25,
+        "bottom": 25,
+        "side": 25,
+        "front": 25
+      },
+      "uv": {
+        "top": {
+          "u": 0.78125,
+          "v": 0
+        },
+        "bottom": {
+          "u": 0.78125,
+          "v": 0
+        },
+        "side": {
+          "u": 0.78125,
+          "v": 0
+        },
+        "front": {
+          "u": 0.78125,
+          "v": 0
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": true
+    },
+    "79": {
+      "name": "Purpur stairs",
+      "category": "nether_end",
+      "tiles": {
+        "top": 74,
+        "bottom": 74,
+        "side": 74,
+        "front": 74
+      },
+      "uv": {
+        "top": {
+          "u": 0.3125,
+          "v": 0.0625
+        },
+        "bottom": {
+          "u": 0.3125,
+          "v": 0.0625
+        },
+        "side": {
+          "u": 0.3125,
+          "v": 0.0625
+        },
+        "front": {
+          "u": 0.3125,
+          "v": 0.0625
+        }
+      },
+      "transparent": false,
+      "emissive": false,
+      "stair": true
+    },
+    "80": {
+      "name": "Torch",
+      "category": "utility",
+      "tiles": {
+        "top": 84,
+        "bottom": 84,
+        "side": 84,
+        "front": 84
+      },
+      "uv": {
+        "top": {
+          "u": 0.625,
+          "v": 0.0625
+        },
+        "bottom": {
+          "u": 0.625,
+          "v": 0.0625
+        },
+        "side": {
+          "u": 0.625,
+          "v": 0.0625
+        },
+        "front": {
+          "u": 0.625,
+          "v": 0.0625
+        }
+      },
+      "transparent": true,
+      "emissive": true,
+      "stair": false
+    },
+    "81": {
+      "name": "Redstone torch",
+      "category": "utility",
+      "tiles": {
+        "top": 85,
+        "bottom": 85,
+        "side": 85,
+        "front": 85
+      },
+      "uv": {
+        "top": {
+          "u": 0.65625,
+          "v": 0.0625
+        },
+        "bottom": {
+          "u": 0.65625,
+          "v": 0.0625
+        },
+        "side": {
+          "u": 0.65625,
+          "v": 0.0625
+        },
+        "front": {
+          "u": 0.65625,
+          "v": 0.0625
+        }
+      },
+      "transparent": true,
+      "emissive": true,
+      "stair": false
+    },
+    "82": {
+      "name": "Dandelion",
+      "category": "natural",
+      "tiles": {
+        "top": 86,
+        "bottom": 86,
+        "side": 86,
+        "front": 86
+      },
+      "uv": {
+        "top": {
+          "u": 0.6875,
+          "v": 0.0625
+        },
+        "bottom": {
+          "u": 0.6875,
+          "v": 0.0625
+        },
+        "side": {
+          "u": 0.6875,
+          "v": 0.0625
+        },
+        "front": {
+          "u": 0.6875,
+          "v": 0.0625
+        }
+      },
+      "transparent": true,
+      "emissive": false,
+      "stair": false
+    },
+    "83": {
+      "name": "Poppy",
+      "category": "natural",
+      "tiles": {
+        "top": 87,
+        "bottom": 87,
+        "side": 87,
+        "front": 87
+      },
+      "uv": {
+        "top": {
+          "u": 0.71875,
+          "v": 0.0625
+        },
+        "bottom": {
+          "u": 0.71875,
+          "v": 0.0625
+        },
+        "side": {
+          "u": 0.71875,
+          "v": 0.0625
+        },
+        "front": {
+          "u": 0.71875,
+          "v": 0.0625
+        }
+      },
+      "transparent": true,
+      "emissive": false,
+      "stair": false
+    },
+    "84": {
+      "name": "Jack o'lantern",
+      "category": "utility",
+      "tiles": {
+        "top": 88,
+        "bottom": 88,
+        "side": 89,
+        "front": 90
+      },
+      "uv": {
+        "top": {
+          "u": 0.75,
+          "v": 0.0625
+        },
+        "bottom": {
+          "u": 0.75,
+          "v": 0.0625
+        },
+        "side": {
+          "u": 0.78125,
+          "v": 0.0625
+        },
+        "front": {
+          "u": 0.8125,
+          "v": 0.0625
+        }
+      },
+      "transparent": false,
+      "emissive": true,
+      "stair": false
+    }
+  }
+}

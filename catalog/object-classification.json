@@ -1,0 +1,5889 @@
+{
+  "0": {
+    "kind": "vanilla",
+    "vanilla_id": "air",
+    "name": "Air"
+  },
+  "1": {
+    "kind": "vanilla",
+    "vanilla_id": "grassblock",
+    "name": "Grass block"
+  },
+  "2": {
+    "kind": "vanilla",
+    "vanilla_id": "dirt",
+    "name": "Dirt"
+  },
+  "3": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Coarse dirt"
+  },
+  "4": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Podzol"
+  },
+  "5": {
+    "kind": "vanilla",
+    "vanilla_id": "stone",
+    "name": "Stone"
+  },
+  "6": {
+    "kind": "vanilla",
+    "vanilla_id": "cobblestone",
+    "name": "Cobblestone"
+  },
+  "7": {
+    "kind": "vanilla",
+    "vanilla_id": "mossycobblestone",
+    "name": "Mossy cobblestone"
+  },
+  "8": {
+    "kind": "vanilla",
+    "vanilla_id": "stonebricks",
+    "name": "Stone bricks"
+  },
+  "9": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Smooth stone"
+  },
+  "10": {
+    "kind": "vanilla",
+    "vanilla_id": "sand",
+    "name": "Sand"
+  },
+  "11": {
+    "kind": "vanilla",
+    "vanilla_id": "sandstone",
+    "name": "Sandstone"
+  },
+  "12": {
+    "kind": "vanilla",
+    "vanilla_id": "gravel",
+    "name": "Gravel"
+  },
+  "13": {
+    "kind": "vanilla",
+    "vanilla_id": "clay",
+    "name": "Clay block"
+  },
+  "14": {
+    "kind": "vanilla",
+    "vanilla_id": "bedrock",
+    "name": "Bedrock"
+  },
+  "15": {
+    "kind": "vanilla",
+    "vanilla_id": "obsidian",
+    "name": "Obsidian"
+  },
+  "16": {
+    "kind": "vanilla",
+    "vanilla_id": "oaklog",
+    "name": "Oak log"
+  },
+  "17": {
+    "kind": "vanilla",
+    "vanilla_id": "oakplanks",
+    "name": "Oak planks"
+  },
+  "18": {
+    "kind": "vanilla",
+    "vanilla_id": "oakleaves",
+    "name": "Oak leaves"
+  },
+  "19": {
+    "kind": "vanilla",
+    "vanilla_id": "birchlog",
+    "name": "Birch log"
+  },
+  "20": {
+    "kind": "vanilla",
+    "vanilla_id": "birchplanks",
+    "name": "Birch planks"
+  },
+  "21": {
+    "kind": "vanilla",
+    "vanilla_id": "birchleaves",
+    "name": "Birch leaves"
+  },
+  "22": {
+    "kind": "vanilla",
+    "vanilla_id": "sprucelog",
+    "name": "Spruce log"
+  },
+  "23": {
+    "kind": "vanilla",
+    "vanilla_id": "spruceplanks",
+    "name": "Spruce planks"
+  },
+  "24": {
+    "kind": "vanilla",
+    "vanilla_id": "spruceleaves",
+    "name": "Spruce leaves"
+  },
+  "25": {
+    "kind": "vanilla",
+    "vanilla_id": "junglelog",
+    "name": "Jungle log"
+  },
+  "26": {
+    "kind": "vanilla",
+    "vanilla_id": "jungleplanks",
+    "name": "Jungle planks"
+  },
+  "27": {
+    "kind": "vanilla",
+    "vanilla_id": "jungleleaves",
+    "name": "Jungle leaves"
+  },
+  "28": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Acacia planks"
+  },
+  "29": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Dark oak planks"
+  },
+  "30": {
+    "kind": "vanilla",
+    "vanilla_id": "coalore",
+    "name": "Coal ore"
+  },
+  "31": {
+    "kind": "vanilla",
+    "vanilla_id": "ironore",
+    "name": "Iron ore"
+  },
+  "32": {
+    "kind": "vanilla",
+    "vanilla_id": "goldore",
+    "name": "Gold ore"
+  },
+  "33": {
+    "kind": "vanilla",
+    "vanilla_id": "redstoneore",
+    "name": "Redstone ore"
+  },
+  "34": {
+    "kind": "vanilla",
+    "vanilla_id": "lapislazuliore",
+    "name": "Lapis lazuli ore"
+  },
+  "35": {
+    "kind": "vanilla",
+    "vanilla_id": "diamondore",
+    "name": "Diamond ore"
+  },
+  "36": {
+    "kind": "vanilla",
+    "vanilla_id": "emeraldore",
+    "name": "Emerald ore"
+  },
+  "37": {
+    "kind": "vanilla",
+    "vanilla_id": "glass",
+    "name": "Glass"
+  },
+  "38": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Tinted glass"
+  },
+  "39": {
+    "kind": "vanilla",
+    "vanilla_id": "water",
+    "name": "Water"
+  },
+  "40": {
+    "kind": "vanilla",
+    "vanilla_id": "lava",
+    "name": "Lava"
+  },
+  "41": {
+    "kind": "vanilla",
+    "vanilla_id": "craftingtable",
+    "name": "Crafting table"
+  },
+  "42": {
+    "kind": "vanilla",
+    "vanilla_id": "furnace",
+    "name": "Furnace"
+  },
+  "43": {
+    "kind": "vanilla",
+    "vanilla_id": "chest",
+    "name": "Chest"
+  },
+  "44": {
+    "kind": "vanilla",
+    "vanilla_id": "bookshelf",
+    "name": "Bookshelf"
+  },
+  "45": {
+    "kind": "vanilla",
+    "vanilla_id": "tnt",
+    "name": "TNT"
+  },
+  "46": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Lantern"
+  },
+  "47": {
+    "kind": "vanilla",
+    "vanilla_id": "glowstone",
+    "name": "Glowstone"
+  },
+  "48": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Sea lantern"
+  },
+  "49": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Hay bale"
+  },
+  "50": {
+    "kind": "vanilla",
+    "vanilla_id": "bricks",
+    "name": "Brick block"
+  },
+  "51": {
+    "kind": "vanilla",
+    "vanilla_id": "snowblock",
+    "name": "Snow block"
+  },
+  "52": {
+    "kind": "vanilla",
+    "vanilla_id": "ice",
+    "name": "Ice"
+  },
+  "53": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Packed ice"
+  },
+  "54": {
+    "kind": "vanilla",
+    "vanilla_id": "grassblock",
+    "name": "Snowy grass"
+  },
+  "55": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Dirt path"
+  },
+  "56": {
+    "kind": "vanilla",
+    "vanilla_id": "netherrack",
+    "name": "Netherrack"
+  },
+  "57": {
+    "kind": "vanilla",
+    "vanilla_id": "soulsand",
+    "name": "Soul sand"
+  },
+  "58": {
+    "kind": "vanilla",
+    "vanilla_id": "netherbricks",
+    "name": "Nether bricks"
+  },
+  "59": {
+    "kind": "vanilla",
+    "vanilla_id": "endstone",
+    "name": "End stone"
+  },
+  "60": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Purpur block"
+  },
+  "61": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Prismarine"
+  },
+  "62": {
+    "kind": "vanilla",
+    "vanilla_id": "whitewool",
+    "name": "White wool"
+  },
+  "63": {
+    "kind": "vanilla",
+    "vanilla_id": "redwool",
+    "name": "Red wool"
+  },
+  "64": {
+    "kind": "vanilla",
+    "vanilla_id": "bluewool",
+    "name": "Blue wool"
+  },
+  "65": {
+    "kind": "vanilla",
+    "vanilla_id": "yellowwool",
+    "name": "Yellow wool"
+  },
+  "66": {
+    "kind": "vanilla",
+    "vanilla_id": "greenwool",
+    "name": "Green wool"
+  },
+  "67": {
+    "kind": "vanilla",
+    "vanilla_id": "blackwool",
+    "name": "Black wool"
+  },
+  "68": {
+    "kind": "vanilla",
+    "vanilla_id": "purplewool",
+    "name": "Purple wool"
+  },
+  "69": {
+    "kind": "vanilla",
+    "vanilla_id": "orangewool",
+    "name": "Orange wool"
+  },
+  "70": {
+    "kind": "vanilla",
+    "vanilla_id": "oakstairs",
+    "name": "Oak stairs"
+  },
+  "71": {
+    "kind": "vanilla",
+    "vanilla_id": "cobblestonestairs",
+    "name": "Cobblestone stairs"
+  },
+  "72": {
+    "kind": "vanilla",
+    "vanilla_id": "stonebrickstairs",
+    "name": "Stone brick stairs"
+  },
+  "73": {
+    "kind": "vanilla",
+    "vanilla_id": "sandstonestairs",
+    "name": "Sandstone stairs"
+  },
+  "74": {
+    "kind": "vanilla",
+    "vanilla_id": "netherbrickstairs",
+    "name": "Nether brick stairs"
+  },
+  "75": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Prismarine stairs"
+  },
+  "76": {
+    "kind": "vanilla",
+    "vanilla_id": "brickstairs",
+    "name": "Brick stairs"
+  },
+  "77": {
+    "kind": "vanilla",
+    "vanilla_id": "sprucestairs",
+    "name": "Spruce stairs"
+  },
+  "78": {
+    "kind": "vanilla",
+    "vanilla_id": "birchstairs",
+    "name": "Birch stairs"
+  },
+  "79": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Purpur stairs"
+  },
+  "80": {
+    "kind": "vanilla",
+    "vanilla_id": "torch",
+    "name": "Torch"
+  },
+  "81": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Soul torch"
+  },
+  "82": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Soul lantern"
+  },
+  "83": {
+    "kind": "vanilla",
+    "vanilla_id": "redstonelamp",
+    "name": "Redstone lamp (lit)"
+  },
+  "84": {
+    "kind": "vanilla",
+    "vanilla_id": "redstonetorch",
+    "name": "Redstone torch"
+  },
+  "85": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Campfire"
+  },
+  "86": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Soul campfire"
+  },
+  "87": {
+    "kind": "vanilla",
+    "vanilla_id": "jackolantern",
+    "name": "Jack o'lantern"
+  },
+  "88": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Shroomlight"
+  },
+  "89": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Ochre froglight"
+  },
+  "90": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Pearlescent froglight"
+  },
+  "91": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Verdant froglight"
+  },
+  "92": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "End rod"
+  },
+  "93": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Crying obsidian"
+  },
+  "94": {
+    "kind": "vanilla",
+    "vanilla_id": "beacon",
+    "name": "Beacon"
+  },
+  "95": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Conduit"
+  },
+  "96": {
+    "kind": "vanilla",
+    "vanilla_id": "furnace",
+    "name": "Lit furnace"
+  },
+  "97": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Amethyst cluster"
+  },
+  "98": {
+    "kind": "vanilla",
+    "vanilla_id": "netherportal",
+    "name": "Nether portal"
+  },
+  "99": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Magma block"
+  },
+  "100": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Glow lichen"
+  },
+  "101": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Glow berries"
+  },
+  "102": {
+    "kind": "vanilla",
+    "vanilla_id": "fire",
+    "name": "Fire"
+  },
+  "103": {
+    "kind": "vanilla",
+    "vanilla_id": "brewingstand",
+    "name": "Brewing stand (lit)"
+  },
+  "104": {
+    "kind": "vanilla",
+    "vanilla_id": "redstonelamp",
+    "name": "Redstone lamp (off)"
+  },
+  "105": {
+    "kind": "vanilla",
+    "vanilla_id": "oakdoor",
+    "name": "Oak door (closed)"
+  },
+  "106": {
+    "kind": "vanilla",
+    "vanilla_id": "oakdoor",
+    "name": "Oak door (open)"
+  },
+  "107": {
+    "kind": "vanilla",
+    "vanilla_id": "oaktrapdoor",
+    "name": "Oak trapdoor (closed)"
+  },
+  "108": {
+    "kind": "vanilla",
+    "vanilla_id": "oaktrapdoor",
+    "name": "Oak trapdoor (open)"
+  },
+  "109": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Cherry blossom leaves"
+  },
+  "110": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Crimson maple leaves"
+  },
+  "111": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Golden aspen leaves"
+  },
+  "112": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Warped violet leaves"
+  },
+  "113": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Bamboo stalk"
+  },
+  "114": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Jungle palm leaves"
+  },
+  "115": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Dark oak leaves"
+  },
+  "116": {
+    "kind": "vanilla",
+    "vanilla_id": "birchleaves",
+    "name": "Birch leaves"
+  },
+  "117": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Mangrove swamp leaves"
+  },
+  "118": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Acacia savanna leaves"
+  },
+  "119": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Cherry wood"
+  },
+  "120": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Crimson stem"
+  },
+  "121": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Warped cyan stem"
+  },
+  "122": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Giant redwood bark"
+  },
+  "123": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Pink petal carpet"
+  },
+  "124": {
+    "kind": "vanilla",
+    "vanilla_id": "tallgrass",
+    "name": "Tall grass"
+  },
+  "125": {
+    "kind": "vanilla",
+    "vanilla_id": "dandelion",
+    "name": "Dandelion"
+  },
+  "126": {
+    "kind": "vanilla",
+    "vanilla_id": "rose",
+    "name": "Poppy"
+  },
+  "127": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Tube coral block"
+  },
+  "128": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Brain coral block"
+  },
+  "129": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Fire coral block"
+  },
+  "130": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Horn coral block"
+  },
+  "131": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Kelp"
+  },
+  "132": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Sea pickle"
+  },
+  "133": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Seagrass"
+  },
+  "134": {
+    "kind": "vanilla",
+    "vanilla_id": "bucket",
+    "name": "Bucket (empty)"
+  },
+  "135": {
+    "kind": "vanilla",
+    "vanilla_id": "waterbucket",
+    "name": "Water bucket"
+  },
+  "136": {
+    "kind": "vanilla",
+    "vanilla_id": "lavabucket",
+    "name": "Lava bucket"
+  },
+  "137": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Slime block"
+  },
+  "138": {
+    "kind": "vanilla",
+    "vanilla_id": "sponge",
+    "name": "Sponge"
+  },
+  "139": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Wet sponge"
+  },
+  "140": {
+    "kind": "vanilla",
+    "vanilla_id": "ladder",
+    "name": "Ladder"
+  },
+  "141": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Acacia Door"
+  },
+  "142": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Acacia Leaves"
+  },
+  "143": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Acacia Log"
+  },
+  "144": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Acacia Sapling"
+  },
+  "145": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Acacia Trapdoor"
+  },
+  "146": {
+    "kind": "vanilla",
+    "vanilla_id": "activatorrail",
+    "name": "Activator Rail"
+  },
+  "147": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Allium"
+  },
+  "148": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Amethyst Block"
+  },
+  "149": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Ancient Debris"
+  },
+  "150": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Andesite"
+  },
+  "151": {
+    "kind": "vanilla",
+    "vanilla_id": "anvil",
+    "name": "Anvil"
+  },
+  "152": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Attached Melon"
+  },
+  "153": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Attached Pumpkin"
+  },
+  "154": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Azalea Leaves"
+  },
+  "155": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Azalea Plant"
+  },
+  "156": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Azalea"
+  },
+  "157": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Azure Bluet"
+  },
+  "158": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Bamboo Block"
+  },
+  "159": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Bamboo Door"
+  },
+  "160": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Bamboo Fence"
+  },
+  "161": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Bamboo Fence Gate"
+  },
+  "162": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Bamboo Fence Gate Particle"
+  },
+  "163": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Bamboo Fence Particle"
+  },
+  "164": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Bamboo Large Leaves"
+  },
+  "165": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Bamboo Mosaic"
+  },
+  "166": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Bamboo Planks"
+  },
+  "167": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Bamboo Singleleaf"
+  },
+  "168": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Bamboo Small Leaves"
+  },
+  "169": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Bamboo"
+  },
+  "170": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Bamboo Trapdoor"
+  },
+  "171": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Barrel"
+  },
+  "172": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Barrel Top"
+  },
+  "173": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Basalt"
+  },
+  "174": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Bee Nest"
+  },
+  "175": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Bee Nest Front Honey"
+  },
+  "176": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Beehive"
+  },
+  "177": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Beehive Front Honey"
+  },
+  "178": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Beetroots"
+  },
+  "179": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Bell"
+  },
+  "180": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Big Dripleaf"
+  },
+  "181": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Big Dripleaf Tip"
+  },
+  "182": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Birch Door"
+  },
+  "183": {
+    "kind": "vanilla",
+    "vanilla_id": "birchsapling",
+    "name": "Birch Sapling"
+  },
+  "184": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Birch Trapdoor"
+  },
+  "185": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Black Candle"
+  },
+  "186": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Black Concrete"
+  },
+  "187": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Black Concrete Powder"
+  },
+  "188": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Black Glazed Terracotta"
+  },
+  "189": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Black Shulker Box"
+  },
+  "190": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Black Stained Glass"
+  },
+  "191": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Black Stained Glass Pane"
+  },
+  "192": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Black Terracotta"
+  },
+  "193": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Blackstone"
+  },
+  "194": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Blast Furnace"
+  },
+  "195": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Blast Furnace Front"
+  },
+  "196": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Blue Candle"
+  },
+  "197": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Blue Concrete"
+  },
+  "198": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Blue Concrete Powder"
+  },
+  "199": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Blue Glazed Terracotta"
+  },
+  "200": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Blue Ice"
+  },
+  "201": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Blue Orchid"
+  },
+  "202": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Blue Shulker Box"
+  },
+  "203": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Blue Stained Glass"
+  },
+  "204": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Blue Stained Glass Pane"
+  },
+  "205": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Blue Terracotta"
+  },
+  "206": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Bone Block"
+  },
+  "207": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Brain Coral"
+  },
+  "208": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Brain Coral Fan"
+  },
+  "209": {
+    "kind": "vanilla",
+    "vanilla_id": "brewingstand",
+    "name": "Brewing Stand"
+  },
+  "210": {
+    "kind": "vanilla",
+    "vanilla_id": "brewingstand",
+    "name": "Brewing Stand Base"
+  },
+  "211": {
+    "kind": "vanilla",
+    "vanilla_id": "bricks",
+    "name": "Bricks"
+  },
+  "212": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Brown Candle"
+  },
+  "213": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Brown Concrete"
+  },
+  "214": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Brown Concrete Powder"
+  },
+  "215": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Brown Glazed Terracotta"
+  },
+  "216": {
+    "kind": "vanilla",
+    "vanilla_id": "brownmushroom",
+    "name": "Brown Mushroom"
+  },
+  "217": {
+    "kind": "vanilla",
+    "vanilla_id": "brownmushroomblock",
+    "name": "Brown Mushroom Block"
+  },
+  "218": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Brown Shulker Box"
+  },
+  "219": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Brown Stained Glass"
+  },
+  "220": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Brown Stained Glass Pane"
+  },
+  "221": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Brown Terracotta"
+  },
+  "222": {
+    "kind": "vanilla",
+    "vanilla_id": "brownwool",
+    "name": "Brown Wool"
+  },
+  "223": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Bubble Coral"
+  },
+  "224": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Bubble Coral Block"
+  },
+  "225": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Bubble Coral Fan"
+  },
+  "226": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Budding Amethyst"
+  },
+  "227": {
+    "kind": "vanilla",
+    "vanilla_id": "cactus",
+    "name": "Cactus"
+  },
+  "228": {
+    "kind": "vanilla",
+    "vanilla_id": "cake",
+    "name": "Cake"
+  },
+  "229": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Calcite"
+  },
+  "230": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Campfire Fire"
+  },
+  "231": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Campfire Log"
+  },
+  "232": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Candle"
+  },
+  "233": {
+    "kind": "vanilla",
+    "vanilla_id": "carrot",
+    "name": "Carrots"
+  },
+  "234": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Cartography Table"
+  },
+  "235": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Carved Pumpkin"
+  },
+  "236": {
+    "kind": "vanilla",
+    "vanilla_id": "cauldron",
+    "name": "Cauldron"
+  },
+  "237": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Cave Vines"
+  },
+  "238": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Cave Vines Plant"
+  },
+  "239": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Chain"
+  },
+  "240": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Chain Command Block"
+  },
+  "241": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Chain Command Block Conditional"
+  },
+  "242": {
+    "kind": "vanilla",
+    "vanilla_id": "anvil",
+    "name": "Chipped Anvil"
+  },
+  "243": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Chiseled Bookshelf Empty"
+  },
+  "244": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Chiseled Bookshelf Occupied"
+  },
+  "245": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Chiseled Bookshelf"
+  },
+  "246": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Chiseled Deepslate"
+  },
+  "247": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Chiseled Nether Bricks"
+  },
+  "248": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Chiseled Polished Blackstone"
+  },
+  "249": {
+    "kind": "vanilla",
+    "vanilla_id": "chiseledquartzblock",
+    "name": "Chiseled Quartz Block"
+  },
+  "250": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Chiseled Red Sandstone"
+  },
+  "251": {
+    "kind": "vanilla",
+    "vanilla_id": "chiseledsandstone",
+    "name": "Chiseled Sandstone"
+  },
+  "252": {
+    "kind": "vanilla",
+    "vanilla_id": "chiseledstonebricks",
+    "name": "Chiseled Stone Bricks"
+  },
+  "253": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Chorus Flower"
+  },
+  "254": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Chorus Flower Dead"
+  },
+  "255": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Chorus Plant"
+  },
+  "256": {
+    "kind": "vanilla",
+    "vanilla_id": "clay",
+    "name": "Clay"
+  },
+  "257": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Coal Block"
+  },
+  "258": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Cobbled Deepslate"
+  },
+  "259": {
+    "kind": "vanilla",
+    "vanilla_id": "cobweb",
+    "name": "Cobweb"
+  },
+  "260": {
+    "kind": "vanilla",
+    "vanilla_id": "cocoa",
+    "name": "Cocoa"
+  },
+  "261": {
+    "kind": "vanilla",
+    "vanilla_id": "commandblock",
+    "name": "Command Block"
+  },
+  "262": {
+    "kind": "vanilla",
+    "vanilla_id": "commandblock",
+    "name": "Command Block Conditional"
+  },
+  "263": {
+    "kind": "vanilla",
+    "vanilla_id": "redstonecomparator",
+    "name": "Comparator"
+  },
+  "264": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Composter"
+  },
+  "265": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Composter Compost"
+  },
+  "266": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Composter Ready"
+  },
+  "267": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Copper Block"
+  },
+  "268": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Copper Ore"
+  },
+  "269": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Cornflower"
+  },
+  "270": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Cracked Deepslate Bricks"
+  },
+  "271": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Cracked Deepslate Tiles"
+  },
+  "272": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Cracked Nether Bricks"
+  },
+  "273": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Cracked Polished Blackstone Bricks"
+  },
+  "274": {
+    "kind": "vanilla",
+    "vanilla_id": "crackedstonebricks",
+    "name": "Cracked Stone Bricks"
+  },
+  "275": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Crimson Door"
+  },
+  "276": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Crimson Fungus"
+  },
+  "277": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Crimson Nylium"
+  },
+  "278": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Crimson Planks"
+  },
+  "279": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Crimson Roots"
+  },
+  "280": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Crimson Roots Pot"
+  },
+  "281": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Crimson"
+  },
+  "282": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Crimson Trapdoor"
+  },
+  "283": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Cut Copper"
+  },
+  "284": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Cut Red Sandstone"
+  },
+  "285": {
+    "kind": "vanilla",
+    "vanilla_id": "cutsandstone",
+    "name": "Cut Sandstone"
+  },
+  "286": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Cyan Candle"
+  },
+  "287": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Cyan Concrete"
+  },
+  "288": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Cyan Concrete Powder"
+  },
+  "289": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Cyan Glazed Terracotta"
+  },
+  "290": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Cyan Shulker Box"
+  },
+  "291": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Cyan Stained Glass"
+  },
+  "292": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Cyan Stained Glass Pane"
+  },
+  "293": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Cyan Terracotta"
+  },
+  "294": {
+    "kind": "vanilla",
+    "vanilla_id": "cyanwool",
+    "name": "Cyan Wool"
+  },
+  "295": {
+    "kind": "vanilla",
+    "vanilla_id": "anvil",
+    "name": "Damaged Anvil"
+  },
+  "296": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Dark Oak Door"
+  },
+  "297": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Dark Oak Log"
+  },
+  "298": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Dark Oak Sapling"
+  },
+  "299": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Dark Oak Trapdoor"
+  },
+  "300": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Dark Prismarine"
+  },
+  "301": {
+    "kind": "vanilla",
+    "vanilla_id": "daylightsensor",
+    "name": "Daylight Detector Inverted"
+  },
+  "302": {
+    "kind": "vanilla",
+    "vanilla_id": "daylightsensor",
+    "name": "Daylight Detector"
+  },
+  "303": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Dead Brain Coral"
+  },
+  "304": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Dead Brain Coral Block"
+  },
+  "305": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Dead Brain Coral Fan"
+  },
+  "306": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Dead Bubble Coral"
+  },
+  "307": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Dead Bubble Coral Block"
+  },
+  "308": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Dead Bubble Coral Fan"
+  },
+  "309": {
+    "kind": "vanilla",
+    "vanilla_id": "deadbush",
+    "name": "Dead Bush"
+  },
+  "310": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Dead Fire Coral"
+  },
+  "311": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Dead Fire Coral Block"
+  },
+  "312": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Dead Fire Coral Fan"
+  },
+  "313": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Dead Horn Coral"
+  },
+  "314": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Dead Horn Coral Block"
+  },
+  "315": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Dead Horn Coral Fan"
+  },
+  "316": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Dead Tube Coral"
+  },
+  "317": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Dead Tube Coral Block"
+  },
+  "318": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Dead Tube Coral Fan"
+  },
+  "319": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Debug"
+  },
+  "320": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Debug2"
+  },
+  "321": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Deepslate"
+  },
+  "322": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Deepslate Bricks"
+  },
+  "323": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Deepslate Coal Ore"
+  },
+  "324": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Deepslate Copper Ore"
+  },
+  "325": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Deepslate Diamond Ore"
+  },
+  "326": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Deepslate Emerald Ore"
+  },
+  "327": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Deepslate Gold Ore"
+  },
+  "328": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Deepslate Iron Ore"
+  },
+  "329": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Deepslate Lapis Ore"
+  },
+  "330": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Deepslate Redstone Ore"
+  },
+  "331": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Deepslate Tiles"
+  },
+  "332": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Destroy Stage 0"
+  },
+  "333": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Destroy Stage 1"
+  },
+  "334": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Destroy Stage 2"
+  },
+  "335": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Destroy Stage 3"
+  },
+  "336": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Destroy Stage 4"
+  },
+  "337": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Destroy Stage 5"
+  },
+  "338": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Destroy Stage 6"
+  },
+  "339": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Destroy Stage 7"
+  },
+  "340": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Destroy Stage 8"
+  },
+  "341": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Destroy Stage 9"
+  },
+  "342": {
+    "kind": "vanilla",
+    "vanilla_id": "detectorrail",
+    "name": "Detector Rail"
+  },
+  "343": {
+    "kind": "vanilla",
+    "vanilla_id": "blockofdiamond",
+    "name": "Diamond Block"
+  },
+  "344": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Diorite"
+  },
+  "345": {
+    "kind": "vanilla",
+    "vanilla_id": "dispenser",
+    "name": "Dispenser"
+  },
+  "346": {
+    "kind": "vanilla",
+    "vanilla_id": "dispenser",
+    "name": "Dispenser Front Vertical"
+  },
+  "347": {
+    "kind": "vanilla",
+    "vanilla_id": "dragonegg",
+    "name": "Dragon Egg"
+  },
+  "348": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Dried Kelp"
+  },
+  "349": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Dripstone Block"
+  },
+  "350": {
+    "kind": "vanilla",
+    "vanilla_id": "dropper",
+    "name": "Dropper"
+  },
+  "351": {
+    "kind": "vanilla",
+    "vanilla_id": "dropper",
+    "name": "Dropper Front Vertical"
+  },
+  "352": {
+    "kind": "vanilla",
+    "vanilla_id": "blockofemerald",
+    "name": "Emerald Block"
+  },
+  "353": {
+    "kind": "vanilla",
+    "vanilla_id": "enchantingtable",
+    "name": "Enchanting Table"
+  },
+  "354": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "End Portal Frame Eye"
+  },
+  "355": {
+    "kind": "vanilla",
+    "vanilla_id": "endportalframe",
+    "name": "End Portal Frame"
+  },
+  "356": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "End Stone Bricks"
+  },
+  "357": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Exposed Copper"
+  },
+  "358": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Exposed Cut Copper"
+  },
+  "359": {
+    "kind": "vanilla",
+    "vanilla_id": "farmland",
+    "name": "Farmland"
+  },
+  "360": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Farmland Moist"
+  },
+  "361": {
+    "kind": "vanilla",
+    "vanilla_id": "fern",
+    "name": "Fern"
+  },
+  "362": {
+    "kind": "vanilla",
+    "vanilla_id": "fire",
+    "name": "Fire 0"
+  },
+  "363": {
+    "kind": "vanilla",
+    "vanilla_id": "fire",
+    "name": "Fire 1"
+  },
+  "364": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Fire Coral"
+  },
+  "365": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Fire Coral Fan"
+  },
+  "366": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Fletching Table"
+  },
+  "367": {
+    "kind": "vanilla",
+    "vanilla_id": "flowerpot",
+    "name": "Flower Pot"
+  },
+  "368": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Flowering Azalea Leaves"
+  },
+  "369": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Flowering Azalea"
+  },
+  "370": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Frogspawn"
+  },
+  "371": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Frosted Ice 0"
+  },
+  "372": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Frosted Ice 1"
+  },
+  "373": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Frosted Ice 2"
+  },
+  "374": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Frosted Ice 3"
+  },
+  "375": {
+    "kind": "vanilla",
+    "vanilla_id": "furnace",
+    "name": "Furnace Front"
+  },
+  "376": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Gilded Blackstone"
+  },
+  "377": {
+    "kind": "vanilla",
+    "vanilla_id": "glasspane",
+    "name": "Glass Pane"
+  },
+  "378": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Glow Item Frame"
+  },
+  "379": {
+    "kind": "vanilla",
+    "vanilla_id": "blockofgold",
+    "name": "Gold Block"
+  },
+  "380": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Granite"
+  },
+  "381": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Grass"
+  },
+  "382": {
+    "kind": "vanilla",
+    "vanilla_id": "grassblock",
+    "name": "Grass Block Side Overlay"
+  },
+  "383": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Grass Block Snow"
+  },
+  "384": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Gray Candle"
+  },
+  "385": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Gray Concrete"
+  },
+  "386": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Gray Concrete Powder"
+  },
+  "387": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Gray Glazed Terracotta"
+  },
+  "388": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Gray Shulker Box"
+  },
+  "389": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Gray Stained Glass"
+  },
+  "390": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Gray Stained Glass Pane"
+  },
+  "391": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Gray Terracotta"
+  },
+  "392": {
+    "kind": "vanilla",
+    "vanilla_id": "graywool",
+    "name": "Gray Wool"
+  },
+  "393": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Green Candle"
+  },
+  "394": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Green Concrete"
+  },
+  "395": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Green Concrete Powder"
+  },
+  "396": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Green Glazed Terracotta"
+  },
+  "397": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Green Shulker Box"
+  },
+  "398": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Green Stained Glass"
+  },
+  "399": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Green Stained Glass Pane"
+  },
+  "400": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Green Terracotta"
+  },
+  "401": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Grindstone Pivot"
+  },
+  "402": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Grindstone Round"
+  },
+  "403": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Grindstone"
+  },
+  "404": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Hanging Roots"
+  },
+  "405": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Hay Block"
+  },
+  "406": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Honey Block"
+  },
+  "407": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Honeycomb Block"
+  },
+  "408": {
+    "kind": "vanilla",
+    "vanilla_id": "hopper",
+    "name": "Hopper Inside"
+  },
+  "409": {
+    "kind": "vanilla",
+    "vanilla_id": "hopper",
+    "name": "Hopper Outside"
+  },
+  "410": {
+    "kind": "vanilla",
+    "vanilla_id": "hopper",
+    "name": "Hopper"
+  },
+  "411": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Horn Coral"
+  },
+  "412": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Horn Coral Fan"
+  },
+  "413": {
+    "kind": "vanilla",
+    "vanilla_id": "ironbars",
+    "name": "Iron Bars"
+  },
+  "414": {
+    "kind": "vanilla",
+    "vanilla_id": "ironblock",
+    "name": "Iron Block"
+  },
+  "415": {
+    "kind": "vanilla",
+    "vanilla_id": "irondoor",
+    "name": "Iron Door"
+  },
+  "416": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Iron Trapdoor"
+  },
+  "417": {
+    "kind": "vanilla",
+    "vanilla_id": "itemframe",
+    "name": "Item Frame"
+  },
+  "418": {
+    "kind": "vanilla",
+    "vanilla_id": "jackolantern",
+    "name": "Jack O Lantern"
+  },
+  "419": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Jigsaw"
+  },
+  "420": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Jigsaw Lock"
+  },
+  "421": {
+    "kind": "vanilla",
+    "vanilla_id": "jukebox",
+    "name": "Jukebox"
+  },
+  "422": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Jungle Door"
+  },
+  "423": {
+    "kind": "vanilla",
+    "vanilla_id": "junglesapling",
+    "name": "Jungle Sapling"
+  },
+  "424": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Jungle Trapdoor"
+  },
+  "425": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Kelp Plant"
+  },
+  "426": {
+    "kind": "vanilla",
+    "vanilla_id": "lapislazuliblock",
+    "name": "Lapis Block"
+  },
+  "427": {
+    "kind": "vanilla",
+    "vanilla_id": "lapislazuliore",
+    "name": "Lapis Ore"
+  },
+  "428": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Large Amethyst Bud"
+  },
+  "429": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Large Fern"
+  },
+  "430": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Lava Flow"
+  },
+  "431": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Lava Still"
+  },
+  "432": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Lectern Base"
+  },
+  "433": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Lectern"
+  },
+  "434": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Lectern Sides"
+  },
+  "435": {
+    "kind": "vanilla",
+    "vanilla_id": "lever",
+    "name": "Lever"
+  },
+  "436": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Light Blue Candle"
+  },
+  "437": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Light Blue Concrete"
+  },
+  "438": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Light Blue Concrete Powder"
+  },
+  "439": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Light Blue Glazed Terracotta"
+  },
+  "440": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Light Blue Shulker Box"
+  },
+  "441": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Light Blue Stained Glass"
+  },
+  "442": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Light Blue Stained Glass Pane"
+  },
+  "443": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Light Blue Terracotta"
+  },
+  "444": {
+    "kind": "vanilla",
+    "vanilla_id": "lightbluewool",
+    "name": "Light Blue Wool"
+  },
+  "445": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Light Gray Candle"
+  },
+  "446": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Light Gray Concrete"
+  },
+  "447": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Light Gray Concrete Powder"
+  },
+  "448": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Light Gray Glazed Terracotta"
+  },
+  "449": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Light Gray Shulker Box"
+  },
+  "450": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Light Gray Stained Glass"
+  },
+  "451": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Light Gray Stained Glass Pane"
+  },
+  "452": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Light Gray Terracotta"
+  },
+  "453": {
+    "kind": "vanilla",
+    "vanilla_id": "lightgraywool",
+    "name": "Light Gray Wool"
+  },
+  "454": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Lightning Rod"
+  },
+  "455": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Lilac"
+  },
+  "456": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Lily Of The Valley"
+  },
+  "457": {
+    "kind": "vanilla",
+    "vanilla_id": "lilypad",
+    "name": "Lily Pad"
+  },
+  "458": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Lime Candle"
+  },
+  "459": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Lime Concrete"
+  },
+  "460": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Lime Concrete Powder"
+  },
+  "461": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Lime Glazed Terracotta"
+  },
+  "462": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Lime Shulker Box"
+  },
+  "463": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Lime Stained Glass"
+  },
+  "464": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Lime Stained Glass Pane"
+  },
+  "465": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Lime Terracotta"
+  },
+  "466": {
+    "kind": "vanilla",
+    "vanilla_id": "limewool",
+    "name": "Lime Wool"
+  },
+  "467": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Lodestone"
+  },
+  "468": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Loom"
+  },
+  "469": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Magenta Candle"
+  },
+  "470": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Magenta Concrete"
+  },
+  "471": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Magenta Concrete Powder"
+  },
+  "472": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Magenta Glazed Terracotta"
+  },
+  "473": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Magenta Shulker Box"
+  },
+  "474": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Magenta Stained Glass"
+  },
+  "475": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Magenta Stained Glass Pane"
+  },
+  "476": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Magenta Terracotta"
+  },
+  "477": {
+    "kind": "vanilla",
+    "vanilla_id": "magentawool",
+    "name": "Magenta Wool"
+  },
+  "478": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Magma"
+  },
+  "479": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Mangrove Door"
+  },
+  "480": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Mangrove Leaves"
+  },
+  "481": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Mangrove Log"
+  },
+  "482": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Mangrove Planks"
+  },
+  "483": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Mangrove Propagule"
+  },
+  "484": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Mangrove Roots"
+  },
+  "485": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Mangrove Trapdoor"
+  },
+  "486": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Medium Amethyst Bud"
+  },
+  "487": {
+    "kind": "vanilla",
+    "vanilla_id": "melon",
+    "name": "Melon"
+  },
+  "488": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Moss Block"
+  },
+  "489": {
+    "kind": "vanilla",
+    "vanilla_id": "mossystonebricks",
+    "name": "Mossy Stone Bricks"
+  },
+  "490": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Mud"
+  },
+  "491": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Mud Bricks"
+  },
+  "492": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Muddy Mangrove Roots"
+  },
+  "493": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Mushroom Block Inside"
+  },
+  "494": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Mushroom"
+  },
+  "495": {
+    "kind": "vanilla",
+    "vanilla_id": "mycelium",
+    "name": "Mycelium"
+  },
+  "496": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Nether Gold Ore"
+  },
+  "497": {
+    "kind": "vanilla",
+    "vanilla_id": "netherquartzore",
+    "name": "Nether Quartz Ore"
+  },
+  "498": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Nether Sprouts"
+  },
+  "499": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Nether Wart Block"
+  },
+  "500": {
+    "kind": "vanilla",
+    "vanilla_id": "netherwart",
+    "name": "Nether Wart"
+  },
+  "501": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Netherite Block"
+  },
+  "502": {
+    "kind": "vanilla",
+    "vanilla_id": "noteblock",
+    "name": "Note Block"
+  },
+  "503": {
+    "kind": "vanilla",
+    "vanilla_id": "oakdoor",
+    "name": "Oak Door"
+  },
+  "504": {
+    "kind": "vanilla",
+    "vanilla_id": "oaksapling",
+    "name": "Oak Sapling"
+  },
+  "505": {
+    "kind": "vanilla",
+    "vanilla_id": "oaktrapdoor",
+    "name": "Oak Trapdoor"
+  },
+  "506": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Observer"
+  },
+  "507": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Observer Back"
+  },
+  "508": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Orange Candle"
+  },
+  "509": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Orange Concrete"
+  },
+  "510": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Orange Concrete Powder"
+  },
+  "511": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Orange Glazed Terracotta"
+  },
+  "512": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Orange Shulker Box"
+  },
+  "513": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Orange Stained Glass"
+  },
+  "514": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Orange Stained Glass Pane"
+  },
+  "515": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Orange Terracotta"
+  },
+  "516": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Orange Tulip"
+  },
+  "517": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Oxeye Daisy"
+  },
+  "518": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Oxidized Copper"
+  },
+  "519": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Oxidized Cut Copper"
+  },
+  "520": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Packed Mud"
+  },
+  "521": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Peony"
+  },
+  "522": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Pink Candle"
+  },
+  "523": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Pink Concrete"
+  },
+  "524": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Pink Concrete Powder"
+  },
+  "525": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Pink Glazed Terracotta"
+  },
+  "526": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Pink Shulker Box"
+  },
+  "527": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Pink Stained Glass"
+  },
+  "528": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Pink Stained Glass Pane"
+  },
+  "529": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Pink Terracotta"
+  },
+  "530": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Pink Tulip"
+  },
+  "531": {
+    "kind": "vanilla",
+    "vanilla_id": "pinkwool",
+    "name": "Pink Wool"
+  },
+  "532": {
+    "kind": "vanilla",
+    "vanilla_id": "piston",
+    "name": "Piston"
+  },
+  "533": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Piston Top Sticky"
+  },
+  "534": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Pointed Dripstone Down Base"
+  },
+  "535": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Pointed Dripstone Down Frustum"
+  },
+  "536": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Pointed Dripstone Down"
+  },
+  "537": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Pointed Dripstone Down Tip"
+  },
+  "538": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Pointed Dripstone Down Tip Merge"
+  },
+  "539": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Pointed Dripstone Up Base"
+  },
+  "540": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Pointed Dripstone Up Frustum"
+  },
+  "541": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Pointed Dripstone Up"
+  },
+  "542": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Pointed Dripstone Up Tip"
+  },
+  "543": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Pointed Dripstone Up Tip Merge"
+  },
+  "544": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Polished Andesite"
+  },
+  "545": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Polished Basalt"
+  },
+  "546": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Polished Blackstone"
+  },
+  "547": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Polished Blackstone Bricks"
+  },
+  "548": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Polished Deepslate"
+  },
+  "549": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Polished Diorite"
+  },
+  "550": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Polished Granite"
+  },
+  "551": {
+    "kind": "vanilla",
+    "vanilla_id": "potato",
+    "name": "Potatoes"
+  },
+  "552": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Potted Azalea Bush Plant"
+  },
+  "553": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Potted Azalea Bush"
+  },
+  "554": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Potted Flowering Azalea Bush Plant"
+  },
+  "555": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Potted Flowering Azalea Bush"
+  },
+  "556": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Powder Snow"
+  },
+  "557": {
+    "kind": "vanilla",
+    "vanilla_id": "poweredrail",
+    "name": "Powered Rail"
+  },
+  "558": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Prismarine Bricks"
+  },
+  "559": {
+    "kind": "vanilla",
+    "vanilla_id": "pumpkin",
+    "name": "Pumpkin"
+  },
+  "560": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Purple Candle"
+  },
+  "561": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Purple Concrete"
+  },
+  "562": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Purple Concrete Powder"
+  },
+  "563": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Purple Glazed Terracotta"
+  },
+  "564": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Purple Shulker Box"
+  },
+  "565": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Purple Stained Glass"
+  },
+  "566": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Purple Stained Glass Pane"
+  },
+  "567": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Purple Terracotta"
+  },
+  "568": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Purpur Pillar"
+  },
+  "569": {
+    "kind": "vanilla",
+    "vanilla_id": "blockofquartz",
+    "name": "Quartz Block"
+  },
+  "570": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Quartz Bricks"
+  },
+  "571": {
+    "kind": "vanilla",
+    "vanilla_id": "quartzpillar",
+    "name": "Quartz Pillar"
+  },
+  "572": {
+    "kind": "vanilla",
+    "vanilla_id": "rail",
+    "name": "Rail"
+  },
+  "573": {
+    "kind": "vanilla",
+    "vanilla_id": "rail",
+    "name": "Rail Corner"
+  },
+  "574": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Raw Copper Block"
+  },
+  "575": {
+    "kind": "vanilla",
+    "vanilla_id": "blockofgold",
+    "name": "Raw Gold Block"
+  },
+  "576": {
+    "kind": "vanilla",
+    "vanilla_id": "ironblock",
+    "name": "Raw Iron Block"
+  },
+  "577": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Red Candle"
+  },
+  "578": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Red Concrete"
+  },
+  "579": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Red Concrete Powder"
+  },
+  "580": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Red Glazed Terracotta"
+  },
+  "581": {
+    "kind": "vanilla",
+    "vanilla_id": "redmushroom",
+    "name": "Red Mushroom"
+  },
+  "582": {
+    "kind": "vanilla",
+    "vanilla_id": "redmushroomblock",
+    "name": "Red Mushroom Block"
+  },
+  "583": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Red Nether Bricks"
+  },
+  "584": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Red Sand"
+  },
+  "585": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Red Sandstone"
+  },
+  "586": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Red Shulker Box"
+  },
+  "587": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Red Stained Glass"
+  },
+  "588": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Red Stained Glass Pane"
+  },
+  "589": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Red Terracotta"
+  },
+  "590": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Red Tulip"
+  },
+  "591": {
+    "kind": "vanilla",
+    "vanilla_id": "blockofredstone",
+    "name": "Redstone Block"
+  },
+  "592": {
+    "kind": "vanilla",
+    "vanilla_id": "redstonedust",
+    "name": "Redstone Dust Dot"
+  },
+  "593": {
+    "kind": "vanilla",
+    "vanilla_id": "redstonedust",
+    "name": "Redstone Dust Line0"
+  },
+  "594": {
+    "kind": "vanilla",
+    "vanilla_id": "redstonedust",
+    "name": "Redstone Dust Line1"
+  },
+  "595": {
+    "kind": "vanilla",
+    "vanilla_id": "redstonedust",
+    "name": "Redstone Dust Overlay"
+  },
+  "596": {
+    "kind": "vanilla",
+    "vanilla_id": "redstonelamp",
+    "name": "Redstone Lamp"
+  },
+  "597": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Reinforced Deepslate"
+  },
+  "598": {
+    "kind": "vanilla",
+    "vanilla_id": "redstonerepeater",
+    "name": "Repeater"
+  },
+  "599": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Repeating Command Block"
+  },
+  "600": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Repeating Command Block Conditional"
+  },
+  "601": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Respawn Anchor"
+  },
+  "602": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Respawn Anchor Side4"
+  },
+  "603": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Respawn Anchor Top"
+  },
+  "604": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Rooted Dirt"
+  },
+  "605": {
+    "kind": "vanilla",
+    "vanilla_id": "rose",
+    "name": "Rose Bush"
+  },
+  "606": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Scaffolding"
+  },
+  "607": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Sculk"
+  },
+  "608": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Sculk Catalyst"
+  },
+  "609": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Sculk Catalyst Side Bloom"
+  },
+  "610": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Sculk Catalyst Top Bloom"
+  },
+  "611": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Sculk Sensor"
+  },
+  "612": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Sculk Sensor Tendril Active"
+  },
+  "613": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Sculk Sensor Tendril Inactive"
+  },
+  "614": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Sculk Shrieker"
+  },
+  "615": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Sculk Shrieker Can Summon Inner"
+  },
+  "616": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Sculk Shrieker Inner"
+  },
+  "617": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Sculk Vein"
+  },
+  "618": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Shulker Box"
+  },
+  "619": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Small Amethyst Bud"
+  },
+  "620": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Small Dripleaf"
+  },
+  "621": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Small Dripleaf Stem"
+  },
+  "622": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Smithing Table"
+  },
+  "623": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Smoker"
+  },
+  "624": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Smoker Front"
+  },
+  "625": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Smooth Basalt"
+  },
+  "626": {
+    "kind": "vanilla",
+    "vanilla_id": "smoothstoneslab",
+    "name": "Smooth Stone Slab"
+  },
+  "627": {
+    "kind": "vanilla",
+    "vanilla_id": "snow",
+    "name": "Snow"
+  },
+  "628": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Soul Campfire Fire"
+  },
+  "629": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Soul Campfire Log"
+  },
+  "630": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Soul Fire 0"
+  },
+  "631": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Soul Fire 1"
+  },
+  "632": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Soul Soil"
+  },
+  "633": {
+    "kind": "vanilla",
+    "vanilla_id": "mobspawner",
+    "name": "Spawner"
+  },
+  "634": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Spore Blossom"
+  },
+  "635": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Spore Blossom Base"
+  },
+  "636": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Spruce Door"
+  },
+  "637": {
+    "kind": "vanilla",
+    "vanilla_id": "sprucesapling",
+    "name": "Spruce Sapling"
+  },
+  "638": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Spruce Trapdoor"
+  },
+  "639": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Stonecutter"
+  },
+  "640": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Stonecutter Saw"
+  },
+  "641": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Stripped Acacia Log"
+  },
+  "642": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Stripped Bamboo Block"
+  },
+  "643": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Stripped Birch Log"
+  },
+  "644": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Stripped Crimson"
+  },
+  "645": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Stripped Crimson Stem"
+  },
+  "646": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Stripped Dark Oak Log"
+  },
+  "647": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Stripped Jungle Log"
+  },
+  "648": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Stripped Mangrove Log"
+  },
+  "649": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Stripped Oak Log"
+  },
+  "650": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Stripped Spruce Log"
+  },
+  "651": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Stripped Warped"
+  },
+  "652": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Stripped Warped Stem"
+  },
+  "653": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Structure Block"
+  },
+  "654": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Structure Block Corner"
+  },
+  "655": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Structure Block Data"
+  },
+  "656": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Structure Block Load"
+  },
+  "657": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Structure Block Save"
+  },
+  "658": {
+    "kind": "vanilla",
+    "vanilla_id": "reeds",
+    "name": "Sugar Cane"
+  },
+  "659": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Sunflower"
+  },
+  "660": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Sweet Berry Bush"
+  },
+  "661": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Tall Seagrass"
+  },
+  "662": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Target"
+  },
+  "663": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Terracotta"
+  },
+  "664": {
+    "kind": "vanilla",
+    "vanilla_id": "tripwire",
+    "name": "Tripwire"
+  },
+  "665": {
+    "kind": "vanilla",
+    "vanilla_id": "tripwirehook",
+    "name": "Tripwire Hook"
+  },
+  "666": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Tube Coral"
+  },
+  "667": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Tube Coral Fan"
+  },
+  "668": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Tuff"
+  },
+  "669": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Turtle Egg"
+  },
+  "670": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Turtle Egg Slightly Cracked"
+  },
+  "671": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Turtle Egg Very Cracked"
+  },
+  "672": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Twisting Vines"
+  },
+  "673": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Twisting Vines Plant"
+  },
+  "674": {
+    "kind": "vanilla",
+    "vanilla_id": "vines",
+    "name": "Vine"
+  },
+  "675": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Warped Door"
+  },
+  "676": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Warped Fungus"
+  },
+  "677": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Warped Nylium"
+  },
+  "678": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Warped Planks"
+  },
+  "679": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Warped Roots"
+  },
+  "680": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Warped Roots Pot"
+  },
+  "681": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Warped"
+  },
+  "682": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Warped Stem"
+  },
+  "683": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Warped Trapdoor"
+  },
+  "684": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Warped Wart Block"
+  },
+  "685": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Water Flow"
+  },
+  "686": {
+    "kind": "vanilla",
+    "vanilla_id": "water",
+    "name": "Water Overlay"
+  },
+  "687": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Water Still"
+  },
+  "688": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Weathered Copper"
+  },
+  "689": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Weathered Cut Copper"
+  },
+  "690": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Weeping Vines"
+  },
+  "691": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Weeping Vines Plant"
+  },
+  "692": {
+    "kind": "vanilla",
+    "vanilla_id": "wheat",
+    "name": "Wheat"
+  },
+  "693": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "White Candle"
+  },
+  "694": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "White Concrete"
+  },
+  "695": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "White Concrete Powder"
+  },
+  "696": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "White Glazed Terracotta"
+  },
+  "697": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "White Shulker Box"
+  },
+  "698": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "White Stained Glass"
+  },
+  "699": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "White Stained Glass Pane"
+  },
+  "700": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "White Terracotta"
+  },
+  "701": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "White Tulip"
+  },
+  "702": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Wither Rose"
+  },
+  "703": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Yellow Candle"
+  },
+  "704": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Yellow Concrete"
+  },
+  "705": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Yellow Concrete Powder"
+  },
+  "706": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Yellow Glazed Terracotta"
+  },
+  "707": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Yellow Shulker Box"
+  },
+  "708": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Yellow Stained Glass"
+  },
+  "709": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Yellow Stained Glass Pane"
+  },
+  "710": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Yellow Terracotta"
+  },
+  "711": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Bamboo Hanging Sign"
+  },
+  "712": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Bamboo Raft"
+  },
+  "713": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Bamboo Sign"
+  },
+  "714": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Barrier"
+  },
+  "715": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Beef"
+  },
+  "716": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Beetroot"
+  },
+  "717": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Beetroot Seeds"
+  },
+  "718": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Beetroot Soup"
+  },
+  "719": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Birch Boat"
+  },
+  "720": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Birch Chest Boat"
+  },
+  "721": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Birch Hanging Sign"
+  },
+  "722": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Birch Sign"
+  },
+  "723": {
+    "kind": "vanilla",
+    "vanilla_id": "blackdye",
+    "name": "Black Dye"
+  },
+  "724": {
+    "kind": "vanilla",
+    "vanilla_id": "blazepowder",
+    "name": "Blaze Powder"
+  },
+  "725": {
+    "kind": "vanilla",
+    "vanilla_id": "blazerod",
+    "name": "Blaze Rod"
+  },
+  "726": {
+    "kind": "vanilla",
+    "vanilla_id": "bluedye",
+    "name": "Blue Dye"
+  },
+  "727": {
+    "kind": "vanilla",
+    "vanilla_id": "bone",
+    "name": "Bone"
+  },
+  "728": {
+    "kind": "vanilla",
+    "vanilla_id": "bonemeal",
+    "name": "Bone Meal"
+  },
+  "729": {
+    "kind": "vanilla",
+    "vanilla_id": "book",
+    "name": "Book"
+  },
+  "730": {
+    "kind": "vanilla",
+    "vanilla_id": "bow",
+    "name": "Bow"
+  },
+  "731": {
+    "kind": "vanilla",
+    "vanilla_id": "bow",
+    "name": "Bow Pulling 0"
+  },
+  "732": {
+    "kind": "vanilla",
+    "vanilla_id": "bow",
+    "name": "Bow Pulling 1"
+  },
+  "733": {
+    "kind": "vanilla",
+    "vanilla_id": "bow",
+    "name": "Bow Pulling 2"
+  },
+  "734": {
+    "kind": "vanilla",
+    "vanilla_id": "bowl",
+    "name": "Bowl"
+  },
+  "735": {
+    "kind": "vanilla",
+    "vanilla_id": "bread",
+    "name": "Bread"
+  },
+  "736": {
+    "kind": "vanilla",
+    "vanilla_id": "brick",
+    "name": "Brick"
+  },
+  "737": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Broken Elytra"
+  },
+  "738": {
+    "kind": "vanilla",
+    "vanilla_id": "browndye",
+    "name": "Brown Dye"
+  },
+  "739": {
+    "kind": "vanilla",
+    "vanilla_id": "bucket",
+    "name": "Bucket"
+  },
+  "740": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Bundle"
+  },
+  "741": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Bundle Filled"
+  },
+  "742": {
+    "kind": "vanilla",
+    "vanilla_id": "carrot",
+    "name": "Carrot"
+  },
+  "743": {
+    "kind": "vanilla",
+    "vanilla_id": "carrotonastick",
+    "name": "Carrot On A Stick"
+  },
+  "744": {
+    "kind": "vanilla",
+    "vanilla_id": "chainmailboots",
+    "name": "Chainmail Boots"
+  },
+  "745": {
+    "kind": "vanilla",
+    "vanilla_id": "chainmailchestplate",
+    "name": "Chainmail Chestplate"
+  },
+  "746": {
+    "kind": "vanilla",
+    "vanilla_id": "chainmailhelmet",
+    "name": "Chainmail Helmet"
+  },
+  "747": {
+    "kind": "vanilla",
+    "vanilla_id": "chainmailleggings",
+    "name": "Chainmail Leggings"
+  },
+  "748": {
+    "kind": "vanilla",
+    "vanilla_id": "charcoal",
+    "name": "Charcoal"
+  },
+  "749": {
+    "kind": "vanilla",
+    "vanilla_id": "minecartwithchest",
+    "name": "Chest Minecart"
+  },
+  "750": {
+    "kind": "vanilla",
+    "vanilla_id": "rawchicken",
+    "name": "Chicken"
+  },
+  "751": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Chorus Fruit"
+  },
+  "752": {
+    "kind": "vanilla",
+    "vanilla_id": "clayball",
+    "name": "Clay Ball"
+  },
+  "753": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 00"
+  },
+  "754": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 01"
+  },
+  "755": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 02"
+  },
+  "756": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 03"
+  },
+  "757": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 04"
+  },
+  "758": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 05"
+  },
+  "759": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 06"
+  },
+  "760": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 07"
+  },
+  "761": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 08"
+  },
+  "762": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 09"
+  },
+  "763": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 10"
+  },
+  "764": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 11"
+  },
+  "765": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 12"
+  },
+  "766": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 13"
+  },
+  "767": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 14"
+  },
+  "768": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 15"
+  },
+  "769": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 16"
+  },
+  "770": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 17"
+  },
+  "771": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 18"
+  },
+  "772": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 19"
+  },
+  "773": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 20"
+  },
+  "774": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 21"
+  },
+  "775": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 22"
+  },
+  "776": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 23"
+  },
+  "777": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 24"
+  },
+  "778": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 25"
+  },
+  "779": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 26"
+  },
+  "780": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 27"
+  },
+  "781": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 28"
+  },
+  "782": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 29"
+  },
+  "783": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 30"
+  },
+  "784": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 31"
+  },
+  "785": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 32"
+  },
+  "786": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 33"
+  },
+  "787": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 34"
+  },
+  "788": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 35"
+  },
+  "789": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 36"
+  },
+  "790": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 37"
+  },
+  "791": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 38"
+  },
+  "792": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 39"
+  },
+  "793": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 40"
+  },
+  "794": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 41"
+  },
+  "795": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 42"
+  },
+  "796": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 43"
+  },
+  "797": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 44"
+  },
+  "798": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 45"
+  },
+  "799": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 46"
+  },
+  "800": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 47"
+  },
+  "801": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 48"
+  },
+  "802": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 49"
+  },
+  "803": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 50"
+  },
+  "804": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 51"
+  },
+  "805": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 52"
+  },
+  "806": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 53"
+  },
+  "807": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 54"
+  },
+  "808": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 55"
+  },
+  "809": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 56"
+  },
+  "810": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 57"
+  },
+  "811": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 58"
+  },
+  "812": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 59"
+  },
+  "813": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 60"
+  },
+  "814": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 61"
+  },
+  "815": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 62"
+  },
+  "816": {
+    "kind": "vanilla",
+    "vanilla_id": "clock",
+    "name": "Clock 63"
+  },
+  "817": {
+    "kind": "vanilla",
+    "vanilla_id": "coal",
+    "name": "Coal"
+  },
+  "818": {
+    "kind": "vanilla",
+    "vanilla_id": "cocoabeans",
+    "name": "Cocoa Beans"
+  },
+  "819": {
+    "kind": "vanilla",
+    "vanilla_id": "rawfish",
+    "name": "Cod"
+  },
+  "820": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Cod Bucket"
+  },
+  "821": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Command Block Minecart"
+  },
+  "822": {
+    "kind": "vanilla",
+    "vanilla_id": "compass",
+    "name": "Compass 00"
+  },
+  "823": {
+    "kind": "vanilla",
+    "vanilla_id": "compass",
+    "name": "Compass 01"
+  },
+  "824": {
+    "kind": "vanilla",
+    "vanilla_id": "compass",
+    "name": "Compass 02"
+  },
+  "825": {
+    "kind": "vanilla",
+    "vanilla_id": "compass",
+    "name": "Compass 03"
+  },
+  "826": {
+    "kind": "vanilla",
+    "vanilla_id": "compass",
+    "name": "Compass 04"
+  },
+  "827": {
+    "kind": "vanilla",
+    "vanilla_id": "compass",
+    "name": "Compass 05"
+  },
+  "828": {
+    "kind": "vanilla",
+    "vanilla_id": "compass",
+    "name": "Compass 06"
+  },
+  "829": {
+    "kind": "vanilla",
+    "vanilla_id": "compass",
+    "name": "Compass 07"
+  },
+  "830": {
+    "kind": "vanilla",
+    "vanilla_id": "compass",
+    "name": "Compass 08"
+  },
+  "831": {
+    "kind": "vanilla",
+    "vanilla_id": "compass",
+    "name": "Compass 09"
+  },
+  "832": {
+    "kind": "vanilla",
+    "vanilla_id": "compass",
+    "name": "Compass 10"
+  },
+  "833": {
+    "kind": "vanilla",
+    "vanilla_id": "compass",
+    "name": "Compass 11"
+  },
+  "834": {
+    "kind": "vanilla",
+    "vanilla_id": "compass",
+    "name": "Compass 12"
+  },
+  "835": {
+    "kind": "vanilla",
+    "vanilla_id": "compass",
+    "name": "Compass 13"
+  },
+  "836": {
+    "kind": "vanilla",
+    "vanilla_id": "compass",
+    "name": "Compass 14"
+  },
+  "837": {
+    "kind": "vanilla",
+    "vanilla_id": "compass",
+    "name": "Compass 15"
+  },
+  "838": {
+    "kind": "vanilla",
+    "vanilla_id": "compass",
+    "name": "Compass 16"
+  },
+  "839": {
+    "kind": "vanilla",
+    "vanilla_id": "compass",
+    "name": "Compass 17"
+  },
+  "840": {
+    "kind": "vanilla",
+    "vanilla_id": "compass",
+    "name": "Compass 18"
+  },
+  "841": {
+    "kind": "vanilla",
+    "vanilla_id": "compass",
+    "name": "Compass 19"
+  },
+  "842": {
+    "kind": "vanilla",
+    "vanilla_id": "compass",
+    "name": "Compass 20"
+  },
+  "843": {
+    "kind": "vanilla",
+    "vanilla_id": "compass",
+    "name": "Compass 21"
+  },
+  "844": {
+    "kind": "vanilla",
+    "vanilla_id": "compass",
+    "name": "Compass 22"
+  },
+  "845": {
+    "kind": "vanilla",
+    "vanilla_id": "compass",
+    "name": "Compass 23"
+  },
+  "846": {
+    "kind": "vanilla",
+    "vanilla_id": "compass",
+    "name": "Compass 24"
+  },
+  "847": {
+    "kind": "vanilla",
+    "vanilla_id": "compass",
+    "name": "Compass 25"
+  },
+  "848": {
+    "kind": "vanilla",
+    "vanilla_id": "compass",
+    "name": "Compass 26"
+  },
+  "849": {
+    "kind": "vanilla",
+    "vanilla_id": "compass",
+    "name": "Compass 27"
+  },
+  "850": {
+    "kind": "vanilla",
+    "vanilla_id": "compass",
+    "name": "Compass 28"
+  },
+  "851": {
+    "kind": "vanilla",
+    "vanilla_id": "compass",
+    "name": "Compass 29"
+  },
+  "852": {
+    "kind": "vanilla",
+    "vanilla_id": "compass",
+    "name": "Compass 30"
+  },
+  "853": {
+    "kind": "vanilla",
+    "vanilla_id": "compass",
+    "name": "Compass 31"
+  },
+  "854": {
+    "kind": "vanilla",
+    "vanilla_id": "steak",
+    "name": "Cooked Beef"
+  },
+  "855": {
+    "kind": "vanilla",
+    "vanilla_id": "cookedchicken",
+    "name": "Cooked Chicken"
+  },
+  "856": {
+    "kind": "vanilla",
+    "vanilla_id": "cookedfish",
+    "name": "Cooked Cod"
+  },
+  "857": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Cooked Mutton"
+  },
+  "858": {
+    "kind": "vanilla",
+    "vanilla_id": "cookedporkchop",
+    "name": "Cooked Porkchop"
+  },
+  "859": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Cooked Rabbit"
+  },
+  "860": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Cooked Salmon"
+  },
+  "861": {
+    "kind": "vanilla",
+    "vanilla_id": "cookie",
+    "name": "Cookie"
+  },
+  "862": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Copper Ingot"
+  },
+  "863": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Creeper Banner Pattern"
+  },
+  "864": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Crimson Hanging Sign"
+  },
+  "865": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Crimson Sign"
+  },
+  "866": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Crossbow Arrow"
+  },
+  "867": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Crossbow Firework"
+  },
+  "868": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Crossbow Pulling 0"
+  },
+  "869": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Crossbow Pulling 1"
+  },
+  "870": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Crossbow Pulling 2"
+  },
+  "871": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Crossbow Standby"
+  },
+  "872": {
+    "kind": "vanilla",
+    "vanilla_id": "cyandye",
+    "name": "Cyan Dye"
+  },
+  "873": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Dark Oak Boat"
+  },
+  "874": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Dark Oak Chest Boat"
+  },
+  "875": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Dark Oak Hanging Sign"
+  },
+  "876": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Dark Oak Sign"
+  },
+  "877": {
+    "kind": "vanilla",
+    "vanilla_id": "diamond",
+    "name": "Diamond"
+  },
+  "878": {
+    "kind": "vanilla",
+    "vanilla_id": "diamondaxe",
+    "name": "Diamond Axe"
+  },
+  "879": {
+    "kind": "vanilla",
+    "vanilla_id": "diamondboots",
+    "name": "Diamond Boots"
+  },
+  "880": {
+    "kind": "vanilla",
+    "vanilla_id": "diamondchestplate",
+    "name": "Diamond Chestplate"
+  },
+  "881": {
+    "kind": "vanilla",
+    "vanilla_id": "diamondhelmet",
+    "name": "Diamond Helmet"
+  },
+  "882": {
+    "kind": "vanilla",
+    "vanilla_id": "diamondhoe",
+    "name": "Diamond Hoe"
+  },
+  "883": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Diamond Horse Armor"
+  },
+  "884": {
+    "kind": "vanilla",
+    "vanilla_id": "diamondleggings",
+    "name": "Diamond Leggings"
+  },
+  "885": {
+    "kind": "vanilla",
+    "vanilla_id": "diamondpickaxe",
+    "name": "Diamond Pickaxe"
+  },
+  "886": {
+    "kind": "vanilla",
+    "vanilla_id": "diamondshovel",
+    "name": "Diamond Shovel"
+  },
+  "887": {
+    "kind": "vanilla",
+    "vanilla_id": "diamondsword",
+    "name": "Diamond Sword"
+  },
+  "888": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Disc Fragment 5"
+  },
+  "889": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Dragon Breath"
+  },
+  "890": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Echo Shard"
+  },
+  "891": {
+    "kind": "vanilla",
+    "vanilla_id": "egg",
+    "name": "Egg"
+  },
+  "892": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Elytra"
+  },
+  "893": {
+    "kind": "vanilla",
+    "vanilla_id": "emerald",
+    "name": "Emerald"
+  },
+  "894": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Empty Armor Slot Boots"
+  },
+  "895": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Empty Armor Slot Chestplate"
+  },
+  "896": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Empty Armor Slot Helmet"
+  },
+  "897": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Empty Armor Slot Leggings"
+  },
+  "898": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Empty Armor Slot Shield"
+  },
+  "899": {
+    "kind": "vanilla",
+    "vanilla_id": "enchantedbook",
+    "name": "Enchanted Book"
+  },
+  "900": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "End Crystal"
+  },
+  "901": {
+    "kind": "vanilla",
+    "vanilla_id": "eyeofender",
+    "name": "Ender Eye"
+  },
+  "902": {
+    "kind": "vanilla",
+    "vanilla_id": "enderpearl",
+    "name": "Ender Pearl"
+  },
+  "903": {
+    "kind": "vanilla",
+    "vanilla_id": "bottleoenchanting",
+    "name": "Experience Bottle"
+  },
+  "904": {
+    "kind": "vanilla",
+    "vanilla_id": "feather",
+    "name": "Feather"
+  },
+  "905": {
+    "kind": "vanilla",
+    "vanilla_id": "fermentedspidereye",
+    "name": "Fermented Spider Eye"
+  },
+  "906": {
+    "kind": "vanilla",
+    "vanilla_id": "map",
+    "name": "Filled Map"
+  },
+  "907": {
+    "kind": "vanilla",
+    "vanilla_id": "map",
+    "name": "Filled Map Markings"
+  },
+  "908": {
+    "kind": "vanilla",
+    "vanilla_id": "firecharge",
+    "name": "Fire Charge"
+  },
+  "909": {
+    "kind": "vanilla",
+    "vanilla_id": "fireworkrocket",
+    "name": "Firework Rocket"
+  },
+  "910": {
+    "kind": "vanilla",
+    "vanilla_id": "fireworkstar",
+    "name": "Firework Star"
+  },
+  "911": {
+    "kind": "vanilla",
+    "vanilla_id": "fireworkstar",
+    "name": "Firework Star Overlay"
+  },
+  "912": {
+    "kind": "vanilla",
+    "vanilla_id": "fishingrod",
+    "name": "Fishing Rod"
+  },
+  "913": {
+    "kind": "vanilla",
+    "vanilla_id": "fishingrod",
+    "name": "Fishing Rod Cast"
+  },
+  "914": {
+    "kind": "vanilla",
+    "vanilla_id": "flint",
+    "name": "Flint"
+  },
+  "915": {
+    "kind": "vanilla",
+    "vanilla_id": "flintandsteel",
+    "name": "Flint And Steel"
+  },
+  "916": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Flower Banner Pattern"
+  },
+  "917": {
+    "kind": "vanilla",
+    "vanilla_id": "minecartwithfurnace",
+    "name": "Furnace Minecart"
+  },
+  "918": {
+    "kind": "vanilla",
+    "vanilla_id": "ghasttear",
+    "name": "Ghast Tear"
+  },
+  "919": {
+    "kind": "vanilla",
+    "vanilla_id": "glassbottle",
+    "name": "Glass Bottle"
+  },
+  "920": {
+    "kind": "vanilla",
+    "vanilla_id": "glisteringmelon",
+    "name": "Glistering Melon Slice"
+  },
+  "921": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Globe Banner Pattern"
+  },
+  "922": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Glow Ink Sac"
+  },
+  "923": {
+    "kind": "vanilla",
+    "vanilla_id": "glowstonedust",
+    "name": "Glowstone Dust"
+  },
+  "924": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Goat Horn"
+  },
+  "925": {
+    "kind": "vanilla",
+    "vanilla_id": "goldingot",
+    "name": "Gold Ingot"
+  },
+  "926": {
+    "kind": "vanilla",
+    "vanilla_id": "goldnugget",
+    "name": "Gold Nugget"
+  },
+  "927": {
+    "kind": "vanilla",
+    "vanilla_id": "goldenapple",
+    "name": "Golden Apple"
+  },
+  "928": {
+    "kind": "vanilla",
+    "vanilla_id": "goldenaxe",
+    "name": "Golden Axe"
+  },
+  "929": {
+    "kind": "vanilla",
+    "vanilla_id": "goldenboots",
+    "name": "Golden Boots"
+  },
+  "930": {
+    "kind": "vanilla",
+    "vanilla_id": "goldencarrot",
+    "name": "Golden Carrot"
+  },
+  "931": {
+    "kind": "vanilla",
+    "vanilla_id": "goldenchestplate",
+    "name": "Golden Chestplate"
+  },
+  "932": {
+    "kind": "vanilla",
+    "vanilla_id": "goldenhelmet",
+    "name": "Golden Helmet"
+  },
+  "933": {
+    "kind": "vanilla",
+    "vanilla_id": "goldenhoe",
+    "name": "Golden Hoe"
+  },
+  "934": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Golden Horse Armor"
+  },
+  "935": {
+    "kind": "vanilla",
+    "vanilla_id": "goldenleggings",
+    "name": "Golden Leggings"
+  },
+  "936": {
+    "kind": "vanilla",
+    "vanilla_id": "goldenpickaxe",
+    "name": "Golden Pickaxe"
+  },
+  "937": {
+    "kind": "vanilla",
+    "vanilla_id": "goldenshovel",
+    "name": "Golden Shovel"
+  },
+  "938": {
+    "kind": "vanilla",
+    "vanilla_id": "goldensword",
+    "name": "Golden Sword"
+  },
+  "939": {
+    "kind": "vanilla",
+    "vanilla_id": "graydye",
+    "name": "Gray Dye"
+  },
+  "940": {
+    "kind": "vanilla",
+    "vanilla_id": "greendye",
+    "name": "Green Dye"
+  },
+  "941": {
+    "kind": "vanilla",
+    "vanilla_id": "gunpowder",
+    "name": "Gunpowder"
+  },
+  "942": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Heart Of The Sea"
+  },
+  "943": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Honey Bottle"
+  },
+  "944": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Honeycomb"
+  },
+  "945": {
+    "kind": "vanilla",
+    "vanilla_id": "minecartwithhopper",
+    "name": "Hopper Minecart"
+  },
+  "946": {
+    "kind": "vanilla",
+    "vanilla_id": "inksac",
+    "name": "Ink Sac"
+  },
+  "947": {
+    "kind": "vanilla",
+    "vanilla_id": "ironaxe",
+    "name": "Iron Axe"
+  },
+  "948": {
+    "kind": "vanilla",
+    "vanilla_id": "ironboots",
+    "name": "Iron Boots"
+  },
+  "949": {
+    "kind": "vanilla",
+    "vanilla_id": "ironchestplate",
+    "name": "Iron Chestplate"
+  },
+  "950": {
+    "kind": "vanilla",
+    "vanilla_id": "ironhelmet",
+    "name": "Iron Helmet"
+  },
+  "951": {
+    "kind": "vanilla",
+    "vanilla_id": "ironhoe",
+    "name": "Iron Hoe"
+  },
+  "952": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Iron Horse Armor"
+  },
+  "953": {
+    "kind": "vanilla",
+    "vanilla_id": "ironingot",
+    "name": "Iron Ingot"
+  },
+  "954": {
+    "kind": "vanilla",
+    "vanilla_id": "ironleggings",
+    "name": "Iron Leggings"
+  },
+  "955": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Iron Nugget"
+  },
+  "956": {
+    "kind": "vanilla",
+    "vanilla_id": "ironpickaxe",
+    "name": "Iron Pickaxe"
+  },
+  "957": {
+    "kind": "vanilla",
+    "vanilla_id": "ironshovel",
+    "name": "Iron Shovel"
+  },
+  "958": {
+    "kind": "vanilla",
+    "vanilla_id": "ironsword",
+    "name": "Iron Sword"
+  },
+  "959": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Jungle Boat"
+  },
+  "960": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Jungle Chest Boat"
+  },
+  "961": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Jungle Hanging Sign"
+  },
+  "962": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Jungle Sign"
+  },
+  "963": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Knowledge Book"
+  },
+  "964": {
+    "kind": "vanilla",
+    "vanilla_id": "lapislazuli",
+    "name": "Lapis Lazuli"
+  },
+  "965": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Lead"
+  },
+  "966": {
+    "kind": "vanilla",
+    "vanilla_id": "leather",
+    "name": "Leather"
+  },
+  "967": {
+    "kind": "vanilla",
+    "vanilla_id": "leatherboots",
+    "name": "Leather Boots"
+  },
+  "968": {
+    "kind": "vanilla",
+    "vanilla_id": "leatherboots",
+    "name": "Leather Boots Overlay"
+  },
+  "969": {
+    "kind": "vanilla",
+    "vanilla_id": "leatherchestplate",
+    "name": "Leather Chestplate"
+  },
+  "970": {
+    "kind": "vanilla",
+    "vanilla_id": "leatherchestplate",
+    "name": "Leather Chestplate Overlay"
+  },
+  "971": {
+    "kind": "vanilla",
+    "vanilla_id": "leatherhelmet",
+    "name": "Leather Helmet"
+  },
+  "972": {
+    "kind": "vanilla",
+    "vanilla_id": "leatherhelmet",
+    "name": "Leather Helmet Overlay"
+  },
+  "973": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Leather Horse Armor"
+  },
+  "974": {
+    "kind": "vanilla",
+    "vanilla_id": "leatherleggings",
+    "name": "Leather Leggings"
+  },
+  "975": {
+    "kind": "vanilla",
+    "vanilla_id": "leatherleggings",
+    "name": "Leather Leggings Overlay"
+  },
+  "976": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Light"
+  },
+  "977": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Light 00"
+  },
+  "978": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Light 01"
+  },
+  "979": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Light 02"
+  },
+  "980": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Light 03"
+  },
+  "981": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Light 04"
+  },
+  "982": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Light 05"
+  },
+  "983": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Light 06"
+  },
+  "984": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Light 07"
+  },
+  "985": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Light 08"
+  },
+  "986": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Light 09"
+  },
+  "987": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Light 10"
+  },
+  "988": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Light 11"
+  },
+  "989": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Light 12"
+  },
+  "990": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Light 13"
+  },
+  "991": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Light 14"
+  },
+  "992": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Light 15"
+  },
+  "993": {
+    "kind": "vanilla",
+    "vanilla_id": "lightbluedye",
+    "name": "Light Blue Dye"
+  },
+  "994": {
+    "kind": "vanilla",
+    "vanilla_id": "lightgraydye",
+    "name": "Light Gray Dye"
+  },
+  "995": {
+    "kind": "vanilla",
+    "vanilla_id": "limedye",
+    "name": "Lime Dye"
+  },
+  "996": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Lingering Potion"
+  },
+  "997": {
+    "kind": "vanilla",
+    "vanilla_id": "magentadye",
+    "name": "Magenta Dye"
+  },
+  "998": {
+    "kind": "vanilla",
+    "vanilla_id": "magmacream",
+    "name": "Magma Cream"
+  },
+  "999": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Mangrove Boat"
+  },
+  "1000": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Mangrove Chest Boat"
+  },
+  "1001": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Mangrove Hanging Sign"
+  },
+  "1002": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Mangrove Sign"
+  },
+  "1003": {
+    "kind": "vanilla",
+    "vanilla_id": "map",
+    "name": "Map"
+  },
+  "1004": {
+    "kind": "vanilla",
+    "vanilla_id": "melonseeds",
+    "name": "Melon Seeds"
+  },
+  "1005": {
+    "kind": "vanilla",
+    "vanilla_id": "melonslice",
+    "name": "Melon Slice"
+  },
+  "1006": {
+    "kind": "vanilla",
+    "vanilla_id": "milkbucket",
+    "name": "Milk Bucket"
+  },
+  "1007": {
+    "kind": "vanilla",
+    "vanilla_id": "minecart",
+    "name": "Minecart"
+  },
+  "1008": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Mojang Banner Pattern"
+  },
+  "1009": {
+    "kind": "vanilla",
+    "vanilla_id": "mushroomstew",
+    "name": "Mushroom Stew"
+  },
+  "1010": {
+    "kind": "vanilla",
+    "vanilla_id": "musicdisc",
+    "name": "Music Disc 11"
+  },
+  "1011": {
+    "kind": "vanilla",
+    "vanilla_id": "musicdisc",
+    "name": "Music Disc 13"
+  },
+  "1012": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Music Disc 5"
+  },
+  "1013": {
+    "kind": "vanilla",
+    "vanilla_id": "musicdisc",
+    "name": "Music Disc Blocks"
+  },
+  "1014": {
+    "kind": "vanilla",
+    "vanilla_id": "musicdisc",
+    "name": "Music Disc Cat"
+  },
+  "1015": {
+    "kind": "vanilla",
+    "vanilla_id": "musicdisc",
+    "name": "Music Disc Chirp"
+  },
+  "1016": {
+    "kind": "vanilla",
+    "vanilla_id": "musicdisc",
+    "name": "Music Disc Far"
+  },
+  "1017": {
+    "kind": "vanilla",
+    "vanilla_id": "musicdisc",
+    "name": "Music Disc Mall"
+  },
+  "1018": {
+    "kind": "vanilla",
+    "vanilla_id": "musicdisc",
+    "name": "Music Disc Mellohi"
+  },
+  "1019": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Music Disc Otherside"
+  },
+  "1020": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Music Disc Pigstep"
+  },
+  "1021": {
+    "kind": "vanilla",
+    "vanilla_id": "musicdisc",
+    "name": "Music Disc Stal"
+  },
+  "1022": {
+    "kind": "vanilla",
+    "vanilla_id": "musicdisc",
+    "name": "Music Disc Strad"
+  },
+  "1023": {
+    "kind": "vanilla",
+    "vanilla_id": "musicdisc",
+    "name": "Music Disc Wait"
+  },
+  "1024": {
+    "kind": "vanilla",
+    "vanilla_id": "musicdisc",
+    "name": "Music Disc Ward"
+  },
+  "1025": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Mutton"
+  },
+  "1026": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Name Tag"
+  },
+  "1027": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Nautilus Shell"
+  },
+  "1028": {
+    "kind": "vanilla",
+    "vanilla_id": "netherbrick",
+    "name": "Nether Brick"
+  },
+  "1029": {
+    "kind": "vanilla",
+    "vanilla_id": "netherstar",
+    "name": "Nether Star"
+  },
+  "1030": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Netherite Axe"
+  },
+  "1031": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Netherite Boots"
+  },
+  "1032": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Netherite Chestplate"
+  },
+  "1033": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Netherite Helmet"
+  },
+  "1034": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Netherite Hoe"
+  },
+  "1035": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Netherite Ingot"
+  },
+  "1036": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Netherite Leggings"
+  },
+  "1037": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Netherite Pickaxe"
+  },
+  "1038": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Netherite Scrap"
+  },
+  "1039": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Netherite Shovel"
+  },
+  "1040": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Netherite Sword"
+  },
+  "1041": {
+    "kind": "vanilla",
+    "vanilla_id": "oakboat",
+    "name": "Oak Boat"
+  },
+  "1042": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Oak Chest Boat"
+  },
+  "1043": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Oak Hanging Sign"
+  },
+  "1044": {
+    "kind": "vanilla",
+    "vanilla_id": "oaksign",
+    "name": "Oak Sign"
+  },
+  "1045": {
+    "kind": "vanilla",
+    "vanilla_id": "orangedye",
+    "name": "Orange Dye"
+  },
+  "1046": {
+    "kind": "vanilla",
+    "vanilla_id": "painting",
+    "name": "Painting"
+  },
+  "1047": {
+    "kind": "vanilla",
+    "vanilla_id": "paper",
+    "name": "Paper"
+  },
+  "1048": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Phantom Membrane"
+  },
+  "1049": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Piglin Banner Pattern"
+  },
+  "1050": {
+    "kind": "vanilla",
+    "vanilla_id": "pinkdye",
+    "name": "Pink Dye"
+  },
+  "1051": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Pointed Dripstone"
+  },
+  "1052": {
+    "kind": "vanilla",
+    "vanilla_id": "poisonouspotato",
+    "name": "Poisonous Potato"
+  },
+  "1053": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Popped Chorus Fruit"
+  },
+  "1054": {
+    "kind": "vanilla",
+    "vanilla_id": "rawporkchop",
+    "name": "Porkchop"
+  },
+  "1055": {
+    "kind": "vanilla",
+    "vanilla_id": "potato",
+    "name": "Potato"
+  },
+  "1056": {
+    "kind": "vanilla",
+    "vanilla_id": "potion",
+    "name": "Potion"
+  },
+  "1057": {
+    "kind": "vanilla",
+    "vanilla_id": "potion",
+    "name": "Potion Overlay"
+  },
+  "1058": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Powder Snow Bucket"
+  },
+  "1059": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Prismarine Crystals"
+  },
+  "1060": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Prismarine Shard"
+  },
+  "1061": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Pufferfish"
+  },
+  "1062": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Pufferfish Bucket"
+  },
+  "1063": {
+    "kind": "vanilla",
+    "vanilla_id": "pumpkinpie",
+    "name": "Pumpkin Pie"
+  },
+  "1064": {
+    "kind": "vanilla",
+    "vanilla_id": "pumpkinseeds",
+    "name": "Pumpkin Seeds"
+  },
+  "1065": {
+    "kind": "vanilla",
+    "vanilla_id": "purpledye",
+    "name": "Purple Dye"
+  },
+  "1066": {
+    "kind": "vanilla",
+    "vanilla_id": "netherquartz",
+    "name": "Quartz"
+  },
+  "1067": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Rabbit"
+  },
+  "1068": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Rabbit Foot"
+  },
+  "1069": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Rabbit Hide"
+  },
+  "1070": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Rabbit Stew"
+  },
+  "1071": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Raw Copper"
+  },
+  "1072": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Raw Gold"
+  },
+  "1073": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Raw Iron"
+  },
+  "1074": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Recovery Compass 00"
+  },
+  "1075": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Recovery Compass 01"
+  },
+  "1076": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Recovery Compass 02"
+  },
+  "1077": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Recovery Compass 03"
+  },
+  "1078": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Recovery Compass 04"
+  },
+  "1079": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Recovery Compass 05"
+  },
+  "1080": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Recovery Compass 06"
+  },
+  "1081": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Recovery Compass 07"
+  },
+  "1082": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Recovery Compass 08"
+  },
+  "1083": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Recovery Compass 09"
+  },
+  "1084": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Recovery Compass 10"
+  },
+  "1085": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Recovery Compass 11"
+  },
+  "1086": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Recovery Compass 12"
+  },
+  "1087": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Recovery Compass 13"
+  },
+  "1088": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Recovery Compass 14"
+  },
+  "1089": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Recovery Compass 15"
+  },
+  "1090": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Recovery Compass 16"
+  },
+  "1091": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Recovery Compass 17"
+  },
+  "1092": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Recovery Compass 18"
+  },
+  "1093": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Recovery Compass 19"
+  },
+  "1094": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Recovery Compass 20"
+  },
+  "1095": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Recovery Compass 21"
+  },
+  "1096": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Recovery Compass 22"
+  },
+  "1097": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Recovery Compass 23"
+  },
+  "1098": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Recovery Compass 24"
+  },
+  "1099": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Recovery Compass 25"
+  },
+  "1100": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Recovery Compass 26"
+  },
+  "1101": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Recovery Compass 27"
+  },
+  "1102": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Recovery Compass 28"
+  },
+  "1103": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Recovery Compass 29"
+  },
+  "1104": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Recovery Compass 30"
+  },
+  "1105": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Recovery Compass 31"
+  },
+  "1106": {
+    "kind": "vanilla",
+    "vanilla_id": "reddye",
+    "name": "Red Dye"
+  },
+  "1107": {
+    "kind": "vanilla",
+    "vanilla_id": "redstonedust",
+    "name": "Redstone"
+  },
+  "1108": {
+    "kind": "vanilla",
+    "vanilla_id": "rottenflesh",
+    "name": "Rotten Flesh"
+  },
+  "1109": {
+    "kind": "vanilla",
+    "vanilla_id": "saddle",
+    "name": "Saddle"
+  },
+  "1110": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Salmon"
+  },
+  "1111": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Salmon Bucket"
+  },
+  "1112": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Scute"
+  },
+  "1113": {
+    "kind": "vanilla",
+    "vanilla_id": "shears",
+    "name": "Shears"
+  },
+  "1114": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Shulker Shell"
+  },
+  "1115": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Skull Banner Pattern"
+  },
+  "1116": {
+    "kind": "vanilla",
+    "vanilla_id": "slimeball",
+    "name": "Slime Ball"
+  },
+  "1117": {
+    "kind": "vanilla",
+    "vanilla_id": "snowball",
+    "name": "Snowball"
+  },
+  "1118": {
+    "kind": "vanilla",
+    "vanilla_id": "spawnegg",
+    "name": "Spawn Egg"
+  },
+  "1119": {
+    "kind": "vanilla",
+    "vanilla_id": "spawnegg",
+    "name": "Spawn Egg Overlay"
+  },
+  "1120": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Spectral Arrow"
+  },
+  "1121": {
+    "kind": "vanilla",
+    "vanilla_id": "spidereye",
+    "name": "Spider Eye"
+  },
+  "1122": {
+    "kind": "vanilla",
+    "vanilla_id": "splashpotion",
+    "name": "Splash Potion"
+  },
+  "1123": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Spruce Boat"
+  },
+  "1124": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Spruce Chest Boat"
+  },
+  "1125": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Spruce Hanging Sign"
+  },
+  "1126": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Spruce Sign"
+  },
+  "1127": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Spyglass"
+  },
+  "1128": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Spyglass Model"
+  },
+  "1129": {
+    "kind": "vanilla",
+    "vanilla_id": "stick",
+    "name": "Stick"
+  },
+  "1130": {
+    "kind": "vanilla",
+    "vanilla_id": "stoneaxe",
+    "name": "Stone Axe"
+  },
+  "1131": {
+    "kind": "vanilla",
+    "vanilla_id": "stonehoe",
+    "name": "Stone Hoe"
+  },
+  "1132": {
+    "kind": "vanilla",
+    "vanilla_id": "stonepickaxe",
+    "name": "Stone Pickaxe"
+  },
+  "1133": {
+    "kind": "vanilla",
+    "vanilla_id": "stoneshovel",
+    "name": "Stone Shovel"
+  },
+  "1134": {
+    "kind": "vanilla",
+    "vanilla_id": "stonesword",
+    "name": "Stone Sword"
+  },
+  "1135": {
+    "kind": "vanilla",
+    "vanilla_id": "string",
+    "name": "String"
+  },
+  "1136": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Structure Void"
+  },
+  "1137": {
+    "kind": "vanilla",
+    "vanilla_id": "sugar",
+    "name": "Sugar"
+  },
+  "1138": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Suspicious Stew"
+  },
+  "1139": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Sweet Berries"
+  },
+  "1140": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Tadpole Bucket"
+  },
+  "1141": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Tipped Arrow Base"
+  },
+  "1142": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Tipped Arrow Head"
+  },
+  "1143": {
+    "kind": "vanilla",
+    "vanilla_id": "minecartwithtnt",
+    "name": "Tnt Minecart"
+  },
+  "1144": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Totem Of Undying"
+  },
+  "1145": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Trident"
+  },
+  "1146": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Tropical Fish"
+  },
+  "1147": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Tropical Fish Bucket"
+  },
+  "1148": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Turtle Helmet"
+  },
+  "1149": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Warped Fungus On A Stick"
+  },
+  "1150": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Warped Hanging Sign"
+  },
+  "1151": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Warped Sign"
+  },
+  "1152": {
+    "kind": "vanilla",
+    "vanilla_id": "wheatseeds",
+    "name": "Wheat Seeds"
+  },
+  "1153": {
+    "kind": "vanilla",
+    "vanilla_id": "whitedye",
+    "name": "White Dye"
+  },
+  "1154": {
+    "kind": "vanilla",
+    "vanilla_id": "woodenaxe",
+    "name": "Wooden Axe"
+  },
+  "1155": {
+    "kind": "vanilla",
+    "vanilla_id": "woodenhoe",
+    "name": "Wooden Hoe"
+  },
+  "1156": {
+    "kind": "vanilla",
+    "vanilla_id": "woodenpickaxe",
+    "name": "Wooden Pickaxe"
+  },
+  "1157": {
+    "kind": "vanilla",
+    "vanilla_id": "woodenshovel",
+    "name": "Wooden Shovel"
+  },
+  "1158": {
+    "kind": "vanilla",
+    "vanilla_id": "woodensword",
+    "name": "Wooden Sword"
+  },
+  "1159": {
+    "kind": "vanilla",
+    "vanilla_id": "bookandquill",
+    "name": "Writable Book"
+  },
+  "1160": {
+    "kind": "vanilla",
+    "vanilla_id": "writtenbook",
+    "name": "Written Book"
+  },
+  "1161": {
+    "kind": "vanilla",
+    "vanilla_id": "yellowdye",
+    "name": "Yellow Dye"
+  },
+  "1162": {
+    "kind": "vanilla",
+    "vanilla_id": "redbed",
+    "name": "Red bed"
+  },
+  "1163": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Acacia Boat"
+  },
+  "1164": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Acacia Chest Boat"
+  },
+  "1165": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Acacia Hanging Sign"
+  },
+  "1166": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Acacia Sign"
+  },
+  "1167": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Amethyst Shard"
+  },
+  "1168": {
+    "kind": "vanilla",
+    "vanilla_id": "apple",
+    "name": "Apple"
+  },
+  "1169": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Armor Stand"
+  },
+  "1170": {
+    "kind": "vanilla",
+    "vanilla_id": "arrow",
+    "name": "Arrow"
+  },
+  "1171": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Axolotl Bucket"
+  },
+  "1172": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Baked Potato"
+  },
+  "1173": {
+    "kind": "extended",
+    "vanilla_id": null,
+    "name": "Bamboo Chest Raft"
+  },
+  "1174": {
+    "kind": "vanilla",
+    "vanilla_id": "oakfence",
+    "name": "Oak fence"
+  },
+  "1198": {
+    "kind": "custom-asset",
+    "asset_type": "3d-asset",
+    "name": "House fence",
+    "shape": "3d"
+  },
+  "1199": {
+    "kind": "custom-asset",
+    "asset_type": "3d-asset",
+    "name": "Skirting",
+    "shape": "3d"
+  }
+}

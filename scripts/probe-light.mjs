@@ -1,0 +1,26 @@
+import CDP from "chrome-remote-interface";
+import { spawn } from "node:child_process";
+const chrome = spawn("/usr/bin/chromium", ["--headless=new","--no-sandbox","--disable-dev-shm-usage","--enable-unsafe-swiftshader","--remote-debugging-port=9411","about:blank"], { stdio: "ignore" });
+const sleep=(ms)=>new Promise(r=>setTimeout(r,ms));
+await sleep(1500);
+const c=await CDP({port:9411}); const {Page,Runtime}=c; await Page.enable(); await Runtime.enable();
+await Page.navigate({url:"http://127.0.0.1:5450/?sim=1"}); await sleep(8000);
+const probe=async(expr)=>{const r=await Runtime.evaluate({expression:expr,returnByValue:true});return r.result?.value;};
+await probe(`(()=>{const api=window.__sim?.api; const s=window.__sim?.s;
+  api.stampRun("scene2",(w)=>{ w(14,65,0,5); w(20,65,0,46); });
+  s.player.x=10;s.player.y=66.5;s.player.z=5.5;s.player.yaw=-2.6;s.player.pitch=-0.14;s.player.fly=true;
+  s.uiPaused=false;s.active=true;s.time=6000;s.timeFlow=false;
+  if(s.clouds)s.clouds.visible=false;
+  return 1})()`);
+await sleep(2500);
+const avgPx=async()=>{const d=await probe(`(()=>{const s=window.__sim?.s;const cv=s?.renderer?.domElement;
+  const tmp=document.createElement("canvas");tmp.width=cv.width;tmp.height=cv.height;
+  const g=tmp.getContext("2d");g.drawImage(cv,0,0);
+  const im=g.getImageData(0,0,cv.width,cv.height).data;let r=0,gg=0,b=0;const n=cv.width*cv.height;
+  for(let i=0;i<n*4;i+=4){r+=im[i];gg+=im[i+1];b+=im[i+2];}
+  return [Math.round(r/n),Math.round(gg/n),Math.round(b/n), s.time, s.sun?.intensity];})()`);
+  return d;};
+console.log("snap1:", JSON.stringify(await avgPx()));
+await sleep(6000);
+console.log("snap2:", JSON.stringify(await avgPx()));
+await c.close(); chrome.kill();

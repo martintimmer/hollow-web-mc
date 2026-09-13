@@ -1,0 +1,757 @@
+{
+  "generated": "2026-09-08",
+  "entries": 87,
+  "index": {
+    "src/game/blocks.ts": [
+      "blocks/_block",
+      "blocks/chest",
+      "blocks/coal-ore",
+      "blocks/cobweb",
+      "blocks/diamond-ore",
+      "blocks/door",
+      "blocks/fence",
+      "blocks/iron-ore",
+      "blocks/lapis-lazuli-ore",
+      "blocks/prismarine-stairs",
+      "blocks/prismarine",
+      "blocks/purpur-stairs",
+      "blocks/slab",
+      "blocks/trapdoor",
+      "entities/painting",
+      "mechanics/fluid-dynamics",
+      "mechanics/light-levels",
+      "mechanics/lighting",
+      "terrain/badlands",
+      "terrain/desert",
+      "terrain/ice-spikes",
+      "terrain/swamp"
+    ],
+    "catalog/buildCompleteCatalog.js": [
+      "blocks/_block"
+    ],
+    "catalog/completeRegistry.json": [
+      "blocks/_block",
+      "blocks/coal-ore",
+      "blocks/cobweb",
+      "blocks/custom-asset",
+      "blocks/diamond-ore",
+      "blocks/fence",
+      "blocks/iron-ore",
+      "blocks/lapis-lazuli-ore",
+      "blocks/prismarine-stairs",
+      "blocks/prismarine",
+      "blocks/purpur-stairs",
+      "blocks/slab",
+      "blocks/tall-grass",
+      "mechanics/block-models",
+      "mechanics/block-warmth",
+      "mechanics/light-levels",
+      "mechanics/lighting",
+      "mechanics/structures",
+      "mechanics/underwater-life",
+      "terrain/nether"
+    ],
+    "catalog/buildMasterAtlas.js": [
+      "blocks/_block"
+    ],
+    "catalog/patchBlockTiles.mjs": [
+      "blocks/_block"
+    ],
+    "src/components/Game.tsx": [
+      "blocks/_block",
+      "blocks/chest",
+      "blocks/coal-ore",
+      "blocks/diamond-ore",
+      "blocks/iron-ore",
+      "blocks/lapis-lazuli-ore",
+      "blocks/prismarine-stairs",
+      "blocks/prismarine",
+      "blocks/purpur-stairs",
+      "blocks/trapdoor",
+      "entities/vehicle",
+      "mechanics/furnace",
+      "mechanics/multiplayer",
+      "postfx",
+      "ui/crafting-modal",
+      "ui/furnace-modal",
+      "ui/inventory-modal",
+      "ui/onboarding",
+      "ui/options-menu"
+    ],
+    "src/game/engine/chunkMesh.ts": [
+      "blocks/_block",
+      "blocks/coal-ore",
+      "blocks/cobweb",
+      "blocks/diamond-ore",
+      "blocks/door",
+      "blocks/fence",
+      "blocks/iron-ore",
+      "blocks/lapis-lazuli-ore",
+      "blocks/prismarine-stairs",
+      "blocks/prismarine",
+      "blocks/purpur-stairs",
+      "blocks/slab",
+      "blocks/tall-grass",
+      "blocks/torch",
+      "blocks/trapdoor",
+      "mechanics/block-models"
+    ],
+    "src/game/engine/atlas.ts": [
+      "blocks/_block"
+    ],
+    "catalog/textureCheck.mjs": [
+      "blocks/_block",
+      "blocks/cobweb",
+      "blocks/custom-asset",
+      "blocks/slab",
+      "blocks/tall-grass",
+      "entities/dog",
+      "entities/horse",
+      "entities/vehicle",
+      "mechanics/camera-exposure",
+      "mechanics/combat",
+      "mechanics/light-levels",
+      "mechanics/world-saving",
+      "terrain/beach"
+    ],
+    "scripts/test-worker-meshing.mjs": [
+      "blocks/_block",
+      "blocks/coal-ore",
+      "blocks/cobweb",
+      "blocks/diamond-ore",
+      "blocks/fence",
+      "blocks/iron-ore",
+      "blocks/lapis-lazuli-ore",
+      "blocks/prismarine-stairs",
+      "blocks/prismarine",
+      "blocks/purpur-stairs",
+      "entities/dog",
+      "entities/horse",
+      "entities/vehicle",
+      "mechanics/camera-exposure"
+    ],
+    "docs/KNOWN_ISSUES.md": [
+      "blocks/_block",
+      "blocks/chest",
+      "mechanics/baked-lighting",
+      "mechanics/light-levels",
+      "mechanics/lighting"
+    ],
+    "src/game/chest.ts": [
+      "blocks/chest"
+    ],
+    "src/services/textureOverrides.ts": [
+      "blocks/chest"
+    ],
+    "src/game/recipes.ts": [
+      "blocks/chest",
+      "blocks/door",
+      "mechanics/crafting",
+      "ui/crafting-modal"
+    ],
+    "docs/CHEST_MODEL_SPEC.md": [
+      "blocks/chest"
+    ],
+    "src/game/sfx.ts": [
+      "blocks/chest",
+      "blocks/door"
+    ],
+    "src/components/gui/ChestModal.tsx": [
+      "blocks/chest"
+    ],
+    "src/services/api.ts": [
+      "blocks/chest",
+      "mechanics/camera-exposure",
+      "mechanics/inventory",
+      "mechanics/multiplayer",
+      "postfx",
+      "ui/options-menu"
+    ],
+    "server/index.js": [
+      "blocks/chest",
+      "entities/animals",
+      "entities/dog",
+      "environments",
+      "mechanics/camera-exposure",
+      "mechanics/inventory",
+      "mechanics/multiplayer",
+      "mechanics/world-saving",
+      "postfx",
+      "ui/options-menu"
+    ],
+    "server/db.js": [
+      "blocks/chest",
+      "entities/animals",
+      "entities/dog",
+      "entities/painting",
+      "entities/villager",
+      "mechanics/camera-exposure",
+      "mechanics/inventory",
+      "mechanics/multiplayer",
+      "mechanics/world-saving",
+      "postfx",
+      "ui/options-menu"
+    ],
+    "scripts/test-chest-drag-drop-and-capacity.mjs": [
+      "blocks/chest"
+    ],
+    "scripts/test-chest-persistence-and-esc-toggle.mjs": [
+      "blocks/chest"
+    ],
+    "scripts/kbExpand.mjs": [
+      "blocks/coal-ore",
+      "blocks/diamond-ore",
+      "blocks/iron-ore",
+      "blocks/lapis-lazuli-ore",
+      "blocks/prismarine-stairs",
+      "blocks/prismarine",
+      "blocks/purpur-stairs",
+      "terrain/bamboo-jungle",
+      "terrain/birch-forest",
+      "terrain/cherry-grove",
+      "terrain/crimson-maple",
+      "terrain/dark-forest",
+      "terrain/deep-ocean",
+      "terrain/forest",
+      "terrain/frozen-river",
+      "terrain/golden-aspen",
+      "terrain/jagged-peaks",
+      "terrain/mangrove-swamp",
+      "terrain/meadow",
+      "terrain/ocean",
+      "terrain/old-growth-pine-taiga",
+      "terrain/savanna",
+      "terrain/snowy-slopes",
+      "terrain/snowy-taiga",
+      "terrain/stony-peaks",
+      "terrain/warm-ocean",
+      "terrain/warped-forest"
+    ],
+    "src/game/engine/meshWorker.ts": [
+      "blocks/coal-ore",
+      "blocks/cobweb",
+      "blocks/diamond-ore",
+      "blocks/fence",
+      "blocks/iron-ore",
+      "blocks/lapis-lazuli-ore",
+      "blocks/prismarine-stairs",
+      "blocks/prismarine",
+      "blocks/purpur-stairs"
+    ],
+    "catalog/patchCobwebIds.mjs": [
+      "blocks/cobweb"
+    ],
+    "src/game/cobweb.ts": [
+      "blocks/cobweb"
+    ],
+    "src/game/engine/chunkMesher.ts": [
+      "blocks/cobweb",
+      "blocks/fence"
+    ],
+    "src/game/entities/webSpider.ts": [
+      "blocks/cobweb"
+    ],
+    "src/game/interaction/playerInteraction.ts": [
+      "blocks/cobweb",
+      "blocks/door"
+    ],
+    "src/game/physics/playerPhysics.ts": [
+      "blocks/cobweb",
+      "blocks/fence",
+      "blocks/slab",
+      "mechanics/fluid-dynamics"
+    ],
+    "src/game/engine/renderLoop.ts": [
+      "blocks/cobweb",
+      "mechanics/camera-exposure",
+      "mechanics/fluid-dynamics",
+      "mechanics/light-levels",
+      "postfx"
+    ],
+    "src/game/engine/engineInit.ts": [
+      "blocks/cobweb",
+      "entities/painting",
+      "entities/villager"
+    ],
+    "scripts/sim/tests.mts": [
+      "blocks/cobweb",
+      "entities/dog"
+    ],
+    "catalog/patchCobwebThumbs.mjs": [
+      "blocks/cobweb"
+    ],
+    "catalog/exportThumbnails.mjs": [
+      "blocks/cobweb"
+    ],
+    "src/game/customAssetConstants.ts:1": [
+      "blocks/custom-asset"
+    ],
+    "src/game/customAssets.ts:77": [
+      "blocks/custom-asset"
+    ],
+    "server/customAssets.js:44": [
+      "blocks/custom-asset"
+    ],
+    "src/game/engine/engineInit.ts:383": [
+      "blocks/custom-asset"
+    ],
+    "src/game/customAssets.ts:237": [
+      "blocks/custom-asset"
+    ],
+    "src/game/engine/atlas.ts:127": [
+      "blocks/custom-asset"
+    ],
+    "src/game/customAssets.ts:154": [
+      "blocks/custom-asset"
+    ],
+    "src/game/engine/engineInit.ts:553": [
+      "blocks/custom-asset"
+    ],
+    "src/game/engine/sceneSetup.ts:130": [
+      "blocks/custom-asset"
+    ],
+    "src/services/textureOverrides.ts:74": [
+      "blocks/custom-asset"
+    ],
+    "docs/CUSTOM_ASSET_VOXEL_PLAN.md": [
+      "blocks/custom-asset"
+    ],
+    "src/game/voxelMesh.ts": [
+      "blocks/custom-asset"
+    ],
+    "scripts/test-door-snap-and-single-blocks.mjs": [
+      "blocks/door"
+    ],
+    "scripts/test-door-trapdoor-angles.mjs": [
+      "blocks/door",
+      "blocks/trapdoor"
+    ],
+    "src/game/entities/spawner.ts": [
+      "blocks/fence",
+      "entities/animals",
+      "entities/boat",
+      "entities/dog",
+      "entities/horse",
+      "entities/squid"
+    ],
+    "block-page/editor.ts": [
+      "blocks/fence"
+    ],
+    "src/game/customAssets.ts": [
+      "blocks/fence"
+    ],
+    "src/game/entities/animals.ts": [
+      "blocks/sign",
+      "entities/animals",
+      "entities/dog",
+      "entities/horse"
+    ],
+    "src/game/engine/heldItem.ts": [
+      "blocks/slab",
+      "blocks/torch",
+      "mechanics/lighting"
+    ],
+    "src/components/gui/InventoryModal.tsx": [
+      "blocks/slab",
+      "mechanics/crafting",
+      "mechanics/inventory",
+      "ui/inventory-modal"
+    ],
+    "catalog/thumbnails.json": [
+      "blocks/slab"
+    ],
+    "catalog/patchRegistryIds.mjs": [
+      "blocks/slab"
+    ],
+    "src/game/blocks.ts:1311": [
+      "blocks/tall-grass"
+    ],
+    "src/game/blocks.ts:1200": [
+      "blocks/tall-grass"
+    ],
+    "src/components/gui/InventoryModal.tsx:204": [
+      "blocks/tall-grass"
+    ],
+    "src/game/terrain/trees": [
+      "blocks/tall-grass"
+    ],
+    "src/game/engine/customFaceTiles.ts": [
+      "blocks/torch"
+    ],
+    "scripts/probe-torch-looks.mjs": [
+      "blocks/torch"
+    ],
+    "scripts/test-trapdoor-interactive.mjs": [
+      "blocks/trapdoor"
+    ],
+    "src/components/gui/PetModal.tsx": [
+      "entities/animals",
+      "entities/dog"
+    ],
+    "scripts/probe-animal-wander.mjs": [
+      "entities/animals"
+    ],
+    "src/game/entities/boat.ts": [
+      "entities/boat"
+    ],
+    "src/sim/catalog.ts": [
+      "entities/dog"
+    ],
+    "src/sim/items.ts": [
+      "entities/dog"
+    ],
+    "src/game/entities/animals.ts\\": [
+      "entities/horse"
+    ],
+    "src/components/Game.tsx\\": [
+      "entities/horse"
+    ],
+    "src/game/entities/spawner.ts\\": [
+      "entities/horse"
+    ],
+    "src/components/gui/PetModal.tsx\\": [
+      "entities/horse"
+    ],
+    "server/index.js\\": [
+      "entities/horse"
+    ],
+    "server/db.js\\": [
+      "entities/horse"
+    ],
+    "src/sim/catalog.ts\\": [
+      "entities/horse"
+    ],
+    "src/sim/items.ts\\": [
+      "entities/horse"
+    ],
+    "src/game/entities/mobs.ts": [
+      "entities/mobs"
+    ],
+    "scripts/probe-mob-burn.mjs": [
+      "entities/mobs"
+    ],
+    "src/game/entities/paintings.ts": [
+      "entities/painting",
+      "entities/paintings"
+    ],
+    "src/game/terrain/structures.ts": [
+      "entities/painting",
+      "mechanics/structures",
+      "mechanics/worldgen"
+    ],
+    "src/game/entities/squid.ts": [
+      "entities/squid"
+    ],
+    "src/game/vehicles/vehicleEntity.ts": [
+      "entities/vehicle"
+    ],
+    "src/game/vehicles/vehiclePhysics.ts": [
+      "entities/vehicle"
+    ],
+    "src/game/vehicles/vehicleModel.ts": [
+      "entities/vehicle"
+    ],
+    "src/game/vehicles/fbxVehicle.ts": [
+      "entities/vehicle"
+    ],
+    "src/components/sim/SimDeck.tsx": [
+      "entities/vehicle"
+    ],
+    "src/game/villagers.ts": [
+      "entities/villager"
+    ],
+    "src/game/entities/villagerAI.ts": [
+      "entities/villager",
+      "ui/villager-trade-modal"
+    ],
+    "src/components/hooks/useTradingState.ts": [
+      "entities/villager"
+    ],
+    "src/components/gui/VillagerTradeModal.tsx": [
+      "entities/villager",
+      "ui/villager-trade-modal"
+    ],
+    "server/sim.js": [
+      "environments"
+    ],
+    "server/nginx-dev.conf": [
+      "environments"
+    ],
+    "src/services/simMode.ts": [
+      "environments"
+    ],
+    "src/game/ambientParticles.ts": [
+      "mechanics/block-particles"
+    ],
+    "src/game/particles.ts": [
+      "mechanics/block-particles"
+    ],
+    "src/game/terrain/terrainGenerator.ts": [
+      "mechanics/block-warmth",
+      "mechanics/worldgen",
+      "terrain/badlands",
+      "terrain/bamboo-jungle",
+      "terrain/beach",
+      "terrain/birch-forest",
+      "terrain/cherry-grove",
+      "terrain/crimson-maple",
+      "terrain/dark-forest",
+      "terrain/deep-ocean",
+      "terrain/desert",
+      "terrain/forest",
+      "terrain/frozen-river",
+      "terrain/golden-aspen",
+      "terrain/ice-spikes",
+      "terrain/jagged-peaks",
+      "terrain/mangrove-swamp",
+      "terrain/meadow",
+      "terrain/ocean",
+      "terrain/old-growth-pine-taiga",
+      "terrain/plains",
+      "terrain/river",
+      "terrain/savanna",
+      "terrain/snowy-slopes",
+      "terrain/snowy-taiga",
+      "terrain/stony-peaks",
+      "terrain/swamp",
+      "terrain/warm-ocean",
+      "terrain/warped-forest"
+    ],
+    "src/game/engine/lightMeter.ts": [
+      "mechanics/camera-exposure",
+      "mechanics/ettl-iso2721"
+    ],
+    "src/game/state/gameState.ts": [
+      "mechanics/camera-exposure",
+      "mechanics/fluid-dynamics",
+      "mechanics/furnace"
+    ],
+    "src/components/gui/HUD.tsx": [
+      "mechanics/camera-exposure",
+      "mechanics/inventory",
+      "ui/hud"
+    ],
+    "src/components/gui/OptionsMenu.tsx": [
+      "mechanics/camera-exposure",
+      "postfx",
+      "ui/options-menu"
+    ],
+    "src/game/engine/exposurePresets.ts": [
+      "mechanics/camera-exposure",
+      "mechanics/ettl-iso2721"
+    ],
+    "src/game/engine/postFx.ts": [
+      "mechanics/camera-exposure",
+      "postfx"
+    ],
+    "src/game/weapons.ts": [
+      "mechanics/combat"
+    ],
+    "src/components/gui/CraftingModal.tsx": [
+      "mechanics/crafting",
+      "ui/crafting-modal"
+    ],
+    "src/game/engine/ttlMeter.ts": [
+      "mechanics/ettl-iso2721"
+    ],
+    "scripts/lux-tests.mts": [
+      "mechanics/ettl-iso2721"
+    ],
+    "src/game/terrain/fluidDynamics.ts": [
+      "mechanics/fluid-dynamics"
+    ],
+    "src/game/world/index.ts": [
+      "mechanics/fluid-dynamics",
+      "terrain/beach"
+    ],
+    "src/game/smelt.ts": [
+      "mechanics/furnace",
+      "ui/furnace-modal"
+    ],
+    "src/components/gui/FurnaceModal.tsx": [
+      "mechanics/furnace",
+      "ui/furnace-modal"
+    ],
+    "src/components/hooks/useFurnaceState.ts": [
+      "mechanics/furnace"
+    ],
+    "src/game/inventory.ts": [
+      "mechanics/inventory",
+      "ui/hud",
+      "ui/inventory-modal"
+    ],
+    "catalog/patchLightDist.mjs": [
+      "mechanics/light-levels"
+    ],
+    "src/game/engine/meshWorker.ts:207": [
+      "mechanics/lighting"
+    ],
+    "src/services/multiplayer.ts": [
+      "mechanics/multiplayer"
+    ],
+    "docs/ARCHITECTURE.md": [
+      "mechanics/multiplayer"
+    ],
+    "catalog/biome-registry.json": [
+      "mechanics/world-saving",
+      "mechanics/worldgen",
+      "terrain/badlands",
+      "terrain/bamboo-jungle",
+      "terrain/biomes",
+      "terrain/birch-forest",
+      "terrain/cherry-grove",
+      "terrain/crimson-maple",
+      "terrain/dark-forest",
+      "terrain/deep-ocean",
+      "terrain/desert",
+      "terrain/forest",
+      "terrain/frozen-river",
+      "terrain/golden-aspen",
+      "terrain/ice-spikes",
+      "terrain/jagged-peaks",
+      "terrain/jungle",
+      "terrain/mangrove-swamp",
+      "terrain/meadow",
+      "terrain/ocean",
+      "terrain/old-growth-pine-taiga",
+      "terrain/plains",
+      "terrain/river",
+      "terrain/savanna",
+      "terrain/snowy-slopes",
+      "terrain/snowy-taiga",
+      "terrain/stony-peaks",
+      "terrain/swamp",
+      "terrain/warm-ocean",
+      "terrain/warped-forest"
+    ],
+    "server/worldgen-db.js": [
+      "mechanics/world-saving",
+      "mechanics/worldgen",
+      "terrain/biomes"
+    ],
+    "server/worldVersions.js": [
+      "mechanics/world-saving"
+    ],
+    "docs/WORLD_BUNDLE_FORMAT.md": [
+      "mechanics/world-saving"
+    ],
+    "src/game/terrain/biomes.ts": [
+      "mechanics/worldgen",
+      "terrain/badlands",
+      "terrain/bamboo-jungle",
+      "terrain/beach",
+      "terrain/biomes",
+      "terrain/birch-forest",
+      "terrain/cherry-grove",
+      "terrain/crimson-maple",
+      "terrain/dark-forest",
+      "terrain/deep-ocean",
+      "terrain/desert",
+      "terrain/forest",
+      "terrain/frozen-river",
+      "terrain/golden-aspen",
+      "terrain/ice-spikes",
+      "terrain/jagged-peaks",
+      "terrain/jungle",
+      "terrain/mangrove-swamp",
+      "terrain/meadow",
+      "terrain/ocean",
+      "terrain/old-growth-pine-taiga",
+      "terrain/plains",
+      "terrain/river",
+      "terrain/savanna",
+      "terrain/snowy-slopes",
+      "terrain/snowy-taiga",
+      "terrain/stony-peaks",
+      "terrain/swamp",
+      "terrain/warm-ocean",
+      "terrain/warped-forest"
+    ],
+    "src/game/terrain/netherGenerator.ts": [
+      "mechanics/worldgen",
+      "terrain/nether"
+    ],
+    "server/index.js:1532": [
+      "mechanics/worldgen"
+    ],
+    "src/game/engine/specular.ts": [
+      "postfx"
+    ],
+    "seed-page/main.ts": [
+      "terrain/bamboo-jungle",
+      "terrain/birch-forest",
+      "terrain/cherry-grove",
+      "terrain/crimson-maple",
+      "terrain/dark-forest",
+      "terrain/deep-ocean",
+      "terrain/forest",
+      "terrain/frozen-river",
+      "terrain/golden-aspen",
+      "terrain/jagged-peaks",
+      "terrain/mangrove-swamp",
+      "terrain/meadow",
+      "terrain/ocean",
+      "terrain/old-growth-pine-taiga",
+      "terrain/river",
+      "terrain/savanna",
+      "terrain/snowy-slopes",
+      "terrain/snowy-taiga",
+      "terrain/stony-peaks",
+      "terrain/warm-ocean",
+      "terrain/warped-forest"
+    ],
+    "src/game/terrain/ocean.ts": [
+      "terrain/beach"
+    ],
+    "src/game/engine/worldMap.ts": [
+      "terrain/beach",
+      "ui/world-map-modal"
+    ],
+    "scripts/ci-perf.mjs": [
+      "terrain/beach"
+    ],
+    "docs/ALL_BIOMES_ELEVATION_PLAN.md": [
+      "terrain/biomes"
+    ],
+    "docs/NETHER_DIMENSION_PLAN.md": [
+      "terrain/nether",
+      "ui/portal-modal"
+    ],
+    "src/game/terrain/netherGenerator.ts:15": [
+      "terrain/nether"
+    ],
+    "scripts/test-nether-generator.mjs": [
+      "terrain/nether"
+    ],
+    "scripts/test-nether-gate.mjs": [
+      "terrain/nether"
+    ],
+    "scripts/probe-nether-gate.mjs": [
+      "terrain/nether"
+    ],
+    "src/buildTag.ts": [
+      "ui/hud"
+    ],
+    "scripts/gen-build-tag.mjs": [
+      "ui/hud"
+    ],
+    "src/components/gui/PlayerPaperdoll.tsx": [
+      "ui/inventory-modal"
+    ],
+    "src/components/gui/FirstJoinCard.tsx": [
+      "ui/onboarding"
+    ],
+    "src/components/gui/PortalModal.tsx": [
+      "ui/portal-modal"
+    ],
+    "src/components/gui/RecallModal.tsx": [
+      "ui/portal-modal"
+    ],
+    "src/game/state/portalStorage.ts": [
+      "ui/portal-modal"
+    ],
+    "src/components/gui/WorldMapModal.tsx": [
+      "ui/world-map-modal"
+    ]
+  }
+}

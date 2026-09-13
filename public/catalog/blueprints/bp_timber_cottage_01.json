@@ -1,0 +1,152 @@
+{
+  "version": 1,
+  "id": "bp_timber_cottage_01",
+  "name": "Nordic Timber Cottage",
+  "author": "Hollowpine Studio",
+  "category": "house",
+  "packageName": "Nordic Village",
+  "biomeAffinity": [
+    "plains",
+    "forest",
+    "taiga"
+  ],
+  "spawnNaturally": true,
+  "foundationDepth": 4,
+  "dimensions": {
+    "width": 5,
+    "height": 5,
+    "depth": 5
+  },
+  "anchor": {
+    "ax": 2,
+    "ay": 0,
+    "az": 2
+  },
+  "blocks": [
+    {
+      "dx": 0,
+      "dy": 0,
+      "dz": 0,
+      "id": 19
+    },
+    {
+      "dx": 4,
+      "dy": 0,
+      "dz": 0,
+      "id": 19
+    },
+    {
+      "dx": 0,
+      "dy": 0,
+      "dz": 4,
+      "id": 19
+    },
+    {
+      "dx": 4,
+      "dy": 0,
+      "dz": 4,
+      "id": 19
+    },
+    {
+      "dx": 1,
+      "dy": 0,
+      "dz": 0,
+      "id": 17
+    },
+    {
+      "dx": 2,
+      "dy": 0,
+      "dz": 0,
+      "id": 503
+    },
+    {
+      "dx": 3,
+      "dy": 0,
+      "dz": 0,
+      "id": 17
+    },
+    {
+      "dx": 0,
+      "dy": 1,
+      "dz": 0,
+      "id": 16
+    },
+    {
+      "dx": 4,
+      "dy": 1,
+      "dz": 0,
+      "id": 16
+    },
+    {
+      "dx": 0,
+      "dy": 1,
+      "dz": 4,
+      "id": 16
+    },
+    {
+      "dx": 4,
+      "dy": 1,
+      "dz": 4,
+      "id": 16
+    },
+    {
+      "dx": 1,
+      "dy": 1,
+      "dz": 0,
+      "id": 17
+    },
+    {
+      "dx": 3,
+      "dy": 1,
+      "dz": 0,
+      "id": 17
+    },
+    {
+      "dx": 2,
+      "dy": 2,
+      "dz": 2,
+      "id": 535
+    },
+    {
+      "dx": 0,
+      "dy": 3,
+      "dz": 0,
+      "id": 1155
+    },
+    {
+      "dx": 1,
+      "dy": 4,
+      "dz": 0,
+      "id": 1188
+    },
+    {
+      "dx": 2,
+      "dy": 4,
+      "dz": 0,
+      "id": 1188
+    },
+    {
+      "dx": 3,
+      "dy": 4,
+      "dz": 0,
+      "id": 1188
+    },
+    {
+      "dx": 4,
+      "dy": 3,
+      "dz": 0,
+      "id": 1155
+    }
+  ],
+  "materialsCount": {
+    "Block #19": 4,
+    "Block #17": 4,
+    "Block #503": 1,
+    "Block #16": 4,
+    "Block #535": 1,
+    "Block #1155": 2,
+    "Block #1188": 3
+  },
+  "totalBlocks": 19,
+  "createdAt": "2026-08-30T15:22:55.999Z"
+}

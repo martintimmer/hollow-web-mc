@@ -1,0 +1,47 @@
+[
+  {
+    "id": "timber_cottage",
+    "title": "Nordic Timber Gable Cottage",
+    "description": "Two-story medieval timber frame cottage with steep gable roof and cobblestone foundation",
+    "expectedStyle": "medieval_timber",
+    "expectedFootprint": "rectangle",
+    "expectedDimensions": {
+      "minWidth": 5,
+      "maxWidth": 9,
+      "minHeight": 5,
+      "maxHeight": 8,
+      "minDepth": 5,
+      "maxDepth": 8
+    },
+    "expectedPaletteRoles": {
+      "foundation": ["cobblestone", "stone_bricks"],
+      "frame": ["oak_log", "spruce_log"],
+      "walls": ["oak_planks", "white_terracotta"],
+      "roof": ["dark_oak_stairs", "stone_brick_stairs"],
+      "doors": ["oak_door"],
+      "lights": ["lantern", "torch"]
+    }
+  },
+  {
+    "id": "stone_watchtower",
+    "title": "Gothic Stone Watchtower",
+    "description": "Tall fortified stone watchtower with crenelated battlements and arrow slits",
+    "expectedStyle": "gothic_stone",
+    "expectedFootprint": "tower",
+    "expectedDimensions": {
+      "minWidth": 4,
+      "maxWidth": 6,
+      "minHeight": 12,
+      "maxHeight": 18,
+      "minDepth": 4,
+      "maxDepth": 6
+    },
+    "expectedPaletteRoles": {
+      "foundation": ["stone_bricks"],
+      "frame": ["stone_bricks"],
+      "walls": ["cobblestone", "stone_bricks"],
+      "roof": ["stone_brick_slab", "cobblestone_slab"],
+      "lights": ["torch"]
+    }
+  }
+]

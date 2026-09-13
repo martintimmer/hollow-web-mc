@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hollow Pine Asset Builder</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">HOLLOW PINE / BUILD ENVIRONMENT</p>
+          <h1>Asset Workshop</h1>
+          <p class="lede">Upload a Meshy model, turn it into an inventory item, preview it here, and publish it to the game.</p>
+        </div>
+        <div class="topbar-actions">
+          <span id="environmentBadge" class="environment-badge">Checking environment…</span>
+          <a class="back-link" href="./index.html">Back to game</a>
+        </div>
+      </header>
+
+      <section class="activity-panel" aria-labelledby="activityTitle">
+        <div class="activity-heading">
+          <p id="activityTitle" class="eyebrow">LIVE ACTIVITY</p>
+          <span>Every action appears here</span>
+        </div>
+        <ul id="activityLog" class="activity-log" aria-live="polite" aria-atomic="false"></ul>
+      </section>
+
+      <section class="workspace">
+        <aside class="panel inventory-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">01 / INVENTORY</p>
+              <h2>Uploaded items</h2>
+            </div>
+            <span id="inventoryCount" class="count">0</span>
+          </div>
+          <div class="mode-switch" role="tablist" aria-label="Upload source type">
+            <button id="modeModel" class="mode-btn active" type="button" role="tab" aria-selected="true">3D Model (.glb)</button>
+            <button id="modeTexture" class="mode-btn" type="button" role="tab" aria-selected="false">Flat Texture (.png/.jpg)</button>
+          </div>
+
+          <div id="textureOptions" class="texture-options" style="display:none;">
+            <label class="texture-option-row">
+              <span>Pixel crispness</span>
+              <select id="textureResolution">
+                <option value="0" selected>Native / Full Sharp (Crisp Unscaled)</option>
+                <option value="16">16 × 16 (Classic Retro Pixel)</option>
+                <option value="32">32 × 32 (Faithful Pixel)</option>
+                <option value="64">64 × 64 (Crisp HD Pixel)</option>
+                <option value="128">128 × 128 (Detailed Block)</option>
+              </select>
+            </label>
+            <label class="texture-option-row">
+              <span>Face mapping</span>
+              <select id="textureMapping">
+                <option value="cube" selected>All 6 Faces (Block Cube)</option>
+                <option value="pillar">Pillar (Side + Dark Cap)</option>
+              </select>
+            </label>
+          </div>
+
+          <label class="prompt-field">
+            <span id="promptLabel">User prompt / item name</span>
+            <textarea id="promptInput" rows="3" maxlength="120" placeholder="e.g. weathered oak fence with iron caps"></textarea>
+            <small id="promptHelp">The prompt becomes the inventory name.</small>
+          </label>
+          <div id="dropzone" class="dropzone" role="button" tabindex="0" aria-controls="assetFile" aria-label="Upload an asset">
+            <input id="assetFile" type="file" accept=".glb,.gltf,model/gltf-binary,model/gltf+json" />
+            <span class="upload-mark" id="uploadMark">＋</span>
+            <strong id="dropzoneTitle">Upload Meshy model</strong>
+            <small id="dropzoneSub">GLB recommended: geometry and textures stay together.</small>
+          </div>
+          <p class="hint" id="dropzoneHint">One-file <code>.glb</code> assets work immediately. A <code>.gltf</code> that references separate textures cannot be reconstructed from a single upload.</p>
+          <label class="inventory-search" for="inventorySearch">
+            <span>Find by name or game ID</span>
+            <input id="inventorySearch" type="search" placeholder="e.g. fence or 1198" autocomplete="off" />
+          </label>
+          <div id="inventory" class="inventory-list" aria-live="polite"></div>
+        </aside>
+
+        <section class="panel viewport-panel">
+          <div class="panel-heading viewport-heading">
+            <div>
+              <p class="eyebrow">02 / BUILD SCENE</p>
+              <h2>Preview model</h2>
+            </div>
+            <div class="scene-actions">
+              <button id="rotatePreviewButton" class="quiet" type="button" disabled>Rotate 90°</button>
+            </div>
+          </div>
+          <div id="viewport" class="viewport">
+            <div id="emptyState" class="empty-state">
+              <span class="upload-mark">◇</span>
+              <strong>Your build scene is ready</strong>
+              <span>Upload an asset to see it here.</span>
+            </div>
+            <div class="viewport-badge">LOCAL BUILD SESSION</div>
+          </div>
+          <div class="transform-row">
+            <span>Preview footprint guide matches the saved placement.</span>
+            <span id="assetStatus" class="status">No asset selected</span>
+          </div>
+        </section>
+
+        <aside class="panel details-panel">
+          <p class="eyebrow">03 / ITEM DETAILS</p>
+          <h2 id="selectedName">Nothing selected</h2>
+          <dl class="details">
+            <div><dt>Source</dt><dd id="selectedSource">—</dd></div>
+            <div><dt>File size</dt><dd id="selectedSize">—</dd></div>
+            <div><dt>Dimensions</dt><dd id="selectedDimensions">—</dd></div>
+            <div><dt>Triangles</dt><dd id="selectedTriangles">—</dd></div>
+            <div><dt>Storage</dt><dd id="selectedStorage">Browser inventory</dd></div>
+          </dl>
+          <div class="callout">
+            <strong>Meshy workflow</strong>
+            <span>Export GLB from Meshy, upload it here, save its footprint, then use the item in the game.</span>
+          </div>
+          <div class="placement-card">
+            <div class="placement-heading">
+              <span>Saved placement</span>
+              <strong id="placementSummary">1 × 1 blocks</strong>
+            </div>
+            <label class="placement-field">Horizontal footprint
+              <select id="placementWidth">
+                <option value="1">1 block</option>
+                <option value="2">2 blocks</option>
+                <option value="3">3 blocks</option>
+                <option value="4">4 blocks</option>
+                <option value="5">5 blocks</option>
+                <option value="6">6 blocks</option>
+              </select>
+            </label>
+            <label class="placement-field">Vertical footprint
+              <select id="placementHeight">
+                <option value="1">1 block</option>
+                <option value="2">2 blocks</option>
+                <option value="3">3 blocks</option>
+                <option value="4">4 blocks</option>
+                <option value="5">5 blocks</option>
+                <option value="6">6 blocks</option>
+              </select>
+            </label>
+            <label class="scale-field" for="modelScale">Model scale <output id="modelScaleValue">100%</output>
+              <input id="modelScale" type="range" min="25" max="100" step="5" value="100" />
+            </label>
+            <div class="placement-actions">
+              <button id="previewPlacementButton" class="primary" type="button" disabled>Place in preview</button>
+              <button id="savePlacementButton" class="quiet" type="button" disabled>Save placement</button>
+            </div>
+          </div>
+          <div class="publish-card">
+            <div class="publish-heading">
+              <span>Production inventory ID</span>
+              <strong id="nextGameId">Checking…</strong>
+            </div>
+            <p id="publishTarget" class="publish-target">Publish on the server you opened this page from.</p>
+            <label class="confirm-row"><input id="confirmId" type="checkbox" disabled /> <span>I confirm this is the next available game ID.</span></label>
+            <button id="insertButton" class="insert-button" type="button" disabled>Insert to game</button>
+          </div>
+          <p id="errorMessage" class="error" role="alert"></p>
+        </aside>
+      </section>
+    </main>
+    <script type="module" src="./main.ts"></script>
+  </body>
+</html>

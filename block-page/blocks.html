@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blocks &amp; Entities Catalog — Hollowpine</title>
+  <style>
+    :root {
+      --bg:#0d1117; --panel:#161b22; --border:#30363d; --text:#e9e0cb; --dim:#8b949e;
+      --accent:#58a6ff; --green:#3fb950; --amber:#d29922; --red:#f85149; --purple:#bc8cff;
+    }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--text); font-family:ui-monospace, Menlo, monospace; }
+    a { color:var(--accent); }
+    .wrap { max-width:1180px; margin:0 auto; padding:20px 16px 60px; }
+    h1 { font-size:20px; margin:0 0 2px; }
+    .sub { color:var(--dim); font-size:12px; margin-bottom:18px; }
+    .panel { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:14px; margin-bottom:18px; }
+    .panel h2 { font-size:14px; margin:0 0 10px; text-transform:uppercase; letter-spacing:.05em; color:var(--accent); }
+    .statbar { display:flex; gap:18px; flex-wrap:wrap; font-size:12px; color:var(--dim); }
+    .statbar b { color:var(--text); }
+    .controls { display:flex; gap:10px; flex-wrap:wrap; align-items:flex-end; }
+    .controls label { display:flex; flex-direction:column; font-size:11px; color:var(--dim); gap:4px; }
+    .controls input, .controls select { background:#0d1117; color:var(--text); border:1px solid var(--border); border-radius:6px; padding:7px 9px; font-family:inherit; font-size:13px; }
+    .cardgrid { display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:14px; }
+    .card { background:#0d1117; border:1px solid var(--border); border-radius:10px; padding:12px; }
+    .looks { display:flex; gap:12px; align-items:flex-start; }
+    .look { flex:1; min-width:0; text-align:center; font-size:12px; color:var(--dim); }
+    .look img, .look canvas { width:100%; min-width:130px; max-width:190px; aspect-ratio:1/1; image-rendering:pixelated; display:block; margin:0 auto; background:#05070a; border-radius:8px; }
+    .look .lbl { margin-top:4px; text-transform:uppercase; letter-spacing:.04em; }
+    .bname { font-size:13px; margin-top:8px; font-weight:600; }
+    .bid { font-size:11px; color:var(--dim); }
+    .badges { margin-top:6px; display:flex; gap:5px; flex-wrap:wrap; }
+    .pill { display:inline-block; padding:2px 8px; border-radius:999px; font-size:11px; }
+    .pill.ok { background:rgba(63,185,80,.15); color:var(--green); border:1px solid rgba(63,185,80,.4); }
+    .pill.plan { background:rgba(210,153,34,.15); color:var(--amber); border:1px solid rgba(210,153,34,.4); }
+    .pill.custom { background:rgba(188,140,255,.15); color:var(--purple); border:1px solid rgba(188,140,255,.4); }
+    .pill.kb { background:rgba(88,166,255,.15); color:var(--accent); border:1px solid rgba(88,166,255,.4); }
+    .pill.item { background:rgba(139,148,158,.15); color:var(--dim); border:1px solid var(--border); }
+    .pill.cube { background:rgba(88,166,255,.1); color:var(--accent); border:1px solid rgba(88,166,255,.3); }
+    .pill.d3 { background:rgba(63,185,80,.12); color:var(--green); border:1px solid rgba(63,185,80,.3); }
+    .pill.cross { background:rgba(188,140,255,.12); color:var(--purple); border:1px solid rgba(188,140,255,.3); }
+    .pill.flat { background:rgba(210,153,34,.12); color:var(--amber); border:1px solid rgba(210,153,34,.3); }
+    .statsline { font-size:11px; color:var(--dim); margin-top:5px; line-height:1.5; }
+    .sectiontitle { font-size:14px; margin:4px 0 10px; color:var(--accent); text-transform:uppercase; letter-spacing:.05em; }
+    .place { color:var(--green); }
+    .err { color:var(--red); font-size:12px; }
+    .progress { font-size:11px; color:var(--dim); margin-bottom:8px; }
+    table { width:100%; border-collapse:collapse; font-size:12px; }
+    th, td { text-align:left; padding:5px 8px; border-bottom:1px solid var(--border); }
+    th { color:var(--dim); }
+
+    /* Interactive 3D Modal */
+    .modal-overlay {
+      position:fixed; top:0; left:0; right:0; bottom:0;
+      background:rgba(5, 7, 10, 0.85); backdrop-filter:blur(8px);
+      display:flex; align-items:center; justify-content:center;
+      z-index:9999; opacity:0; pointer-events:none; transition:opacity .2s ease;
+    }
+    .modal-overlay.open { opacity:1; pointer-events:auto; }
+    .modal-card {
+      background:#161b22; border:1px solid #30363d; border-radius:14px;
+      padding:24px; max-width:560px; width:92%; box-shadow:0 12px 36px rgba(0,0,0,0.6);
+      display:flex; flex-direction:column; gap:16px; position:relative;
+    }
+    .modal-close {
+      position:absolute; top:16px; right:16px; background:transparent;
+      border:none; color:var(--dim); font-size:20px; cursor:pointer; padding:4px 8px;
+    }
+    .modal-close:hover { color:var(--text); }
+    .modal-canvas-wrap {
+      width:100%; aspect-ratio:1/1; max-height:300px; background:#05070a;
+      border-radius:10px; border:1px solid #21262d; overflow:hidden; position:relative;
+      display:flex; align-items:center; justify-content:center;
+    }
+    .modal-canvas-wrap canvas { width:100%; height:100%; display:block; cursor:grab; }
+    .modal-canvas-wrap canvas:active { cursor:grabbing; }
+    .modal-controls { display:flex; gap:10px; flex-wrap:wrap; justify-content:center; }
+    .modal-btn {
+      background:#21262d; color:var(--text); border:1px solid #30363d; border-radius:8px;
+      padding:8px 14px; font-family:inherit; font-size:12px; cursor:pointer; font-weight:600;
+      display:flex; align-items:center; gap:6px; transition:background .15s;
+    }
+    .modal-btn:hover { background:#30363d; border-color:var(--accent); }
+    .modal-btn.primary { background:rgba(88,166,255,0.15); border-color:var(--accent); color:var(--accent); }
+    .modal-btn.primary:hover { background:rgba(88,166,255,0.25); }
+    .card { cursor:pointer; transition:transform .15s ease, border-color .15s ease; }
+    .card:hover { transform:translateY(-2px); border-color:#58a6ff; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:10px;">
+      <div>
+        <h1>🧱 Blocks &amp; Entities Catalog</h1>
+        <div class="sub">
+          Every block/item in the game with its <b>three real looks</b> — inventory icon, held item,
+          placed voxel (rendered with the actual vanilla atlas + lighting) — linked to
+          <a href="/kb.html" target="_blank">the knowledge base</a> +
+          <a href="https://minecraft.wiki" target="_blank">Wikipedia</a>, with live per-world placement stats.
+        </div>
+      </div>
+      <div style="display:flex; gap:8px;">
+        <a href="/editor.html" class="modal-btn primary" style="text-decoration:none;">🎨 Texture Studio &amp; Recolor</a>
+        <a href="/seed.html" class="modal-btn" style="text-decoration:none;">Seed Inspector</a>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2>Live overview</h2>
+      <div class="statbar" id="statbar"></div>
+    </div>
+
+    <div class="panel">
+      <h2>Catalog</h2>
+      <div class="controls">
+        <label>Search<input id="q" placeholder="diamond, oak, torch…" /></label>
+        <label>Category<select id="cat"></select></label>
+        <label>Status<select id="status">
+          <option value="all">all</option><option value="implemented">implemented</option>
+          <option value="partial">partial / item</option><option value="custom">custom (no wiki)</option>
+        </select></label>
+        <label><label style="flex-direction:row;align-items:center;gap:6px;font-size:12px;color:var(--text)"><input type="checkbox" id="onlyPlaced" style="width:auto" /> only placed in a world</label></label>
+      </div>
+      <div class="progress" id="prog">Catalog: 0 entries loaded…</div>
+      <div class="sectiontitle" id="cubeTitle">⬜ Cube blocks</div>
+      <div class="cardgrid" id="grid"></div>
+      <div style="height:18px"></div>
+      <div class="sectiontitle" id="d3Title">🧊 3D-model blocks (non-cube: doors, torches, signs, crops, flowers, rails…)</div>
+      <div class="cardgrid" id="grid3d"></div>
+    </div>
+
+    <div class="panel">
+      <h2>Items (inventory-only, non-voxel)</h2>
+      <div class="cardgrid" id="itemsGrid"></div>
+    </div>
+
+    <div class="panel">
+      <h2>Animals &amp; Mobs</h2>
+      <table id="entities"></table>
+    </div>
+
+    <div class="panel">
+      <h2>Texture audit (atlas → vanilla files)</h2>
+      <div class="statbar" id="audit"></div>
+    </div>
+
+    <div class="sub" style="margin-top:20px">
+      API: <code>/api/blocks/stats</code> · <code>/api/entities/stats</code> · <code>/api/custom-assets</code> ·
+      catalog from <code>/catalog/runtime-manifest.json</code> with live asset refresh. Plans:
+      <a href="/docs/BLOCKS_CATALOG_PLAN.md" target="_blank">blocks catalog plan</a> ·
+      <a href="/docs/BLOCKS_CATALOG_AUTOMATION_PLAN.md" target="_blank">automation plan</a>.
+    </div>
+  </div>
+
+  <!-- Interactive 3D Modal -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal-card">
+      <button class="modal-close" id="modalClose">✕</button>
+      <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+        <div>
+          <h2 id="modalTitle" style="margin:0; font-size:18px;">Block Name</h2>
+          <div id="modalSub" style="color:var(--dim); font-size:12px; margin-top:4px;">#43 · utility</div>
+        </div>
+        <div id="modalBadges" class="badges"></div>
+      </div>
+      <div class="modal-canvas-wrap">
+        <canvas id="modalCanvas"></canvas>
+      </div>
+      <div class="modal-controls" id="modalControls"></div>
+      <div id="modalDetails" style="font-size:12px; color:var(--dim); line-height:1.6; border-top:1px solid #21262d; padding-top:12px;"></div>
+    </div>
+  </div>
+
+  <script type="module" src="./main.ts"></script>
+</body>
+</html>

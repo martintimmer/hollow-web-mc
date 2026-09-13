@@ -1,0 +1,430 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Minecraft';
+    src: local('Minecraft'), local('Courier New'), monospace;
+  }
+
+  html, body, #root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #0d1117;
+    color: #e0e0e0;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    touch-action: none;
+    font-family: 'Minecraft', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* =================================================== */
+/* MINECRAFT AUTHENTIC UI SYSTEM (Java & Bedrock Style) */
+/* =================================================== */
+
+/* Text Shadow */
+.mc-text-shadow {
+  text-shadow: 2px 2px 0px #3f3f3f;
+}
+.mc-text-shadow-yellow {
+  text-shadow: 2px 2px 0px #3f3f00;
+}
+.mc-text-shadow-dark {
+  text-shadow: 1px 1px 0px #1a1a1a;
+}
+
+/* Minecraft Window Frame (Java Edition Container) */
+.mc-window {
+  background: #C6C6C6;
+  border-top: 3px solid #FFFFFF;
+  border-left: 3px solid #FFFFFF;
+  border-right: 3px solid #555555;
+  border-bottom: 3px solid #555555;
+  box-shadow: 
+    0 0 0 1px #000000,
+    inset 2px 2px 0px #DBDBDB,
+    inset -2px -2px 0px #8B8B8B,
+    0 12px 36px rgba(0, 0, 0, 0.85);
+  color: #373737;
+}
+
+/* Minecraft Button (Standard Java Button) */
+.mc-button {
+  background: #737373;
+  border-top: 2px solid #A8A8A8;
+  border-left: 2px solid #A8A8A8;
+  border-right: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  box-shadow: 
+    0 0 0 1px #000000,
+    inset 2px 2px 0px #8B8B8B,
+    inset -2px -2px 0px #373737;
+  color: #E0E0E0;
+  text-shadow: 2px 2px 0px #3F3F3F;
+  transition: none;
+  cursor: pointer;
+}
+
+.mc-button:hover:not(:disabled) {
+  background: #7B96D6;
+  border-top: 2px solid #9DB4EC;
+  border-left: 2px solid #9DB4EC;
+  border-right: 2px solid #1C2744;
+  border-bottom: 2px solid #1C2744;
+  box-shadow: 
+    0 0 0 1px #000000,
+    inset 2px 2px 0px #869CE3,
+    inset -2px -2px 0px #2D3A63;
+  color: #FFFFA0;
+  text-shadow: 2px 2px 0px #3F3F00;
+}
+
+.mc-button:active:not(:disabled) {
+  background: #4A4A4A;
+  border-top: 2px solid #000000;
+  border-left: 2px solid #000000;
+  border-right: 2px solid #A8A8A8;
+  border-bottom: 2px solid #A8A8A8;
+  box-shadow: 
+    0 0 0 1px #000000,
+    inset 2px 2px 0px #303030,
+    inset -2px -2px 0px #707070;
+  transform: translateY(1px);
+}
+
+.mc-button-green {
+  background: #4a7d32;
+  border-top: 2px solid #73b84f;
+  border-left: 2px solid #73b84f;
+  border-right: 2px solid #1c3610;
+  border-bottom: 2px solid #1c3610;
+  box-shadow: 
+    0 0 0 1px #000000,
+    inset 2px 2px 0px #5c9940,
+    inset -2px -2px 0px #2a4e18;
+  color: #ffffff;
+  text-shadow: 2px 2px 0px #1a380f;
+}
+
+.mc-button-green:hover {
+  background: #5ea83c;
+  color: #ffffa0;
+  text-shadow: 2px 2px 0px #2c4d16;
+}
+
+/* Minecraft Recessed Item Slot */
+.mc-slot {
+  background: #8B8B8B;
+  border-top: 2px solid #373737;
+  border-left: 2px solid #373737;
+  border-right: 2px solid #FFFFFF;
+  border-bottom: 2px solid #FFFFFF;
+  box-shadow: 
+    0 0 0 1px #000000,
+    inset 1px 1px 0px #000000;
+  cursor: pointer;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+.mc-slot img,
+.mc-hud-slot img {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+  filter: drop-shadow(1px 1px 0px rgba(0,0,0,0.35));
+}
+
+.mc-slot:hover {
+  background: #AFAFAF;
+  box-shadow: 
+    0 0 0 1px #000000,
+    inset 1px 1px 0px #000000,
+    inset 0 0 0 2px rgba(255, 255, 255, 0.4);
+}
+
+.mc-slot-active {
+  outline: 3px solid #FFFFFF;
+  outline-offset: -1px;
+  background: #B8B8B8;
+  box-shadow: 
+    0 0 0 2px #000000,
+    inset 1px 1px 0px #000000;
+}
+
+/* Minecraft Inventory Category Tabs (Authentic 1.19.3 External Tabs) */
+.mc-tab-top {
+  background: #8F8F8F;
+  border-top: 2px solid #FFFFFF;
+  border-left: 2px solid #FFFFFF;
+  border-right: 2px solid #373737;
+  border-bottom: 2px solid #373737;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  box-shadow: 0 0 0 1px #000000;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: none;
+}
+
+.mc-tab-top:hover {
+  background: #A0A0A0;
+}
+
+.mc-tab-top-active {
+  background: #C6C6C6;
+  border-top: 2px solid #FFFFFF;
+  border-left: 2px solid #FFFFFF;
+  border-right: 2px solid #373737;
+  border-bottom: 2px solid #C6C6C6;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  box-shadow: 0 0 0 1px #000000;
+  z-index: 20;
+  margin-top: -4px;
+  padding-top: 4px;
+}
+
+.mc-tab-bottom {
+  background: #8F8F8F;
+  border-top: 2px solid #373737;
+  border-left: 2px solid #FFFFFF;
+  border-right: 2px solid #373737;
+  border-bottom: 2px solid #373737;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  box-shadow: 0 0 0 1px #000000;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: none;
+}
+
+.mc-tab-bottom:hover {
+  background: #A0A0A0;
+}
+
+.mc-tab-bottom-active {
+  background: #C6C6C6;
+  border-top: 2px solid #C6C6C6;
+  border-left: 2px solid #FFFFFF;
+  border-right: 2px solid #373737;
+  border-bottom: 2px solid #373737;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  box-shadow: 0 0 0 1px #000000;
+  z-index: 20;
+  margin-bottom: -4px;
+  padding-bottom: 4px;
+}
+
+/* Custom Minecraft Scrollbar for 9x5 Grid */
+.mc-scrollbar::-webkit-scrollbar {
+  width: 14px;
+  background: #8B8B8B;
+}
+
+.mc-scrollbar::-webkit-scrollbar-track {
+  background: #8B8B8B;
+  border-top: 2px solid #373737;
+  border-left: 2px solid #373737;
+  border-right: 2px solid #FFFFFF;
+  border-bottom: 2px solid #FFFFFF;
+  box-shadow: 0 0 0 1px #000000, inset 1px 1px 0px #000000;
+}
+
+.mc-scrollbar::-webkit-scrollbar-thumb {
+  background: #C6C6C6;
+  border-top: 2px solid #FFFFFF;
+  border-left: 2px solid #FFFFFF;
+  border-right: 2px solid #373737;
+  border-bottom: 2px solid #373737;
+  box-shadow: 0 0 0 1px #000000;
+}
+
+.mc-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #D8D8D8;
+}
+
+/* Minecraft Search & Text Input Field */
+.mc-input {
+  background: #000000;
+  border-top: 2px solid #373737;
+  border-left: 2px solid #373737;
+  border-right: 2px solid #FFFFFF;
+  border-bottom: 2px solid #FFFFFF;
+  box-shadow: 0 0 0 1px #000000;
+  color: #FFFFFF;
+  caret-color: #55FF55;
+}
+
+.mc-input:focus {
+  border-top: 2px solid #55FF55;
+  border-left: 2px solid #55FF55;
+  border-right: 2px solid #55FF55;
+  border-bottom: 2px solid #55FF55;
+}
+
+/* Minecraft Floating Item Tooltip */
+.mc-tooltip {
+  background: #100010;
+  border: 2px solid #28007F;
+  box-shadow: 
+    0 0 0 2px #000000,
+    inset 0 0 0 1px #5000FF,
+    0 8px 24px rgba(0, 0, 0, 0.85);
+  color: #FFFFFF;
+  text-shadow: 2px 2px 0px #3F3F3F;
+}
+
+/* Minecraft Range Slider */
+.mc-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  background: #000000;
+  height: 8px;
+  border-top: 2px solid #373737;
+  border-left: 2px solid #373737;
+  border-right: 2px solid #FFFFFF;
+  border-bottom: 2px solid #FFFFFF;
+  outline: none;
+  cursor: pointer;
+}
+
+.mc-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 24px;
+  background: #737373;
+  border-top: 2px solid #A8A8A8;
+  border-left: 2px solid #A8A8A8;
+  border-right: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  box-shadow: 
+    0 0 0 1px #000000,
+    inset 1px 1px 0px #8B8B8B,
+    inset -1px -1px 0px #373737;
+  cursor: pointer;
+}
+
+.mc-slider::-webkit-slider-thumb:hover {
+  background: #7B96D6;
+  border-top: 2px solid #9DB4EC;
+  border-left: 2px solid #9DB4EC;
+  border-right: 2px solid #1C2744;
+  border-bottom: 2px solid #1C2744;
+}
+
+/* Minecraft HUD Hotbar Frame (HUD_example.png #5) */
+.mc-hud-hotbar {
+  background: #8B8B8B;
+  border-top: 2px solid #373737;
+  border-left: 2px solid #373737;
+  border-right: 2px solid #FFFFFF;
+  border-bottom: 2px solid #FFFFFF;
+  box-shadow: 0 0 0 2px #000000, 0 12px 32px rgba(0, 0, 0, 0.9);
+}
+
+.mc-hud-slot {
+  width: 40px;
+  height: 40px;
+  background: #8B8B8B;
+  border-top: 2px solid #373737;
+  border-left: 2px solid #373737;
+  border-right: 2px solid #FFFFFF;
+  border-bottom: 2px solid #FFFFFF;
+  position: relative;
+}
+
+.mc-hotbar-slot-active {
+  box-shadow: 
+    0 0 0 3px #FFFFFF,
+    inset 0 0 0 2px #FFFFFF,
+    0 0 0 4px #000000;
+  z-index: 20;
+  transform: scale(1.08);
+}
+
+/* ============================================
+   Bedrock-style UI utilities (settings/boot/load)
+   ============================================ */
+
+.be-icon-box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 4px;
+  background: #0b0b0b;
+  border: 1px solid #000;
+  box-shadow: inset 0 0 0 1px #3a3a3a;
+  font-size: 13px;
+  line-height: 1;
+}
+
+.be-left-tick {
+  box-shadow: inset 3px 0 0 #ffffff;
+}
+
+.be-hairline-t {
+  border-top: 1px solid #3a3a3a;
+}
+
+/* green segmented (Bedrock selected) */
+.be-seg {
+  background: #4a4a4a;
+  color: #ffffff;
+  border: 1px solid #000;
+  box-shadow: inset 0 0 0 1px #5f5f5f;
+}
+.be-seg-on {
+  background: #2fae3d;
+  color: #08240c;
+  border: 1px solid #000;
+  box-shadow: inset 0 0 0 1px #62d96f, inset 0 2px 0 rgba(255, 255, 255, 0.25);
+}
+.be-seg-disabled {
+  background: #2b2b2b;
+  color: #6f6f6f;
+  border: 1px solid #000;
+}
+
+/* green boot progress */
+.be-fill-teal {
+  background: #3ab3a0;
+}
+
+/* marching-stripes loading bar (Bedrock green) */
+.bedrock-march {
+  background: repeating-linear-gradient(
+    135deg,
+    #57d957 0px, #57d957 8px,
+    rgba(190, 255, 190, 0.35) 8px, rgba(190, 255, 190, 0.35) 16px
+  );
+  background-size: 24px 24px;
+  animation: bedrock-march-move 1.1s linear infinite;
+}
+@keyframes bedrock-march-move {
+  from { background-position: 0 0; }
+  to { background-position: 24px 0; }
+}
+
+/* dithered body texture behind loading dialog */
+@keyframes bedrock-dither {
+  from { transform: translateY(0); }
+  to { transform: translateY(7px); }
+}

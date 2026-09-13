@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Knowledge Base — Hollowpine</title>
+  <style>
+    :root { --bg:#0d1117; --panel:#161b22; --border:#30363d; --text:#e9e0cb; --dim:#8b949e;
+      --accent:#58a6ff; --green:#3fb950; --amber:#d29922; --red:#f85149; --purple:#bc8cff; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--text); font-family:ui-monospace, Menlo, monospace; }
+    a { color:var(--accent); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    .wrap { max-width:1080px; margin:0 auto; padding:22px 16px 60px; }
+    h1 { font-size:22px; margin:0 0 4px; }
+    .sub { color:var(--dim); font-size:12px; margin-bottom:18px; }
+    .navlinks { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:18px; }
+    .navlinks a { display:inline-block; background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:8px 14px; font-size:13px; }
+    .summary { display:flex; gap:16px; flex-wrap:wrap; font-size:12px; color:var(--dim); margin-bottom:6px; }
+    .summary b { color:var(--text); }
+    .kindgroup { margin-bottom:22px; }
+    .kindtitle { font-size:14px; text-transform:uppercase; letter-spacing:.05em; color:var(--accent); margin:0 0 10px; }
+    .entry { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:10px 12px; margin-bottom:8px; }
+    .entry .row1 { display:flex; align-items:center; gap:10px; flex-wrap:wrap; }
+    .entry .t { font-size:14px; font-weight:600; }
+    .entry .meta { font-size:11px; color:var(--dim); margin-top:4px; }
+    .entry .links { margin-top:6px; font-size:12px; display:flex; gap:14px; flex-wrap:wrap; }
+    .pill { display:inline-block; padding:1px 9px; border-radius:999px; font-size:11px; }
+    .pill.ok { background:rgba(63,185,80,.15); color:var(--green); border:1px solid rgba(63,185,80,.4); }
+    .pill.plan { background:rgba(210,153,34,.15); color:var(--amber); border:1px solid rgba(210,153,34,.4); }
+    .pill.kind { background:rgba(139,148,158,.15); color:var(--dim); border:1px solid var(--border); }
+    .pill.wiki { background:rgba(88,166,255,.12); color:var(--accent); border:1px solid rgba(88,166,255,.3); }
+    .tag { color:var(--dim); font-size:11px; }
+    .tag::before { content:"#"; color:var(--accent); }
+    .err { color:var(--red); font-size:12px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>📚 Hollowpine Knowledge Base</h1>
+    <div class="sub">
+      Structured index of every <code>kb/*.md</code> entry — vanilla specs from the Minecraft Wiki
+      mapped to this codebase, with implementation statuses and cross-links to the live catalog sites.
+    </div>
+
+    <div class="navlinks">
+      <a href="/blocks.html">🧱 Blocks &amp; Entities Catalog</a>
+      <a href="/seed.html">🌍 Seed &amp; Biome Visualizer</a>
+      <a href="/kb/README.md" target="_blank">Read the KB guide (markdown)</a>
+    </div>
+
+    <div class="summary" id="summary"></div>
+    <div id="groups"></div>
+    <div class="err" id="err" style="display:none"></div>
+  </div>
+  <script>
+    const KIND_LABEL = { block: "Blocks", entity: "Entities", mechanic: "Mechanics", ui: "UI", system: "Systems", environment: "Environments", terrain: "Terrain" };
+    const CATALOG_LINK = {
+      block: (e) => `<a href="/blocks.html" title="block catalog">🧱 blocks.html</a>`,
+      entity: (e) => `<a href="/blocks.html" title="animals & mobs table">🧱 blocks.html#entities</a>`,
+      mechanic: (e) => `<a href="/seed.html" title="seed/biome visualizer">🌍 seed.html</a>`,
+      system: (e) => `<a href="/seed.html">🌍 seed.html</a>`,
+      terrain: (e) => `<a href="/seed.html">🌍 seed.html</a>`,
+      environment: (e) => `<a href="/kb/environments.md" target="_blank">🏭 environments</a>`
+    };
+
+    async function frontmatter(path) {
+      try {
+        const txt = await (await fetch(`/kb/${path}`)).text();
+        const m = txt.match(/^---\n([\s\S]*?)\n---/);
+        if (!m) return {};
+        const fm = {};
+        for (const line of m[1].split("\n")) {
+          const i = line.indexOf(":");
+          if (i > 0) { const k = line.slice(0, i).trim(); let v = line.slice(i + 1).trim(); if (v.startsWith('"') && v.endsWith('"')) v = v.slice(1, -1); fm[k] = v; }
+        }
+        return fm;
+      } catch (e) { return {}; }
+    }
+
+    async function boot() {
+      const idx = await (await fetch("/kb/index.json")).json();
+      const entries = await Promise.all(Object.entries(idx).map(async ([key, e]) => {
+        const fm = await frontmatter(e.path);
+        const kind = fm.kind || e.kind || "system";
+        const wiki = fm.wiki || null;
+        const status = fm.status || e.status || "partial";
+        return { key, path: e.path, title: e.title, tags: e.tags || [], kind, wiki, status };
+      }));
+
+      // summary
+      const byStatus = {};
+      const byKind = {};
+      for (const e of entries) { byStatus[e.status] = (byStatus[e.status] || 0) + 1; byKind[e.kind] = (byKind[e.kind] || 0) + 1; }
+      const statusHtml = Object.entries(byStatus).map(([s, c]) => `<span><b>${c}</b> ${s}</span>`).join("");
+      document.getElementById("summary").innerHTML =
+        `<span>Entries <b>${entries.length}</b></span>${statusHtml}` +
+        `<span>Blocks catalog <b><a href="/blocks.html">1172</a></b></span><span>Biomes <b><a href="/seed.html">53</a></b></span>`;
+
+      // group by kind
+      const groups = {};
+      for (const e of entries) { (groups[e.kind] = groups[e.kind] || []).push(e); }
+      const groupEl = document.getElementById("groups");
+      const kindOrder = ["block", "entity", "mechanic", "terrain", "environment", "system"];
+      for (const kind of kindOrder) {
+        if (!groups[kind]) continue;
+        const g = document.createElement("div");
+        g.className = "kindgroup";
+        g.innerHTML = `<div class="kindtitle">${(KIND_LABEL[kind] || kind + "s")} (${groups[kind].length})</div>`;
+        for (const e of groups[kind]) {
+          const pill = `<span class="pill ${e.status === "implemented" ? "ok" : "plan"}">${e.status}</span>`;
+          const kindPill = `<span class="pill kind">${e.kind}</span>`;
+          const tags = (e.tags || []).slice(0, 6).map((t) => `<span class="tag">${t}</span>`).join(" ");
+          const wikiLink = e.wiki ? `<a href="${e.wiki}" target="_blank">wikipedia</a>` : "";
+          const cat = (CATALOG_LINK[e.kind] || CATALOG_LINK.system)(e);
+          const card = document.createElement("div");
+          card.className = "entry";
+          card.innerHTML = `
+            <div class="row1"><span class="t">${e.title}</span>${pill}${kindPill}</div>
+            <div class="meta">${tags}</div>
+            <div class="links">
+              <a href="/kb/${e.path}" target="_blank">read entry → kb/${e.path}</a>
+              ${wikiLink ? `<span class="pill wiki">${wikiLink}</span>` : ""}
+              ${cat}
+            </div>`;
+          g.appendChild(card);
+        }
+        groupEl.appendChild(g);
+      }
+    }
+    boot().catch((e) => { document.getElementById("err").style.display = ""; document.getElementById("err").textContent = "error: " + e; });
+  </script>
+</body>
+</html>

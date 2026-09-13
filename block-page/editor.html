@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Block Texture Studio &amp; Recolor Workshop — Hollowpine</title>
+  <style>
+    :root {
+      --bg:#090d13; --panel:#131820; --panel-alt:#181f2a; --border:#2b3442;
+      --text:#e6edf3; --dim:#8b949e; --accent:#58a6ff; --green:#3fb950;
+      --amber:#d29922; --red:#f85149; --purple:#bc8cff;
+    }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body {
+      background:var(--bg); color:var(--text); font-family:ui-monospace, Menlo, monospace;
+      min-height:100vh; display:flex; flex-direction:column; user-select:none;
+    }
+    a { color:var(--accent); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+
+    /* Header */
+    header {
+      background:var(--panel); border-bottom:1px solid var(--border);
+      padding:12px 20px; display:flex; align-items:center; justify-content:space-between;
+      gap:16px; flex-wrap:wrap;
+    }
+    .brand { display:flex; align-items:center; gap:10px; font-size:16px; font-weight:700; }
+    .nav-links { display:flex; align-items:center; gap:14px; font-size:13px; }
+    .header-actions { display:flex; gap:10px; align-items:center; }
+
+    /* Buttons */
+    .btn {
+      background:var(--panel-alt); color:var(--text); border:1px solid var(--border);
+      border-radius:6px; padding:7px 14px; font-family:inherit; font-size:12px;
+      font-weight:600; cursor:pointer; display:inline-flex; align-items:center; gap:6px;
+      transition:all .15s ease;
+    }
+    .btn:hover { background:#222b3a; border-color:var(--accent); }
+    .btn.primary { background:rgba(88,166,255,0.15); border-color:var(--accent); color:var(--accent); }
+    .btn.primary:hover { background:rgba(88,166,255,0.25); }
+    .btn.success { background:rgba(63,185,80,0.15); border-color:var(--green); color:var(--green); }
+    .btn.success:hover { background:rgba(63,185,80,0.25); }
+    .btn.danger { background:rgba(248,81,73,0.12); border-color:var(--red); color:var(--red); }
+    .btn.danger:hover { background:rgba(248,81,73,0.22); }
+    .btn.active { background:var(--accent); color:#000; border-color:var(--accent); }
+
+    /* Main Studio Layout */
+    .studio-container {
+      flex:1; display:flex; gap:1px; background:var(--border); min-height:calc(100vh - 65px);
+    }
+    .split-handle {
+      flex:0 0 7px; min-width:0; cursor:col-resize; background:var(--border);
+      transition:background .12s ease; position:relative;
+    }
+    .split-handle::after { content:""; position:absolute; left:0; right:0; top:0; bottom:0; }
+    .split-handle:hover, .split-handle:active { background:var(--accent); }
+    @media (max-width: 1080px) {
+      .studio-container { flex-direction:column; }
+      .split-handle { display:none; }
+    }
+
+    .pane {
+      background:var(--bg); padding:18px; display:flex; flex-direction:column;
+      gap:16px; overflow-y:auto;
+    }
+    .pane-title {
+      font-size:13px; text-transform:uppercase; letter-spacing:.06em;
+      color:var(--accent); font-weight:700; display:flex; align-items:center; justify-content:space-between;
+    }
+
+    /* Left Pane: Selectors, Tools, Palette */
+    .field-group { display:flex; flex-direction:column; gap:6px; }
+    .field-label { font-size:11px; color:var(--dim); font-weight:600; text-transform:uppercase; }
+    select, input[type="text"] {
+      background:var(--panel); color:var(--text); border:1px solid var(--border);
+      border-radius:6px; padding:8px 10px; font-family:inherit; font-size:12px; width:100%;
+    }
+    select:focus, input[type="text"]:focus { outline:none; border-color:var(--accent); }
+
+    /* Face Tabs */
+    .tabs { display:flex; gap:6px; background:var(--panel); padding:4px; border-radius:8px; }
+    .tab {
+      flex:1; text-align:center; padding:8px 6px; font-size:11px; font-weight:600;
+      border-radius:5px; cursor:pointer; color:var(--dim); transition:all .15s;
+    }
+    .tab:hover { color:var(--text); }
+    .tab.active { background:var(--panel-alt); color:var(--text); border:1px solid var(--border); }
+
+    /* Tools Bar */
+    .tools-grid { display:grid; grid-template-columns:repeat(3, 1fr); gap:6px; }
+    .tool-btn {
+      background:var(--panel); border:1px solid var(--border); border-radius:6px;
+      padding:8px; display:flex; flex-direction:column; align-items:center; gap:4px;
+      cursor:pointer; font-size:11px; color:var(--dim); transition:all .15s;
+    }
+    .tool-btn:hover { background:var(--panel-alt); color:var(--text); }
+    .tool-btn.active { background:rgba(88,166,255,0.15); border-color:var(--accent); color:var(--accent); }
+    .tool-btn span.icon { font-size:16px; }
+
+    /* Palette */
+    .color-swatch-current {
+      height:38px; border-radius:6px; border:1px solid var(--border);
+      display:flex; align-items:center; justify-content:space-between; padding:0 10px;
+      font-size:12px; font-weight:700; cursor:pointer;
+    }
+    .palette-grid { display:grid; grid-template-columns:repeat(8, 1fr); gap:4px; }
+    .palette-dot {
+      aspect-ratio:1/1; border-radius:4px; cursor:pointer; border:1px solid rgba(0,0,0,0.4);
+      transition:transform .1s;
+    }
+    .palette-dot:hover { transform:scale(1.2); z-index:2; border-color:#fff; }
+
+    /* Center Pane: Pixel Canvas & Recolor Sliders */
+    .canvas-card {
+      background:var(--panel); border:1px solid var(--border); border-radius:12px;
+      padding:16px; display:flex; flex-direction:column; align-items:center; gap:14px;
+    }
+    .canvas-wrap {
+      width:320px; height:320px; position:relative; background:#05070a;
+      border:2px solid var(--border); border-radius:8px; overflow:hidden;
+      box-shadow:0 8px 24px rgba(0,0,0,0.5); cursor:crosshair; transition:border-color .15s, box-shadow .15s;
+    }
+    .canvas-wrap.drag-over {
+      border-color:var(--accent) !important;
+      box-shadow:0 0 24px rgba(88,166,255,0.45);
+    }
+    .upload-face-btn {
+      width:100%; cursor:pointer; justify-content:center; font-size:11px; font-weight:600;
+      padding:8px 10px; background:var(--panel-alt); border:1px dashed var(--accent);
+      border-radius:6px; display:flex; align-items:center; gap:6px; color:var(--text);
+      transition:all .15s;
+    }
+    .upload-face-btn:hover {
+      background:rgba(88,166,255,0.12); border-color:var(--green); color:#fff;
+    }
+    #pixelCanvas { width:100%; height:100%; display:block; image-rendering:pixelated; }
+    #gridOverlay { position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:auto; cursor:crosshair; }
+
+    /* Sliders */
+    .slider-row { display:flex; flex-direction:column; gap:4px; margin-bottom:10px; }
+    .slider-header { display:flex; justify-content:space-between; font-size:11px; color:var(--dim); }
+    .slider-header b { color:var(--text); }
+    input[type="range"] {
+      width:100%; accent-color:var(--accent); cursor:pointer;
+    }
+
+    /* Right Pane: 3D Preview */
+    .viewport-3d {
+      width:100%; aspect-ratio:1/1; min-height:260px; background:#05070a; border-radius:10px;
+      border:1px solid var(--border); overflow:hidden; position:relative;
+    }
+    #preview3DCanvas { width:100%; height:100%; display:block; cursor:grab; }
+    #preview3DCanvas:active { cursor:grabbing; }
+    .meta-box {
+      background:var(--panel); border:1px solid var(--border); border-radius:8px;
+      padding:12px; font-size:12px; color:var(--dim); line-height:1.6;
+    }
+    .meta-box b { color:var(--text); }
+
+    .toast {
+      position:fixed; bottom:20px; right:20px; background:var(--panel);
+      border:1px solid var(--green); color:var(--text); padding:12px 20px;
+      border-radius:8px; font-size:13px; font-weight:600; box-shadow:0 6px 24px rgba(0,0,0,0.6);
+      transform:translateY(100px); opacity:0; transition:all .25s ease; z-index:9999;
+    }
+    .toast.show { transform:translateY(0); opacity:1; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <span>🎨</span>
+      <span>Block Texture Studio &amp; Recolor Workshop</span>
+    </div>
+    <div class="nav-links">
+      <a href="/blocks.html">← Back to Catalog</a>
+      <a href="/seed.html">Seed Inspector</a>
+      <a href="/kb.html" target="_blank">Knowledge Base</a>
+    </div>
+    <div class="header-actions">
+      <button class="btn success" id="btnApplyGame">💾 Save &amp; Apply</button>
+      <button class="btn" id="btnDownload">⬇️ Download PNG</button>
+      <button class="btn danger" id="btnResetFace">🔄 Reset Face</button>
+    </div>
+  </header>
+
+  <div class="studio-container">
+    <!-- LEFT PANE: Block Selector & Tools -->
+    <div class="pane" style="flex:0 0 300px; min-width:0; overflow-y:auto;">
+      <div class="pane-title">
+        <span>Block Selection</span>
+      </div>
+
+      <div class="field-group">
+        <label class="field-label" for="blockSelect">Choose Block / Texture</label>
+        <div style="display:flex; gap:6px; align-items:center;">
+          <select id="blockSelect" style="flex:1"></select>
+          <select id="shapeFilter" style="width:110px" title="Filter by object shape">
+            <option value="all">all shapes</option>
+            <option value="cube">⬛ cube</option>
+            <option value="custom">✨ custom</option>
+            <option value="3d">🧊 3D model</option>
+            <option value="cross">🌿 cross</option>
+            <option value="flat">▬ flat decal</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="field-group">
+        <label class="field-label">Active Half (2-block objects)</label>
+        <div class="tabs" id="halfTabs" style="display:none;">
+          <div class="tab" data-half="lower">Lower</div>
+          <div class="tab" data-half="upper">Upper</div>
+        </div>
+      </div>
+
+      <div class="field-group">
+        <div style="display:flex; justify-content:space-between; align-items:center;">
+          <label class="field-label" style="margin-bottom:0;">Active Face to Edit</label>
+          <span style="font-size:10px; color:var(--accent); font-weight:700;" id="activeFaceIndicator">SIDE</span>
+        </div>
+        <div class="tabs" id="faceTabs">
+          <div class="tab active" data-face="side">Side</div>
+          <div class="tab" data-face="top">Top</div>
+          <div class="tab" data-face="bottom">Bottom</div>
+          <div class="tab" data-face="position">📐 Positioning</div>
+        </div>
+        <div id="positionPanel" style="margin-top:6px; display:none; background:var(--panel-alt); border:1px solid var(--border); border-radius:6px; padding:8px; flex-direction:column; gap:8px;">
+          <div style="display:flex; justify-content:space-between; align-items:center;">
+            <span style="font-size:10px; color:var(--accent); font-weight:700;">BLOCK OFFSET IN 1×1×1 CELL</span>
+            <span id="positionBlockId" style="font-size:11px; color:var(--dim); font-weight:700;"></span>
+          </div>
+          <div style="font-size:10px; color:var(--dim); line-height:1.5;">
+            Shift the block model within its 1×1×1 cell. Default sits on the floor (y 0…1);
+            <b style="color:var(--text)">Y = -0.5</b> centers it vertically. X/Z shift it sideways.
+            Saved with <b style="color:var(--text)">Save &amp; Apply</b> and reflected in the game.
+          </div>
+          <div class="position-row" style="display:flex; flex-direction:column; gap:4px;">
+            <div style="display:flex; align-items:center; gap:8px;">
+              <span style="width:16px; font-size:11px; font-weight:700; color:var(--text);">X</span>
+              <input type="range" id="posX" min="-0.5" max="0.5" step="0.05" value="0" style="flex:1;" />
+              <b id="posXVal" style="width:44px; font-size:11px; color:var(--accent);">0.00</b>
+            </div>
+            <div style="display:flex; align-items:center; gap:8px;">
+              <span style="width:16px; font-size:11px; font-weight:700; color:var(--text);">Y</span>
+              <input type="range" id="posY" min="-0.5" max="0.5" step="0.05" value="0" style="flex:1;" />
+              <b id="posYVal" style="width:44px; font-size:11px; color:var(--accent);">0.00</b>
+            </div>
+            <div style="display:flex; align-items:center; gap:8px;">
+              <span style="width:16px; font-size:11px; font-weight:700; color:var(--text);">Z</span>
+              <input type="range" id="posZ" min="-0.5" max="0.5" step="0.05" value="0" style="flex:1;" />
+              <b id="posZVal" style="width:44px; font-size:11px; color:var(--accent);">0.00</b>
+            </div>
+          </div>
+          <div style="display:flex; gap:6px;">
+            <button class="btn success" id="posSave" title="Save the current position offset to the game">💾 Save Position</button>
+            <button class="btn" id="posCenterY" title="Set Y = -0.5 to center the block in the cell">⏹ Center Y</button>
+            <button class="btn" id="posReset" title="Reset to default (0,0,0) — sits on the floor">↺ Reset</button>
+          </div>
+        </div>
+        <div style="margin-top:6px;">
+          <label class="upload-face-btn" id="lblUploadFace" title="Upload a PNG/JPG texture to replace only the selected face">
+            <span>📁 Upload Texture to <b id="uploadFaceTargetName" style="color:var(--accent);">SIDE</b> Face</span>
+            <input type="file" id="faceTextureFileInput" accept="image/png,image/jpeg,image/webp,.png,.jpg,.jpeg,.webp" style="display:none;" />
+          </label>
+        </div>
+
+        <!-- Texture Zoom & Resolution Controls -->
+        <div id="textureZoomPanel" style="margin-top:8px; background:var(--panel-alt); border:1px solid var(--border); border-radius:6px; padding:8px; display:flex; flex-direction:column; gap:6px;">
+          <div style="display:flex; justify-content:space-between; align-items:center;">
+            <span style="font-size:10px; color:var(--dim); font-weight:700;">FACE RESOLUTION</span>
+            <select id="faceResolutionSelect" style="width:auto; padding:3px 6px; font-size:11px; background:var(--panel); border:1px solid var(--border); border-radius:4px; color:var(--text);">
+              <option value="16" selected>16×16 (Standard)</option>
+              <option value="32">32×32 (Crisp 2x)</option>
+              <option value="64">64×64 (HD)</option>
+              <option value="native">Native / Original</option>
+            </select>
+          </div>
+          <div style="display:flex; flex-direction:column; gap:2px;">
+            <div style="display:flex; justify-content:space-between; font-size:10px; color:var(--dim);">
+              <span style="font-weight:700;">TEXTURE CROP ZOOM</span>
+              <b id="valTextureZoom" style="color:var(--accent);">100%</b>
+            </div>
+            <input type="range" id="sliderTextureZoom" min="50" max="300" value="100" style="width:100%;" />
+          </div>
+        </div>
+      </div>
+
+      <div class="pane-title" style="margin-top:10px;">
+        <span>Paint Tools</span>
+      </div>
+
+      <div class="tools-grid">
+        <button class="tool-btn active" data-tool="pencil"><span class="icon">✏️</span>Pencil</button>
+        <button class="tool-btn" data-tool="bucket"><span class="icon">🪣</span>Fill</button>
+        <button class="tool-btn" data-tool="eyedropper"><span class="icon">💧</span>Sample</button>
+        <button class="tool-btn" data-tool="replacer"><span class="icon">🔄</span>Swap Color</button>
+        <button class="tool-btn" data-tool="eraser"><span class="icon">🧹</span>Eraser</button>
+        <button class="tool-btn active" id="btnGridToggle"><span class="icon">▦</span>Grid On</button>
+      </div>
+
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-top:8px;">
+        <span style="font-size:10px; color:var(--dim); font-weight:700;">BRUSH SIZE</span>
+        <div class="tabs" id="brushSizeTabs" style="padding:2px; gap:4px;">
+          <div class="tab active" data-brush="1" style="padding:4px 10px; font-size:11px;">1px</div>
+          <div class="tab" data-brush="2" style="padding:4px 10px; font-size:11px;">2px</div>
+          <div class="tab" data-brush="4" style="padding:4px 10px; font-size:11px;">4px</div>
+        </div>
+      </div>
+
+      <div class="pane-title" style="margin-top:10px;">
+        <span>Color Palette</span>
+      </div>
+
+      <div class="color-swatch-current" id="currentColorSwatch" style="background:#b88235; color:#000;">
+        <span id="currentColorHex">#B88235</span>
+        <input type="color" id="nativeColorPicker" value="#b88235" style="cursor:pointer; border:none; background:transparent; width:28px; height:28px;" />
+      </div>
+      <div id="rgbRow" style="display:flex; gap:6px; align-items:center; margin-top:4px;">
+        <label style="display:flex; align-items:center; gap:3px; font-size:10px; color:var(--dim);">R
+          <input type="number" id="rgbR" min="0" max="255" value="184" style="width:44px; padding:2px 4px; font-size:11px;" />
+        </label>
+        <label style="display:flex; align-items:center; gap:3px; font-size:10px; color:var(--dim);">G
+          <input type="number" id="rgbG" min="0" max="255" value="130" style="width:44px; padding:2px 4px; font-size:11px;" />
+        </label>
+        <label style="display:flex; align-items:center; gap:3px; font-size:10px; color:var(--dim);">B
+          <input type="number" id="rgbB" min="0" max="255" value="53" style="width:44px; padding:2px 4px; font-size:11px;" />
+        </label>
+        <span style="font-size:10px; color:var(--dim);">0–255 (any RGB)</span>
+      </div>
+
+      <div class="palette-grid" id="paletteGrid"></div>
+
+      <div style="display:flex; gap:8px; margin-top:6px;">
+        <button class="btn" style="flex:1" id="btnUndo">↩️ Undo</button>
+        <button class="btn" style="flex:1" id="btnRedo">↪️ Redo</button>
+      </div>
+    </div>
+
+    <!-- CENTER PANE: 16x16 Pixel Canvas & Recolor Sliders & Primary Action Bar -->
+    <div class="pane" style="align-items:center; flex:1; min-width:0; overflow-y:auto;">
+      <div class="tabs" style="width:100%; max-width:480px; margin-bottom:4px;">
+        <div class="tab active" id="tabModePaint">✏️ 16×16 Pixel Paint Studio</div>
+        <div class="tab" id="tabModeSliders">🌈 Quick HSL Recolor &amp; Grading</div>
+      </div>
+
+      <!-- Mode 1: Pixel Canvas View -->
+      <div class="canvas-card" id="modePaintCard" style="width:100%; max-width:480px;">
+        <div class="canvas-wrap" id="canvasWrap">
+          <div id="canvasInner" style="width:320px; height:320px; position:relative; transform-origin:center center; transition:transform .1s ease;">
+            <canvas id="pixelCanvas" width="320" height="320" style="position:absolute; top:0; left:0; width:100%; height:100%;"></canvas>
+            <canvas id="gridOverlay" width="320" height="320" style="position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:auto; cursor:crosshair;"></canvas>
+          </div>
+        </div>
+        <div style="font-size:11px; color:var(--dim); display:flex; justify-content:space-between; align-items:center; width:100%;">
+          <span id="canvasCoords">X: 0, Y: 0</span>
+          <span>Face: <b id="canvasFaceName" style="color:var(--accent);">SIDE</b></span>
+          <div style="display:flex; align-items:center; gap:4px;">
+            <span>Zoom:</span>
+            <button class="btn" id="btnZoomOut" style="padding:2px 7px; font-size:11px; line-height:1;" title="Zoom canvas out">-</button>
+            <span id="canvasZoom" style="min-width:28px; text-align:center; font-weight:600; color:var(--text);">1x</span>
+            <button class="btn" id="btnZoomIn" style="padding:2px 7px; font-size:11px; line-height:1;" title="Zoom canvas in">+</button>
+            <button class="btn" id="btnZoomReset" style="padding:2px 6px; font-size:11px; line-height:1;" title="Fit canvas">Fit</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mode 2: HSL Sliders View -->
+      <div class="canvas-card" id="modeSlidersCard" style="width:100%; max-width:480px; display:none;">
+        <div style="width:100%;">
+          <div class="slider-row">
+            <div class="slider-header"><span>Hue Shift</span><b id="valHue">0°</b></div>
+            <input type="range" id="sliderHue" min="0" max="360" value="0" />
+          </div>
+          <div class="slider-row">
+            <div class="slider-header"><span>Saturation</span><b id="valSat">100%</b></div>
+            <input type="range" id="sliderSat" min="0" max="200" value="100" />
+          </div>
+          <div class="slider-row">
+            <div class="slider-header"><span>Brightness / Lightness</span><b id="valLight">0%</b></div>
+            <input type="range" id="sliderLight" min="-100" max="100" value="0" />
+          </div>
+          <div class="slider-row">
+            <div class="slider-header"><span>Contrast</span><b id="valContrast">0%</b></div>
+            <input type="range" id="sliderContrast" min="-100" max="100" value="0" />
+          </div>
+
+          <div style="margin-top:14px; display:flex; gap:6px; flex-wrap:wrap;">
+            <button class="btn" id="btnFilterInvert">Invert</button>
+            <button class="btn" id="btnFilterGrayscale">Grayscale</button>
+            <button class="btn" id="btnFilterRuby">Ruby Red</button>
+            <button class="btn" id="btnFilterGold">Golden</button>
+            <button class="btn" id="btnFilterAmethyst">Amethyst</button>
+            <button class="btn" id="btnFilterEmerald">Emerald</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- PRIMARY ACTION BAR: Prominent Save & Reset Buttons -->
+      <div style="width:100%; max-width:480px; display:flex; flex-direction:column; gap:8px; margin-top:6px;">
+        <div style="display:flex; gap:8px; width:100%;">
+          <button class="btn success" id="btnApplyGameCenter" style="flex:1.4; padding:10px 14px; font-size:13px; justify-content:center;">💾 Save &amp; Apply to Game</button>
+          <button class="btn danger" id="btnResetFaceCenter" style="flex:1; padding:10px 14px; font-size:13px; justify-content:center;">🔄 Reset Face</button>
+        </div>
+        <label style="display:flex; align-items:center; gap:6px; font-size:11px; color:#8b949e; cursor:pointer;">
+          <input type="checkbox" id="applyToProd" /> Also push to <b style="color:#e9e0cb">production</b> (currently <span id="envTag">…</span>)
+        </label>
+        <div style="display:flex; gap:8px; width:100%;">
+          <button class="btn" id="btnDownloadCenter" style="flex:1; justify-content:center;">⬇️ Download 16×16 PNG</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="split-handle" id="splitHandle" title="Drag to resize the 3D viewport"></div>
+
+    <!-- RIGHT PANE: Live 3D Viewport & Metadata -->
+    <div class="pane" style="flex:0 0 var(--right-w,340px); min-width:0;">
+      <div class="pane-title">
+        <span>Live 3D Viewport</span>
+        <span style="font-size:11px; color:var(--green);">● Real-Time</span>
+      </div>
+
+      <div class="viewport-3d" id="viewport3D">
+        <canvas id="preview3DCanvas"></canvas>
+      </div>
+
+      <div style="display:flex; gap:8px;">
+        <button class="btn primary" style="flex:1;" id="btn3DRotate">🔄 Auto Rotate</button>
+        <button class="btn" style="flex:1;" id="btn3DPosition">📐 Position in Cell</button>
+        <button class="btn" style="flex:1; display:none;" id="btn3DAction">📦 Open Chest</button>
+      </div>
+
+      <div class="field-group">
+        <label class="field-label" for="lightSelect">Lighting Environment</label>
+        <select id="lightSelect">
+          <option value="noon">☀️ Overworld Daylight</option>
+          <option value="sunset">🌅 Golden Sunset</option>
+          <option value="cave">🕯️ Deep Cave Torchlight</option>
+          <option value="night">🌙 Midnight Starlight</option>
+        </select>
+      </div>
+
+      <div class="meta-box" id="blockMeta">
+        <div><b>Block:</b> <span id="metaName">Grass Block</span></div>
+        <div><b>ID:</b> <span id="metaId">#1</span> · <span id="metaCat">natural</span></div>
+        <div><b>Active Texture:</b> <code id="metaTexture">grass_block_side.png</code></div>
+        <div><b>Atlas Tile:</b> <code id="metaTile">Slot 1 (col: 1, row: 0)</code></div>
+      </div>
+
+      <div style="margin-top:auto; font-size:11px; color:var(--dim); line-height:1.5;">
+        💡 <b>Pro-tip:</b> Switch between <b>Side</b>, <b>Top</b>, and <b>Bottom</b> tabs to redesign each face of the block independently!
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast">Custom textures saved and applied to game! 💾</div>
+
+  <script type="module" src="./editor.ts"></script>
+</body>
+</html>

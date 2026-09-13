@@ -1,0 +1,65 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Production build outputs
+dist/
+dist-ssr/
+*.local
+
+# Environment & database files
+.env
+.env.*
+!.env.example
+data/world.db
+data/world.db-journal
+data/*.sqlite
+data/*.sqlite-journal
+
+# Editor & OS files
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.idea/
+.vscode/
+
+# Sim environment artifacts (never commit)
+data/sim-dev.db*
+server/sim.env
+
+# World-gen DBs are derived from catalog/biome-registry.json (regenerated on server start)
+data/worldgen.db
+data/sim-worldgen.db
+
+# runtime data & logs (never push)
+data/sim-dev.db*
+data/client-errors.log
+data/telemetry-perf.jsonl
+data/telemetry-perf.jsonl.recovered
+data/sim-game-api-5402.log
+data/*.log
+*.log
+
+# Generated KB reconciliation reports (derived, not source)
+kb-coverage-report.md
+kb-wiki-report.md
+
+# --- public-release hardening (audit 2026-09-11) ---
+*.db*
+*.db-journal
+data/*.db*
+data/backups/
+data/*.bak-*
+data/blueprints/bp_nyc*
+test-results/
+snapshots/*
+!snapshots/golden/
+!snapshots/golden/**
+docs/ops-private/
+.commandcode/
+server/sim.env

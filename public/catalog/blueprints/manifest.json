@@ -1,0 +1,86 @@
+[
+  {
+    "id": "bp_timber_cottage_01",
+    "name": "Nordic Timber Cottage",
+    "category": "house",
+    "packageName": "Nordic Village",
+    "totalBlocks": 19,
+    "dimensions": {
+      "width": 5,
+      "height": 5,
+      "depth": 5
+    },
+    "file": "bp_timber_cottage_01.json",
+    "createdAt": "2026-08-30T15:22:55.999Z"
+  },
+  {
+    "id": "bp_cj_house_grove_st",
+    "name": "CJ's House (The Johnson House)",
+    "category": "house",
+    "packageName": "Grove Street Pack",
+    "totalBlocks": 790,
+    "dimensions": {
+      "width": 14,
+      "height": 13,
+      "depth": 12
+    },
+    "file": "bp_cj_house_grove_st.json",
+    "createdAt": "2026-08-30T15:50:57.008Z"
+  },
+  {
+    "id": "bp_cj_garage_grove_st",
+    "name": "CJ's Attached Garage",
+    "category": "house",
+    "packageName": "Grove Street Pack",
+    "totalBlocks": 203,
+    "dimensions": {
+      "width": 8,
+      "height": 6,
+      "depth": 9
+    },
+    "file": "bp_cj_garage_grove_st.json",
+    "createdAt": "2026-08-30T15:50:57.008Z"
+  },
+  {
+    "id": "bp_sweets_house_grove_st",
+    "name": "Sweet's House (Grove Street)",
+    "category": "house",
+    "packageName": "Grove Street Pack",
+    "totalBlocks": 357,
+    "dimensions": {
+      "width": 11,
+      "height": 6,
+      "depth": 11
+    },
+    "file": "bp_sweets_house_grove_st.json",
+    "createdAt": "2026-08-30T15:50:57.009Z"
+  },
+  {
+    "id": "bp_fan_palm_grove_st",
+    "name": "California Fan Palm",
+    "category": "foliage",
+    "packageName": "Grove Street Pack",
+    "totalBlocks": 46,
+    "dimensions": {
+      "width": 7,
+      "height": 14,
+      "depth": 7
+    },
+    "file": "bp_fan_palm_grove_st.json",
+    "createdAt": "2026-08-30T15:50:57.009Z"
+  },
+  {
+    "id": "bp_utility_pole_grove_st",
+    "name": "Wooden Telephone Utility Pole",
+    "category": "object",
+    "packageName": "Grove Street Pack",
+    "totalBlocks": 21,
+    "dimensions": {
+      "width": 5,
+      "height": 11,
+      "depth": 3
+    },
+    "file": "bp_utility_pole_grove_st.json",
+    "createdAt": "2026-08-30T15:50:57.009Z"
+  }
+]

@@ -1,0 +1,639 @@
+{
+  "blocks/_block": {
+    "path": "blocks/_block.md",
+    "title": "Block (general semantics)",
+    "tags": [],
+    "status": "implemented",
+    "updated": "2026-09-01"
+  },
+  "blocks/chest": {
+    "path": "blocks/chest.md",
+    "title": "Chest",
+    "tags": [],
+    "status": "implemented",
+    "updated": "2026-08-27"
+  },
+  "blocks/coal-ore": {
+    "path": "blocks/coal-ore.md",
+    "title": "Coal ore",
+    "tags": [],
+    "status": "absent",
+    "updated": "2026-09-05"
+  },
+  "blocks/cobweb": {
+    "path": "blocks/cobweb.md",
+    "title": "Cobweb (density family + web spider)",
+    "tags": [],
+    "status": "implemented",
+    "updated": "2026-09-07"
+  },
+  "blocks/custom-asset": {
+    "path": "blocks/custom-asset.md",
+    "title": "Custom 3D Asset Block (GLB)",
+    "tags": [],
+    "status": "implemented",
+    "updated": "2026-09-03"
+  },
+  "blocks/diamond-ore": {
+    "path": "blocks/diamond-ore.md",
+    "title": "Diamond ore",
+    "tags": [],
+    "status": "absent",
+    "updated": "2026-09-05"
+  },
+  "blocks/door": {
+    "path": "blocks/door.md",
+    "title": "Door",
+    "tags": [],
+    "status": "implemented",
+    "updated": "2026-09-01"
+  },
+  "blocks/fence": {
+    "path": "blocks/fence.md",
+    "title": "Wooden & Nether Brick Fence",
+    "tags": [],
+    "status": "implemented",
+    "updated": "2026-09-05"
+  },
+  "blocks/iron-ore": {
+    "path": "blocks/iron-ore.md",
+    "title": "Iron ore",
+    "tags": [],
+    "status": "absent",
+    "updated": "2026-09-05"
+  },
+  "blocks/lapis-lazuli-ore": {
+    "path": "blocks/lapis-lazuli-ore.md",
+    "title": "Lapis lazuli ore",
+    "tags": [],
+    "status": "absent",
+    "updated": "2026-09-05"
+  },
+  "blocks/prismarine-stairs": {
+    "path": "blocks/prismarine-stairs.md",
+    "title": "Prismarine stairs",
+    "tags": [],
+    "status": "absent",
+    "updated": "2026-09-05"
+  },
+  "blocks/prismarine": {
+    "path": "blocks/prismarine.md",
+    "title": "Prismarine",
+    "tags": [],
+    "status": "absent",
+    "updated": "2026-09-05"
+  },
+  "blocks/purpur-stairs": {
+    "path": "blocks/purpur-stairs.md",
+    "title": "Purpur stairs",
+    "tags": [],
+    "status": "absent",
+    "updated": "2026-09-05"
+  },
+  "blocks/sign": {
+    "path": "blocks/sign.md",
+    "title": "Sign",
+    "tags": [],
+    "status": "partial",
+    "updated": "2026-08-27"
+  },
+  "blocks/slab": {
+    "path": "blocks/slab.md",
+    "title": "Slab",
+    "tags": [],
+    "status": "implemented",
+    "updated": "2026-09-02"
+  },
+  "blocks/tall-grass": {
+    "path": "blocks/tall-grass.md",
+    "title": "Tall Grass / High Grass",
+    "tags": [],
+    "status": "implemented",
+    "updated": "2026-09-02"
+  },
+  "blocks/torch": {
+    "path": "blocks/torch.md",
+    "title": "Torch",
+    "tags": [],
+    "status": "implemented",
+    "updated": "2026-08-27"
+  },
+  "blocks/trapdoor": {
+    "path": "blocks/trapdoor.md",
+    "title": "Trapdoor",
+    "tags": [],
+    "status": "implemented",
+    "updated": "2026-09-01"
+  },
+  "entities/animals": {
+    "path": "entities/animals.md",
+    "title": "Animals: pets, persistence, riding",
+    "tags": [],
+    "status": "implemented",
+    "updated": "2026-08-27"
+  },
+  "entities/boat": {
+    "path": "entities/boat.md",
+    "title": "Boat",
+    "tags": [],
+    "status": "implemented",
+    "updated": "2026-09-05"
+  },
+  "entities/dog": {
+    "path": "entities/dog.md",
+    "title": "Dog / Wolf: fast sprint, long pauses, eyes, collar, and pet adoption",
+    "tags": [],
+    "status": "implemented",
+    "updated": "2026-09-05"
+  },
+  "entities/horse": {
+    "path": "entities/horse.md",
+    "title": "Horse: 2-block mount, eyes, riding, and persistence",
+    "tags": [],
+    "status": "implemented",
+    "updated": "2026-08-28"
+  },
+  "entities/mobs": {
+    "path": "entities/mobs.md",
+    "title": "Hostile mobs: zombie, creeper, skeleton, spider",
+    "tags": [],
+    "status": "implemented",
+    "updated": "2026-08-27"
+  },
+  "entities/painting": {
+    "path": "entities/painting.md",
+    "title": "Painting",
+    "tags": [],
+    "status": "implemented",
+    "updated": "2026-09-07"
+  },
+  "entities/paintings": {
+    "path": "entities/paintings.md",
+    "title": "Paintings",
+    "tags": [],
+    "status": "partial",
+    "updated": "2026-09-05"
+  },
+  "entities/squid": {
+    "path": "entities/squid.md",
+    "title": "Squid",
+    "tags": [],
+    "status": "partial",
+    "updated": "2026-09-05"
+  },
+  "entities/vehicle": {
+    "path": "entities/vehicle.md",
+    "title": "Vehicle: drivable car entity with articulated panels",
+    "tags": [
+      "vehicle",
+      "car",
+      "entity",
+      "riding",
+      "doors",
+      "trunk",
+      "glb"
+    ],
+    "status": "partial",
+    "updated": "2026-08-31"
+  },
+  "entities/villager": {
+    "path": "entities/villager.md",
+    "title": "Villager (AI, professions, trading)",
+    "tags": [],
+    "status": "partial",
+    "updated": "2026-09-05"
+  },
+  "environments": {
+    "path": "environments.md",
+    "title": "Environments: prod :PROD vs dev :DEV",
+    "tags": [],
+    "status": "implemented",
+    "updated": "2026-09-03"
+  },
+  "mechanics/baked-lighting": {
+    "path": "mechanics/baked-lighting.md",
+    "title": "Light propagation & vertex-color lighting (REVERTED 2026-09-05)",
+    "tags": [],
+    "status": "absent",
+    "updated": "2026-09-05"
+  },
+  "mechanics/block-models": {
+    "path": "mechanics/block-models.md",
+    "title": "Block models audit (cubes vs true 3D shapes)",
+    "tags": [],
+    "status": "partial",
+    "updated": "2026-09-06"
+  },
+  "mechanics/block-particles": {
+    "path": "mechanics/block-particles.md",
+    "title": "Ambient block particles (passive emitters)",
+    "tags": [],
+    "status": "partial",
+    "updated": "2026-09-06"
+  },
+  "mechanics/block-warmth": {
+    "path": "mechanics/block-warmth.md",
+    "title": "Block warmth tiers (heat-aware placement)",
+    "tags": [],
+    "status": "partial",
+    "updated": "2026-09-06"
+  },
+  "mechanics/camera-exposure": {
+    "path": "mechanics/camera-exposure.md",
+    "title": "Camera exposure: analytic TTL meter + Program Auto (legacy-sim)",
+    "tags": [
+      "rendering",
+      "exposure",
+      "metering",
+      "camera",
+      "audit-2026-09-08"
+    ],
+    "status": "implemented",
+    "updated": "2026-09-08"
+  },
+  "mechanics/combat": {
+    "path": "mechanics/combat.md",
+    "title": "Combat: melee damage, cooldown, death & respawn",
+    "tags": [],
+    "status": "partial",
+    "updated": "2026-09-04"
+  },
+  "mechanics/crafting": {
+    "path": "mechanics/crafting.md",
+    "title": "Crafting (2x2 / 3x3 recipe table)",
+    "tags": [],
+    "status": "implemented",
+    "updated": "2026-09-05"
+  },
+  "mechanics/ettl-iso2721": {
+    "path": "mechanics/ettl-iso2721.md",
+    "title": "ISO 2721 TTL auto-exposure + Canon E-TTL methodology notes",
+    "tags": [
+      "rendering",
+      "exposure",
+      "metering",
+      "standards",
+      "iso-2721",
+      "e-ttl"
+    ],
+    "status": "partial",
+    "updated": "2026-09-08"
+  },
+  "mechanics/fluid-dynamics": {
+    "path": "mechanics/fluid-dynamics.md",
+    "title": "Fluid dynamics (water & lava)",
+    "tags": [],
+    "status": "partial",
+    "updated": "2026-09-05"
+  },
+  "mechanics/furnace": {
+    "path": "mechanics/furnace.md",
+    "title": "Furnace (smelting & fuel)",
+    "tags": [],
+    "status": "partial",
+    "updated": "2026-09-05"
+  },
+  "mechanics/inventory": {
+    "path": "mechanics/inventory.md",
+    "title": "Inventory & item stacks",
+    "tags": [],
+    "status": "partial",
+    "updated": "2026-09-05"
+  },
+  "mechanics/light-levels": {
+    "path": "mechanics/light-levels.md",
+    "title": "Light levels: our reach vs vanilla",
+    "tags": [],
+    "status": "implemented",
+    "updated": "2026-09-07"
+  },
+  "mechanics/lighting": {
+    "path": "mechanics/lighting.md",
+    "title": "Lighting (emissive glow & planned light bake)",
+    "tags": [],
+    "status": "partial",
+    "updated": "2026-09-03"
+  },
+  "mechanics/multiplayer": {
+    "path": "mechanics/multiplayer.md",
+    "title": "Multiplayer & networking",
+    "tags": [],
+    "status": "implemented",
+    "updated": "2026-09-03"
+  },
+  "mechanics/structures": {
+    "path": "mechanics/structures.md",
+    "title": "Village structures & interior furnishing",
+    "tags": [],
+    "status": "implemented (2026-09-05: shell/interior split + 20 designs wired; sim-spawnable)",
+    "updated": "2026-09-05"
+  },
+  "mechanics/underwater-life": {
+    "path": "mechanics/underwater-life.md",
+    "title": "Underwater life (seabeds, flora depth bands, allocation)",
+    "tags": [],
+    "status": "partial",
+    "updated": "2026-09-06"
+  },
+  "mechanics/world-saving": {
+    "path": "mechanics/world-saving.md",
+    "title": "Vanilla world saving, versions & migration",
+    "tags": [],
+    "status": "partial",
+    "updated": "2026-09-04"
+  },
+  "mechanics/worldgen": {
+    "path": "mechanics/worldgen.md",
+    "title": "World generation & seed visualizer",
+    "tags": [],
+    "status": "partial",
+    "updated": "2026-09-03"
+  },
+  "postfx": {
+    "path": "postfx.md",
+    "title": "Post-Processing Effects: DOF + Chromatic Aberration",
+    "tags": [
+      "rendering",
+      "postfx",
+      "dof",
+      "chromatic-aberration",
+      "p3",
+      "settings"
+    ],
+    "status": "implemented",
+    "updated": "2026-09-05"
+  },
+  "terrain/badlands": {
+    "path": "terrain/badlands.md",
+    "title": "Badlands / Mesa (canyon & terracotta strata biome)",
+    "tags": [],
+    "status": "partial",
+    "updated": "2026-09-05"
+  },
+  "terrain/bamboo-jungle": {
+    "path": "terrain/bamboo-jungle.md",
+    "title": "Bamboo Jungle & Palms (bamboo_jungle biome)",
+    "tags": [],
+    "status": "absent",
+    "updated": "2026-09-05"
+  },
+  "terrain/beach": {
+    "path": "terrain/beach.md",
+    "title": "Beach (coastal biome style)",
+    "tags": [],
+    "status": "partial",
+    "updated": "2026-08-28"
+  },
+  "terrain/biomes": {
+    "path": "terrain/biomes.md",
+    "title": "Biomes (registry & sampling)",
+    "tags": [],
+    "status": "partial",
+    "updated": "2026-09-03"
+  },
+  "terrain/birch-forest": {
+    "path": "terrain/birch-forest.md",
+    "title": "White Birch Woods (birch_forest biome)",
+    "tags": [],
+    "status": "absent",
+    "updated": "2026-09-05"
+  },
+  "terrain/cherry-grove": {
+    "path": "terrain/cherry-grove.md",
+    "title": "Cherry Blossom Grove (cherry_grove biome)",
+    "tags": [],
+    "status": "absent",
+    "updated": "2026-09-05"
+  },
+  "terrain/crimson-maple": {
+    "path": "terrain/crimson-maple.md",
+    "title": "Crimson Maple Forest (custom biome)",
+    "tags": [],
+    "status": "absent",
+    "updated": "2026-09-05"
+  },
+  "terrain/dark-forest": {
+    "path": "terrain/dark-forest.md",
+    "title": "Dark Roofed Forest (dark_forest biome)",
+    "tags": [],
+    "status": "absent",
+    "updated": "2026-09-05"
+  },
+  "terrain/deep-ocean": {
+    "path": "terrain/deep-ocean.md",
+    "title": "Deep Ocean (deep_ocean biome)",
+    "tags": [],
+    "status": "absent",
+    "updated": "2026-09-05"
+  },
+  "terrain/desert": {
+    "path": "terrain/desert.md",
+    "title": "Desert (arid sand & dunes biome)",
+    "tags": [],
+    "status": "partial",
+    "updated": "2026-09-05"
+  },
+  "terrain/forest": {
+    "path": "terrain/forest.md",
+    "title": "Classic Oak Woodland (forest biome)",
+    "tags": [],
+    "status": "absent",
+    "updated": "2026-09-05"
+  },
+  "terrain/frozen-river": {
+    "path": "terrain/frozen-river.md",
+    "title": "Frozen River (frozen_river biome)",
+    "tags": [],
+    "status": "absent",
+    "updated": "2026-09-05"
+  },
+  "terrain/golden-aspen": {
+    "path": "terrain/golden-aspen.md",
+    "title": "Golden Aspen Woods (custom biome)",
+    "tags": [],
+    "status": "absent",
+    "updated": "2026-09-05"
+  },
+  "terrain/ice-spikes": {
+    "path": "terrain/ice-spikes.md",
+    "title": "Ice Spikes (sub-zero glacial spires biome)",
+    "tags": [],
+    "status": "partial",
+    "updated": "2026-09-05"
+  },
+  "terrain/jagged-peaks": {
+    "path": "terrain/jagged-peaks.md",
+    "title": "Jagged Peaks (jagged_peaks biome)",
+    "tags": [],
+    "status": "absent",
+    "updated": "2026-09-05"
+  },
+  "terrain/jungle": {
+    "path": "terrain/jungle.md",
+    "title": "Jungle (dense tropical rainforest biome)",
+    "tags": [],
+    "status": "partial",
+    "updated": "2026-09-06"
+  },
+  "terrain/mangrove-swamp": {
+    "path": "terrain/mangrove-swamp.md",
+    "title": "Mangrove Swamp (mangrove_swamp biome)",
+    "tags": [],
+    "status": "absent",
+    "updated": "2026-09-05"
+  },
+  "terrain/meadow": {
+    "path": "terrain/meadow.md",
+    "title": "Flowering Blossom Meadow (meadow biome)",
+    "tags": [],
+    "status": "absent",
+    "updated": "2026-09-05"
+  },
+  "terrain/nether": {
+    "path": "terrain/nether.md",
+    "title": "Nether dimension",
+    "tags": [],
+    "status": "partial",
+    "updated": "2026-09-03"
+  },
+  "terrain/ocean": {
+    "path": "terrain/ocean.md",
+    "title": "Ocean (ocean biome)",
+    "tags": [],
+    "status": "absent",
+    "updated": "2026-09-05"
+  },
+  "terrain/old-growth-pine-taiga": {
+    "path": "terrain/old-growth-pine-taiga.md",
+    "title": "Giant Redwood Taiga (old_growth_pine_taiga biome)",
+    "tags": [],
+    "status": "absent",
+    "updated": "2026-09-05"
+  },
+  "terrain/plains": {
+    "path": "terrain/plains.md",
+    "title": "Plains (temperate grassland biome)",
+    "tags": [],
+    "status": "partial",
+    "updated": "2026-09-05"
+  },
+  "terrain/river": {
+    "path": "terrain/river.md",
+    "title": "River (river biome)",
+    "tags": [],
+    "status": "absent",
+    "updated": "2026-09-05"
+  },
+  "terrain/savanna": {
+    "path": "terrain/savanna.md",
+    "title": "Acacia Savanna (savanna biome)",
+    "tags": [],
+    "status": "absent",
+    "updated": "2026-09-05"
+  },
+  "terrain/snowy-slopes": {
+    "path": "terrain/snowy-slopes.md",
+    "title": "Alpine Dwarf Pines (snowy_slopes biome)",
+    "tags": [],
+    "status": "absent",
+    "updated": "2026-09-05"
+  },
+  "terrain/snowy-taiga": {
+    "path": "terrain/snowy-taiga.md",
+    "title": "Snowy Spruce Taiga (snowy_taiga biome)",
+    "tags": [],
+    "status": "absent",
+    "updated": "2026-09-05"
+  },
+  "terrain/stony-peaks": {
+    "path": "terrain/stony-peaks.md",
+    "title": "Stony Peaks (stony_peaks biome)",
+    "tags": [],
+    "status": "absent",
+    "updated": "2026-09-05"
+  },
+  "terrain/swamp": {
+    "path": "terrain/swamp.md",
+    "title": "Swamp (wetland marsh & murky waters biome)",
+    "tags": [],
+    "status": "partial",
+    "updated": "2026-09-05"
+  },
+  "terrain/warm-ocean": {
+    "path": "terrain/warm-ocean.md",
+    "title": "Warm Ocean (warm_ocean biome)",
+    "tags": [],
+    "status": "absent",
+    "updated": "2026-09-05"
+  },
+  "terrain/warped-forest": {
+    "path": "terrain/warped-forest.md",
+    "title": "Mystic Warped Forest (warped_forest biome)",
+    "tags": [],
+    "status": "absent",
+    "updated": "2026-09-05"
+  },
+  "ui/crafting-modal": {
+    "path": "ui/crafting-modal.md",
+    "title": "Crafting modal",
+    "tags": [],
+    "status": "implemented",
+    "updated": "2026-09-05"
+  },
+  "ui/furnace-modal": {
+    "path": "ui/furnace-modal.md",
+    "title": "Furnace modal",
+    "tags": [],
+    "status": "implemented",
+    "updated": "2026-09-05"
+  },
+  "ui/hud": {
+    "path": "ui/hud.md",
+    "title": "HUD (hotbar, crosshair, version tag)",
+    "tags": [],
+    "status": "implemented",
+    "updated": "2026-09-05"
+  },
+  "ui/inventory-modal": {
+    "path": "ui/inventory-modal.md",
+    "title": "Inventory modal",
+    "tags": [],
+    "status": "implemented",
+    "updated": "2026-09-05"
+  },
+  "ui/onboarding": {
+    "path": "ui/onboarding.md",
+    "title": "First-join onboarding card",
+    "tags": [],
+    "status": "implemented",
+    "updated": "2026-09-05"
+  },
+  "ui/options-menu": {
+    "path": "ui/options-menu.md",
+    "title": "Options / Settings menu (incl. post-fx)",
+    "tags": [],
+    "status": "implemented",
+    "updated": "2026-09-05"
+  },
+  "ui/portal-modal": {
+    "path": "ui/portal-modal.md",
+    "title": "Portal & recall modal",
+    "tags": [],
+    "status": "implemented",
+    "updated": "2026-09-05"
+  },
+  "ui/villager-trade-modal": {
+    "path": "ui/villager-trade-modal.md",
+    "title": "Villager trade modal",
+    "tags": [],
+    "status": "implemented",
+    "updated": "2026-09-05"
+  },
+  "ui/world-map-modal": {
+    "path": "ui/world-map-modal.md",
+    "title": "World map modal",
+    "tags": [],
+    "status": "implemented",
+    "updated": "2026-09-05"
+  }
+}

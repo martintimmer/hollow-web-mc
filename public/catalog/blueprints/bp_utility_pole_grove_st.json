@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "id": "bp_utility_pole_grove_st",
+  "name": "Wooden Telephone Utility Pole",
+  "author": "Hollowpine Studio",
+  "category": "object",
+  "packageName": "Grove Street Pack",
+  "biomeAffinity": [
+    "plains",
+    "desert"
+  ],
+  "spawnNaturally": true,
+  "dimensions": {
+    "width": 5,
+    "height": 11,
+    "depth": 3
+  },
+  "anchor": {
+    "ax": 0,
+    "ay": 0,
+    "az": 0
+  },
+  "foundationDepth": 2,
+  "blocks": [
+    {
+      "dx": 0,
+      "dy": 0,
+      "dz": 0,
+      "id": 16
+    },
+    {
+      "dx": 0,
+      "dy": 1,
+      "dz": 0,
+      "id": 16
+    },
+    {
+      "dx": 0,
+      "dy": 2,
+      "dz": 0,
+      "id": 16
+    },
+    {
+      "dx": 0,
+      "dy": 3,
+      "dz": 0,
+      "id": 16
+    },
+    {
+      "dx": 0,
+      "dy": 4,
+      "dz": 0,
+      "id": 16
+    },
+    {
+      "dx": 0,
+      "dy": 5,
+      "dz": 0,
+      "id": 16
+    },
+    {
+      "dx": 0,
+      "dy": 6,
+      "dz": 0,
+      "id": 16
+    },
+    {
+      "dx": 0,
+      "dy": 7,
+      "dz": 0,
+      "id": 16
+    },
+    {
+      "dx": 0,
+      "dy": 8,
+      "dz": 0,
+      "id": 16
+    },
+    {
+      "dx": 0,
+      "dy": 9,
+      "dz": 0,
+      "id": 16
+    },
+    {
+      "dx": -2,
+      "dy": 8,
+      "dz": 0,
+      "id": 1174
+    },
+    {
+      "dx": -1,
+      "dy": 8,
+      "dz": 0,
+      "id": 1174
+    },
+    {
+      "dx": 1,
+      "dy": 8,
+      "dz": 0,
+      "id": 1174
+    },
+    {
+      "dx": 2,
+      "dy": 8,
+      "dz": 0,
+      "id": 1174
+    },
+    {
+      "dx": -1,
+      "dy": 9,
+      "dz": 0,
+      "id": 1174
+    },
+    {
+      "dx": 1,
+      "dy": 9,
+      "dz": 0,
+      "id": 1174
+    },
+    {
+      "dx": 0,
+      "dy": 7,
+      "dz": 1,
+      "id": 389
+    },
+    {
+      "dx": 0,
+      "dy": 6,
+      "dz": 1,
+      "id": 45
+    },
+    {
+      "dx": -2,
+      "dy": 9,
+      "dz": 0,
+      "id": 45
+    },
+    {
+      "dx": 2,
+      "dy": 9,
+      "dz": 0,
+      "id": 45
+    },
+    {
+      "dx": 0,
+      "dy": 10,
+      "dz": 0,
+      "id": 50
+    }
+  ],
+  "materialsCount": {
+    "Block #16": 10,
+    "Block #1174": 6,
+    "Block #389": 1,
+    "Block #45": 3,
+    "Block #50": 1
+  },
+  "totalBlocks": 21,
+  "createdAt": "2026-08-30T15:50:57.009Z"
+}
